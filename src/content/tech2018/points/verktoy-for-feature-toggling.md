@@ -1,0 +1,9 @@
+[Feature toggles](https://radar.bekk.no/tech2018/prosess-og-kvalitet/feature-toggles) har blitt stadig mer populært de siste årene.  Som en følge av dette har det dukket opp verktøy og rammeverk som skal gi bedre oversikt over tilgjengelige feature toggles, samt administrasjon av disse for å kunne aktivere eller deaktivere funksjonalitet. Disse verktøyene kan dessuten gjøre det enklere for utviklere å ta i bruk feature toggling i applikasjonen på en trygg måte.
+
+[Unleash](https://github.com/Unleash/unleash), som er et open source rammeverk for feature toggling utviklet av finn.no, er et slikt verktøy.  Unleash består av klienter som kjører sammen med applikasjonen, samt et admingrensesnitt der man kan se og styre alle feature toggles i applikasjonsporteføljen. Unleash tilbyr også sporingslogg som forteller for eksempel når en feature har vært aktivert.  Med Unleash kan man dessuten velge at en feature skal være tilgjengelig for en viss andel av brukerne.
+
+Vi bruker [LaunchDarkly](https://launchdarkly.com/), som er et SaaS-alternativ til Unleash, på flere av våre prosjekter og har positive erfaringer med det.
+
+Dersom man bruker feature toggles kun i unntakstilfeller, eller har så få applikasjoner at oversikt ikke er noe problem vil det kanskje ikke lønne seg å ta i bruk verktøy som Unleash eller LaunchDarkly.  Dessuten, hvis applikasjonene man skal støtte er så ulike at man må gjøre større tilpasninger i verktøyet for at det skal fungere vil det antageligvis tilføre mer kompleksitet enn det er verdt.  
+
+Har man derimot litt flere applikasjoner og bruker feature toggles aktivt kan denne typen verktøy hjelpe til med å gi god oversikt.  

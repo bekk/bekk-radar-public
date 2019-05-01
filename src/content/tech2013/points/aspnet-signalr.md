@@ -1,0 +1,1 @@
+SignalR er lite rammeverk som forenkler utvikling av web-applikasjoner som krever sanntidsutveksling av data. WebSocket brukes når det er tilgjengelig, ellers benyttes andre teknologier transparent for klienten. Vi ser ikke veldig mye bruk av dette på prosjekter foreløpig.

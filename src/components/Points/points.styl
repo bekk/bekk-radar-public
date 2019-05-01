@@ -1,0 +1,24 @@
+@import "~styles/colors"
+@import "~styles/type"
+@import "~styles/breakpoints"
+
+.points
+  color $color-bekkGray
+  overflow-y auto
+  overflow-x hidden
+  position relative
+  flex-grow 1
+
+.points-innerWrap
+  padding-top 1rem
+  position relative
+
+.points-categoryTagline
+  color $color-darkGray
+  padding 2.5rem 0 1rem 1rem
+  font-size $fontSize-small
+  text-align center
+  display none
+
+  @media screen and (min-width: $breakpoint-min-medium)
+    display block

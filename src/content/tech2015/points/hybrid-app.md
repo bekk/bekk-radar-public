@@ -1,0 +1,3 @@
+Mobile hybridapplikasjoner gir deg flere av fordelene fra begge leirene: Write once run everywhere fra web; ytelse, konvensjoner og støtte for bruk av ekstrautstyr på telefonen fra native. Ulempen er at du må håndtere overgangen mellom web og native med de utfordringene det innebærer. Dette er definitivt ingen gratis lunsj; man vil typisk møte utfordringer med caching, sidelasting og god brukeropplevelse i både webgrensesnitt og native kode.
+
+Vi har laget hybridapplikasjoner for kunder med stort hell, men ikke undervurder mengden tilpasning som må gjøres for å få det bra!

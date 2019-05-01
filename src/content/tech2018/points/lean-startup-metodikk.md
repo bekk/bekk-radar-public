@@ -1,0 +1,1 @@
+Starte med MVP og deretter forbedre produktet kontinuerlig gjennom "build-measure-learn" feedback loop. Dette involverer målrettet måling og læring med fokus på forretningsverdi.

@@ -1,0 +1,3 @@
+Event Store er en immutable database som lagrer data som en serie av hendelser over tid. Dette gjør det enkelt å implementere applikasjoner som er basert på event sourcing. Noen av fordelene med applikasjoner som er basert på event sourcing er at de er enklere å teste, man kan gjenoppbygge tilstand, hendelser kan spilles av på nytt og man får en full auditlog av alt som skjer i systemet.
+
+Event Store har projeksjoner innebygd som gjør det mulig å kombinere eventer fra flere forskjellige "streams" eller bygge nye "streams" med eventer fra en stream. Event Store er open source, kjører på Windows, Linux og OS X, og det finnes klienter til .NET, Java og Erlang.

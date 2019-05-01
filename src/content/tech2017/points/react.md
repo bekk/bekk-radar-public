@@ -1,0 +1,7 @@
+[React](https://facebook.github.io/react/) har i løpet av de siste årene på mange måter blitt en slags bransjestandard for frontend-rammeverk. Med React bygger man små, gjenbrukbare komponenter med en deklarativ tilnærming, og uttrykker hvordan applikasjonen skal se ut fremfor å angi hvilke DOM-operasjoner som er nødvendig for å oppnå det man ønsker. Dette er en behagelig og effektiv måte å jobbe på, noe som er årsaken til Reacts suksess.
+
+En annen fordel med React er at den konseptuelle modellen er lett å forstå, noe som gjør det enkelt for nye utviklere å sette seg inn i. Vi bruker React på svært mange av våre prosjekter med stort hell, og mange av prosjektene som har startet opp de siste årene bruker React.
+
+Når man benytter React trenger man ofte å kombinere det med andre rammeverk og verktøy, da det kun representerer view-laget i en MVC-arkitektur. Her finnes det flere gode alternativer, som f.eks. [Redux](https://radar.bekk.no/tech2017/frontend-og-mobil/redux). Dette gir stor frihet til å velge riktig verktøy til det som skal løses, men det er likevel en jobb å sette alt sammen, noe som kanskje er det største ankepunktet mot React.
+
+Dersom man ønsker samme konseptuelle modell, noe som fungerer ut av boksen med minimalt oppsett og ikke er avhengig av å bruke JavaScript, kan Elm være et alternativ.

@@ -1,0 +1,3 @@
+Tradisjonelt har prosjekter vært bemannet med mange ulike roller: Prosjektleder, teamleder, arkitekt, tech lead, tester, osv. Rollene plasserer ansvar, men har også en del negative sider, bl.a. potensiale for å være en flaskehals, mindre autonomi/selvorganisering i teamet og muligheten for å introdusere hviskelek mellom de forskjellige partene.
+
+I moderne prosjekter er også utviklingshastigheten så rask at man sjelden har tid til å samle de ansvarsmessig korrekte beslutningstakerne for hver avgjørelse. I stedet må beslutninger tas kontinuerlig, og de må tas nære det de påvirker og av personer som forstår konsekvensen av det som besluttes. I praksis betyr dette å bygge tverrfaglige og kompetente team, og la de ha myndighet til å ta egne beslutninger.

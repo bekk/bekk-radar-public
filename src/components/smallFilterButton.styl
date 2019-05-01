@@ -1,0 +1,41 @@
+@import "~styles/colors"
+@import "~styles/type"
+
+.smallFilterButton
+  display flex
+  align-items center
+  justify-content flex-start
+  background-color $color-grayBackground--pointDetails
+  margin-left 1rem
+  height 1.75rem
+  padding-left 0.75rem
+  font-size $fontSize-smallest
+
+.smallFilterButton .icon
+  height 0.75rem
+  width 0.75rem
+
+.smallFilterButton .smallFilterButton-iconHolder
+  height 1.75rem
+  width 1.75rem
+  background-color $color-grayBorder--radar
+  margin-left 0.75rem
+  text-align center
+  line-height 0
+  transition background-color 100ms ease-out
+  border none
+  cursor pointer
+  &:hover
+    background-color $color-gray
+
+.smallFilterButton .smallFilterButton-iconHolder:focus
+  background-color $color-bekkRed
+  .icon
+    fill $color-white
+
+.smallFilterButton .smallFilterButton-iconHolder:focus+.smallFilterButton-text
+  color $color-bekkRed
+
+.smallFilterButton-text
+  color $color-white
+  pointer-events none

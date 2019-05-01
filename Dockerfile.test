@@ -1,0 +1,7 @@
+FROM node:6.11.1
+COPY src /app
+
+WORKDIR /app
+RUN npm install
+
+CMD npm test --verbose

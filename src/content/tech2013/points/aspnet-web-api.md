@@ -1,0 +1,1 @@
+ASP.NET Web API er Microsofts implementasjon av et Web API på toppen av HTTP. Rammeverket definerer ikke hvordan du skal lage REST-tjenester, men er kun en lett abstraksjon på toppen av protokollen. Det finns alternativer til Web API, som Nancy og ServiceStack, som man også kan vurdere.

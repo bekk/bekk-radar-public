@@ -1,0 +1,1 @@
+Store datamengder og mer distribuerte og autoskalerbare systemer legger til rette for bruk av grid-løsninger både for prosessering av data og caching på tvers av mange instanser. I BEKK har vi erfaring med GemFire og Hazelcast fra prosjekter. Sistenevnte er åpen kildekode, men ikke fullt så modent som GemFire.

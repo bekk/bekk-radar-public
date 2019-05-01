@@ -1,0 +1,52 @@
+@import "~styles/colors"
+@import "~styles/breakpoints"
+
+
+.menuButton
+  top 1.3rem
+  right 1.15rem
+  cursor pointer
+  position absolute
+  height 1.5rem
+  width 1.6rem
+  background transparent
+  overflow hidden
+  border 0
+  outline 0
+  margin-left auto
+  margin-right 0
+  padding 0
+  div
+    top 0.5625rem
+    &, &:after, &:before
+      transition background-color 0.2s ease-out, transform 0.2s ease-out
+      position absolute
+      height 0.1875rem
+      width 100%
+      background-color $color-lightGray
+    &:before, &:after
+      content ""
+      display block
+    &:before
+      top -0.4375rem
+    &:after
+      bottom -0.4375rem
+
+  &:focus, &:focus:hover
+    div
+      &, &:after, &:before
+        background $color-bekkRed
+        [data-whatinput="mouse"] &, [data-whatinput="touch"] &
+          background $color-lightGray
+
+  &:hover
+    div,div:before,div:after
+      background-color $color-lightGray
+    div:before
+      transform translateY(-0.125rem)
+    div:after
+      transform translateY(+0.125rem)
+
+
+.searchButton
+  @extends .menuButton

@@ -1,0 +1,5 @@
+Swift er et kraftig og intuitivt programmeringsspråk som brukes ved utvikling av programvare på iOS og OSX plattformer. Språket er laget av Apple og er etterkommeren til Objective-C. Swift er et objektorientert språk og man bruker det integrerte utviklingsmiljøet Xcode som kan gi status og tilbakemeldinger i sanntid. Samtidig har Swift avansert typesjekking, noe som ofte gjør det enklere å utvikle og vedlikeholde apper. 
+
+Swift henter inspirasjon fra andre språk som f.eks. Rust, Haskell, Ruby, Python, C#, CLU og Objective-C, og utnytter kompilator-verktøyet LLVM til rask generering av effektiv native kode. Swift kan brukes side om side med Objective-C, og begge språk kan integreres i samme prosjekt. 
+
+I Apple-sammenheng skal Swift overta for Objective-C, og siden lanseringen i 2014 har språket blitt positivt mottatt og er allerede meget populært. Swift har blitt brukt på flere kundeprosjekter i BEKK.

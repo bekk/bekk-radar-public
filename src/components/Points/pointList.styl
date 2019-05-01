@@ -1,0 +1,163 @@
+@import "~styles/colors"
+@import "~styles/type"
+@import "~styles/zIndex"
+@import "~styles/breakpoints"
+
+.points-pointList
+  position relative
+  transition height 100ms ease-out
+  text-align center
+  padding-bottom 3rem
+  margin-bottom 1rem
+  min-height 8rem
+  transform translateZ(0)
+  z-index $zIndex-0
+  box-sizing border-box
+  background-color: $color-black
+  @media screen and (min-width: $breakpoint-min-jumbo)
+    box-sizing content-box
+
+.points-pointList > div
+  &:focus
+    outline none
+
+.points-pointList:last-of-type
+  margin-bottom 2rem
+
+.points-pointList:after
+  border 0.15rem solid $color-darkGray--pointList
+  border-radius 0 0 100% 100%
+  border-top-width 0
+  bottom 0
+  /*box-shadow $color-black 0 -7rem 7rem -4rem inset, */
+  box-shadow $color-black 0 6rem 0 6rem
+  content ""
+  display block
+  height 200vw
+  left 50%
+  margin-left -100vw
+  pointer-events none
+  position absolute
+  width 200vw
+  // Hack for IE10
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+    z-index -1
+
+.points-pointList:nth-of-type(2):after
+  width 240vw
+  height 240vw
+  margin-left -120vw
+
+.points-pointList:nth-of-type(3):after
+  width 280vw
+  height 280vw
+  margin-left -140vw
+
+.points-pointList:nth-of-type(4):after
+  width 320vw
+  height 320vw
+  margin-left -160vw
+
+.points-pointList-heading
+  font-size $fontSize-larger
+  font-weight 100
+  padding 0
+  margin 0 0 1rem 0
+
+.pointDetails-body-p code
+  font-size: 0.9em
+
+.points-pointList-list
+  list-style none
+  padding-left 0
+  @media screen and (min-width: $breakpoint-min-large)
+    display flex
+    flex-wrap wrap
+    justify-content center
+    margin 0 20vw
+
+.points-pointList-list-item
+  padding 0.6rem 1rem
+  text-align center
+  display inline-block
+  max-width 80%
+  margin 0 auto
+  position relative
+  z-index $zIndex-1
+  background $color-darkGrayBackground
+  color $color-mediumLighterGray
+  text-decoration none
+  cursor pointer
+  font-weight 100
+  border-radius 2px
+  transition background 100ms ease-in
+  &:hover
+    background $color-darkGray--pointList
+    border none
+  &:focus
+    background $color-darkGray--pointList
+    outline 1px solid $color-bekkRed
+    [data-whatinput="mouse"] &, [data-whatinput="touch"] &
+      background $color-darkGrayBackground
+      outline 0
+
+  @media screen and (min-width: $breakpoint-min-large)
+    display inline-block
+    max-width 100%
+    margin 0 0.5rem
+    padding 0.4rem 1rem
+    font-size $fontSize-smallest
+
+  &.is-selected
+    @media screen and (min-width: $breakpoint-min-extraLarge)
+      background $color-bekkRed
+      color $color-white
+    &:hover
+      @media screen and (min-width: $breakpoint-min-extraLarge)
+        background $color-bekkRed
+        color $color-white
+
+.points-pointList-list-itemContainer
+  padding 0.4em 0
+  margin 0 0.8rem
+  transition opacity 400ms ease-in-out
+  position relative
+  z-index $zIndex-0
+  @media screen and (min-width: $breakpoint-min-large)
+    padding 0.92em 0
+
+.points-pointList-list-itemContainer.is-filteredOut
+  display none
+  @media screen and (min-width: $breakpoint-min-large)
+    display inline-block
+    opacity 0.3
+    pointer-events none
+
+.points-pointList-expandButton
+  position absolute
+  bottom 0
+  left 0
+  right 0
+  margin-left auto
+  margin-right auto
+  color $color-white
+  background-color $color-semiTranslucentBlack
+  border none
+  width 100%
+  height 3rem
+  font-size $fontSize-largest
+  font-weight 700
+  z-index $zIndex-0
+  transition transform 100ms ease-in-out
+  transform translate3d(0,0,1px)
+  &:hover
+    z-index $zIndex-0
+    transform scale(1.2,1.2) translate3d(0,0,1px)
+  &:focus
+    outline none
+    color $color-bekkRed
+    [data-whatinput="mouse"] &, [data-whatinput="touch"] &
+      color $color-white
+
+
+

@@ -1,0 +1,9 @@
+Alle webapplikasjoner og websider av en viss størrelse trenger i dag en eller annen form for byggeprosess. Trinnene i prosessen kan være alt fra enkel minimering av kildekode, til modulhåndtering, kjøring av tester eller kvalitetskontroll av kildekode. Byggeprosessen kan inneholde et bredt spekter av oppgaver og har blitt en del av fagfeltet som har fått mye oppmerksomhet de siste årene. Hvilke byggetrinn man trenger, og hvilke løsninger man skal velge, er avhengig av hvilket problem man ønsker å løse. Med et større utvalg av verktøy kommer like fullt et ansvar for å ta konkrete og fornuftige valg.
+
+Tilnærmet all verktøy-utvikling for web skjer på, eller er tilgjengelig via, [Node.js](https://radar.bekk.no/tech2017/arkitektur-og-plattform/nodejs) og [NPM](https://www.npmjs.com/). Å bruke Node.js til å kjøre byggeprosesser på frontendkode er i dag nærmest en selvfølge, både med tanke på muligheter og funksjonalitet som finnes, men også med tanke på tilgjengelighet på tvers av plattformer.
+
+Vi har tro på en enhetlig måte å håndtere byggetrinn på. Ettersom det stadig kommer forbedringer i måter man bygger applikasjoner på kan det være lurt å tenke på fleksibilitet, og prøve å designe for enkelt å kunne bevege seg mellom alternativer. Dette kan f.eks. gjøres med å tenke på API-er for byggesteg via NPM Scripts. Dette er også viktig for å kunne sette seg inn i nye prosjekter og for vedlikehold av de enkelte trinnene. 
+
+Med større byggeprosesser burde man også passe på å tilrettelegge for godt vedlikehold. Byggeprosesser er ikke noe som kan skrives en gang og leve sitt eget liv, de må kontinuerlig justeres og optimaliseres på lik linje med annen kode. 
+
+Se også BEKKs egen bloggpost om dette emnet: https://open.bekk.no/scaling-frontend-build-steps-by-necessity

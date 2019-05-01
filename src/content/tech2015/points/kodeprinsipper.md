@@ -1,0 +1,3 @@
+Vi ser at koden vi vurderer som dårlig kode ofte er den koden som ikke hedrer veletablerte kodeprinsipper. Ved å anvende prinsippene SOLID, Separation of Concerns, DRY, YAGNI, KISS, SLAP og (pragmatisk) DRY opplever vi at koden blant annet blir testbar, vedlikeholdbar, utvidbar og enklere å forstå.
+
+Dette er alle kjente og kjære prinsipper som har hjulpet industrien i mange år, men som vi ser har gått litt i glemmeboken hos mange. Som med alt annet bør prinsippene anvendes med sunn pragmatisme. Forsøk å gå gjennom listen med kodeprinsipper når du gjør kodegjennomganger eller par-programmering. 

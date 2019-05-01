@@ -1,0 +1,1 @@
+Spring sitt abstraksjonslag over databaser og lignende.  Fungerer greit for helt enkle tilfeller, men kommer til kort når behovet blir mer avansert.  

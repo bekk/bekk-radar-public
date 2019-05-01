@@ -1,0 +1,137 @@
+@import "~styles/colors"
+@import "~styles/breakpoints"
+@import "~styles/type"
+@import "~styles/zIndex"
+
+$paddingLeft = 1.5rem
+
+.filters
+  background $color-darkGrayBackground
+  color $color-lightGray
+  max-width 17rem
+  height 100%
+  padding 0
+  display flex
+  flex-direction column
+  align-items flex-start
+  justify-content flex-start
+  overflow-x hidden
+  overflow-y auto
+
+.filters-logoWrapper
+  display none
+  margin-left 0.4rem
+  @media screen and (min-width: $breakpoint-min-extraLarge)
+    display block
+
+.filters-close
+  background transparent
+  border 0
+  align-self flex-end
+  margin-right 1.15rem
+  padding 0
+  margin-top 1rem
+  margin-bottom 0.5rem
+  & > .icon
+    position relative // don't let IE mess with position: http://stackoverflow.com/questions/6744406/internet-explorer-buttonactive-inner-padding
+    width 1.6rem
+    height 1.6rem
+
+.filters-searchDiv
+  padding 0 $paddingLeft
+  @media screen and (min-width: $breakpoint-min-extraLarge)
+    width 14rem
+    margin 0.4rem 0 1.5rem 0
+    padding 0 2.5rem
+    box-sizing content-box
+
+input[type="search"].filters-searchInput
+  box-sizing border-box
+  border-width 0 0 0.1rem 0
+  background $color-darkGray--pointList //TODO: darken
+  font-size $fontSize-small
+  width 14rem
+  margin 0.4rem 0 1.5rem 0
+  padding 0 1em
+  border-color transparent
+  line-height 2.5rem
+  height 2.4rem // for IE
+  @media screen and (min-width: $breakpoint-min-extraLarge)
+    display none
+  &:focus
+    border-color $color-darkGray
+    transition border-color 0.2s ease-out 0s
+    outline none
+
+.filters-datasetList
+  margin 0 0 2em 0
+  padding 0
+  list-style none
+
+.filters-datasetList-item
+  margin-bottom 0.5rem
+
+.filters-selections
+  padding 0 $paddingLeft
+
+.filters-filterHeading
+  text-transform uppercase
+  font-size $fontSize-small
+  color $color-mediumGray
+  font-weight normal
+
+.filters-logoContainer
+  margin-left 1.1rem
+
+.filters-radarName
+  color $color-lightGrayButton
+  font-size $fontSize-larger
+  font-weight 100
+  display inline-block
+  letter-spacing -1px
+
+.filters-image
+  width 5em
+  margin-right 0.6em
+  font-size 0.8em
+
+.filters-datasetList-item-button
+  font-size $fontSize-base
+  color $color-mediumLightGray
+  text-decoration none
+  padding 0.3em 0
+  background-color transparent
+  text-align left
+  position relative
+  display inline-block
+  border 0.1rem solid transparent
+  &.is-active
+    color $color-bekkRed
+  &:hover
+    border-bottom 0.1rem solid $color-white
+    transition border-bottom 0.2s ease-out 0s
+  &:focus
+    color $color-bekkRed
+    outline none
+  &.is-active:focus:before
+    width 0.5rem
+  &:focus:before
+    width 0.1rem
+  &.is-active:before
+    content ""
+    width 0.5rem
+    height 1rem
+    background-color $color-bekkRed
+    display block
+    position absolute
+    transform translate3d(0,0,0)
+    left - $paddingLeft
+    transition width 100ms ease-in
+
+.filters-tags
+  margin 0
+  padding 0
+  list-style none
+
+.filters-tags-tag
+  margin-bottom 0.5rem

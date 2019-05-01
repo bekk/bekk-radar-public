@@ -1,0 +1,5 @@
+Offentlige skyplattformer som Amazon Web Services, Google Cloud Platform og Microsoft Azure blir industristandard. De vil utkonkurrere tradisjonelle driftsleverandører og interne driftsorganisasjoner på alle områder, inkludert sikkerhet, robusthet, elastisitet, automatisering, innovasjon og tjenestebredde. Mange virksomheter vil ta i bruk skyen som en forlengelse av eget datasenter, gjerne for utviklings- og testmiljøer. 
+
+De store gevinstene får man imidlertid med PaaS og SaaS. Tjenester som [AWS Lambda](https://aws.amazon.com/lambda/) og [Google BigQuery](https://cloud.google.com/bigquery/) tilbyr ren datakraft i nettskyen, og gjør infrastrukturen usynlig. Vi vil se sterk konkurranse og høy innovasjonstakt blant skyleverandørene de kommende årene.
+
+Virksomhetene må vurdere hvilke applikasjoner som kan overføres til nettskyen, hvilke som må leve videre internt, hybride løsninger og hvordan man designer for nettskyen. De største barrierene er intern kultur, regulatoriske føringer samt bekymringer rundt datasuverenitet og myndighetsovervåkning. Vi anbefaler å ta aktivt grep på disse områdene, med mål om å ta i bruk offentlige nettskyer.

@@ -1,0 +1,5 @@
+Når noe går galt, er dessverre den instinktive responsen ofte å fikse feilen og prøve å glemme at det har skjedd – eller enda verre, la det degenerere til fingerpeking. Dette bidrar til en kultur der feil ikke er godtatt. I realiteten er imidlertid feil ikke til å unngå. Da er det mest produktivt å se på dem som muligheter for hele organisasjonen til å lære.
+
+Blameless post-mortems går ut på å samle teamet når noe kritisk har skjedd for å finne ut hva som var rotårsaken, hvordan hendelsesforløpet var, og hvordan vi kan unngå det samme i fremtiden. Det viktigste er å ikke legge skyld på noen. Om man publiserer resultatene internt, får også teamene mulighet til å lære av hverandres feil, og det bidrar til å øke bevisstheten rundt at _feil skjer_ og ikke er til å unngå. Andre fordeler er at man kan bruke gamle post-mortems som opplæring av nye ansatte.
+
+Les mer her: https://www.kennorton.com/newsletter/2016-04-20-bringing-the-donuts.html

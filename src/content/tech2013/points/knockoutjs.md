@@ -1,0 +1,1 @@
+KnockoutJS er et lettvekts JavaScript-rammeverk for "templating" og databinding.  Rammeverket er sterkt inspirert av MVVM-tankegangen brukt i Silverlight.

@@ -1,0 +1,12 @@
+Offentlige skyplattformer som [Amazon Web Services](https://aws.amazon.com/), [Google Cloud Platform](https://cloud.google.com/) og [Microsoft Azure](https://azure.microsoft.com/) blir industristandard. De utkonkurrerer tradisjonelle driftsleverandører og interne driftsorganisasjoner på alle områder, inkludert sikkerhet, robusthet, elastisitet, automatisering, innovasjon og tjenestebredde. Det er en enorm tjenesteutvikling i nettskymarkedet, samtidig som flere offentlige og private virksomheter har skysatt sine første applikasjoner.
+
+Virksomhetene bør kartlegge hvilke gevinster de ønsker å oppnå ved å ta i bruk nettskyen. En overgang til nettskyen er ikke et mål i seg selv, men et middel for å sikre at virksomheten blir mer effektiv, konkurransedyktig og rustet for fremtiden. Framfor ensidig fokus på reduksjon av infrastrukturkostnader bør gevinstkartleggingen omfatte områder som redusert ledetid, økt leveransekraft, bedre sikkerhet samt intern og ekstern innovasjon.
+
+De store gevinstene oppnås med tjenester som håndterer infrastrukturen og tilbyr rene plattformgrensesnitt. [Serverless](https://radar.bekk.no/tech2018/arkitektur-og-plattform/serverless)-plattformer som [AWS Lambda](https://aws.amazon.com/lambda/) og driftede skytjenester som [Google BigQuery](https://cloud.google.com/bigquery/) tilbyr ekte datakraft i nettskyen og gjør infrastrukturen usynlig. Vi vil se eskalerende konkurranse og høy innovasjonstakt blant skyleverandørene i tiden som kommer.
+
+Virksomhetene må vurdere hvilke applikasjoner som kan overføres til nettskyen, hvilke som må leve videre internt, hybride løsninger og hvordan man designer for nettskyen. De største barrierene er intern kultur, regulatoriske føringer samt bekymringer rundt datasuverenitet og myndighetsovervåkning. Vi anbefaler å ta aktivt grep på disse områdene, med mål om å ta i bruk offentlige nettskyer.
+
+Kilder:
+- [Alle vil til himmelen men ingen vil dø](https://blogg.bekk.no/alle-vil-til-himmelen-men-ingen-vil-d%C3%B8-9b4cade51d01)
+- [The Effects of Public Cloud on Team Autonomy](https://blogg.bekk.no/the-effects-of-public-cloud-on-team-autonomy-f5b1d22cef87)
+- [Ekte datakraft i nettskyen #serverless #noops](https://blogg.bekk.no/ekte-datakraft-i-nettskyen-serverless-noops-87bc93bf001c)

@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": 1,
+    "quotes": [ 1, "single" ],
+    "no-undef": 2,
+    "global-strict": 0,
+    "indent": [1, 2, {"SwitchCase": 1}],
+    "no-extra-semi": 1,
+    "no-underscore-dangle": 0,
+    "no-console": 1,
+    "no-unused-vars": 1,
+    "no-trailing-spaces": [1, { "skipBlankLines": true }],
+    "no-unreachable": 1,
+    "no-alert": 0,
+    "semi": 1,
+    "react/jsx-no-bind": 1,
+    "react/jsx-no-duplicate-props": 1,
+    "react/jsx-indent-props": [1, 2],
+    "react/jsx-key": 1,
+    "react/jsx-no-undef": 1,
+    "react/jsx-pascal-case": 1,
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-direct-mutation-state": 2,
+    "react/no-unknown-property": 1,
+    "react/prefer-es6-class": 1,
+    "react/prop-types": 1,
+    "react/require-extension": [1, "extensions": [".js", ".jsx"]],
+    "react/self-closing-comp": 1,
+    "react/wrap-multilines": 1,
+    "react/jsx-uses-react": 1
+  }
+}

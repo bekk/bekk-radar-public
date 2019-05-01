@@ -1,0 +1,3 @@
+Docker er en åpen plattform for å bygge, kjøre og distribuere applikasjoner. Den er uten tvil den mest populære systemkontaineren på markedet for tiden og har et meget aktivt felleskap på hub.docker.com. Immutable kontainere er veldig i vinden i Devops-sammenheng og vi i BEKK ser et stort potensial i tankegangen. At Docker er godt forbi versjon 1 og inkludert fra og med versjon 7 av RedHat Enterprise Linux taler godt for at det er klart for applikasjoner i produksjon.
+
+Vi ser dog at det fortsatt er kjente og ukjente utfordringer sikkerhetsmessig, det kan være seg manglende sikkerhetsoppdateringer eller bruk av docker-images med bakdører i. Vi synes Docker er vel verdt å se på, men gå fram med forsiktighet.

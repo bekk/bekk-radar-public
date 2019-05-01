@@ -1,0 +1,1 @@
+Vi opplever at TFS Build Server er mer komplisert enn en byggserver trenger å være. Terskelen for å kunne sette opp et bygg som bygger og tester slik man ønsker, er høy sammenlignet med f.eks. TeamCity. Enkelheten og oversiktligheten i TeamCity gjør at vi mener at man skal avstå fra TFS som byggserver.

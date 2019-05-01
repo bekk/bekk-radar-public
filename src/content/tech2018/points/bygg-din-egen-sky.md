@@ -1,0 +1,9 @@
+Virksomheter som etablerer en intern sky framfor å ta i bruk offentlige skyplattformer, gjør sannsynligvis seg selv en bjørnetjeneste. Framfor å bruke tid, ressurser og kompetanse på offentlige skyplattformer som GCP, Azure eller AWS, investerer man heller i å bygge lignende plattformer i egen datahall. Dessverre er det ikke mulig for interne driftsorganisasjoner å levere tilsvarende tjenestebredde, innovasjonstakt, sikkerhet, elastisitet, automatisering eller kostnadsbilde som de offentlige skyplattformene. I tillegg forsinkes overgangen til offentlig sky fordi ledelsen tenker at internskyen er *godt nok*.
+
+Framfor å bygge sin egen sky, anbefaler vi derfor å bruke tid og krefter på å ta i bruk offentlige skyplattformer som GCP, AWS eller Azure. Flere offentlige virksomheter etablerer nå intern PaaS med OpenShift eller Kubernetes. Dersom dette er første steg mot offentlig nettsky, kan det gi mening. Det er imidlertid en reell risiko for at mange stopper der, uten videre bevegelse mot offentlig sky. Selv om intern PaaS er bedre enn forrige generasjon virtualisert IaaS, får man dessverre bare en liten andel av fordelene offentlige skyplattformer tilbyr.
+
+Kilder:
+- [Alle vil til himmelen men ingen vil dø](https://blogg.bekk.no/alle-vil-til-himmelen-men-ingen-vil-d%C3%B8-9b4cade51d01)
+- [The Effects of Public Cloud on Team Autonomy](https://blogg.bekk.no/the-effects-of-public-cloud-on-team-autonomy-f5b1d22cef87)
+- [Ekte datakraft i nettskyen #serverless #noops](https://blogg.bekk.no/ekte-datakraft-i-nettskyen-serverless-noops-87bc93bf001c)
+- [Personvernlovgivingen tillater skysetting innenfor EØS](https://open.bekk.no/personvernlovgivingen-tillater-skysetting-innenfor-eos)

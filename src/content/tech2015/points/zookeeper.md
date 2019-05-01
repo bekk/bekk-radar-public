@@ -1,0 +1,3 @@
+ZooKeeper er en open source implementasjon av en distribuert lås, basert på en sterk konsensusalgoritme. ZooKeeper brukes ofte til synkronisering av tjenester i et cluster, leader election, og som en trygg distribuert kø. Dette fungerer godt på ZooKeeper sin side, men kan på grunn av problemets natur være vanskelig å implementere korrekt. I BEKK bruker vi ZooKeeper med suksess i flere prosjekter.
+
+Vær oppmerksom på at fordi ZooKeeper også kan fungere som en transaksjonell key/value store, bruker noen det til andre tjenester som for eksempel datalager, cache eller service registry. I dette domenet finnes det ofte bedre løsninger.

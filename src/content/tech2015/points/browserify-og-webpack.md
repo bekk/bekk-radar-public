@@ -1,0 +1,5 @@
+Skriv frontend-kode som om det var Node.js-kode. Det kan høres rart ut til å begynne med, men erfaringen med disse verktøyene er at ting blir mye enklere når man behandler frontend-koden på samme måte som vi behandler backend-koden. Altså: flere små moduler istedenfor svære enkeltfiler samt mindre knytning til DOM-en gjør at det blir mye enklere å vedlikeholde og utvide.
+
+Det er filosofiske forskjeller på disse verktøyene, og den primære er at browserify er en minimal løsning som fokuserer på å gi deg Node.js sin require og håndterer ekstra features gjennom plugins og transforms, mens webpack en en full-featured løsning som ut av boksen blant annet gir deg watching av filer, støtte for AMD i tillegg til CommonJS, og mulighet til å require CoffeeScript og andre typer filer.
+
+En fantastisk feature i webpack vi har lyst til å trekke frem er muligheten for å gjøre "Hot Module Replacement". Dermed kan man skrive kode, lagre filen, og se endringen bli lagt til på frontend uten å gjøre en refresh. Det finnes blant annet en versjon for React, som gjør at man kan få "hot reloading" av React-komponenter.

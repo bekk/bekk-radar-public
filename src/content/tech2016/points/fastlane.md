@@ -1,0 +1,7 @@
+[Fastlane](https://fastlane.tools/) hjelper deg å automatisere utrulling av iOS-applikasjoner ved å koble sammen små, spesialiserte verktøy i distribusjonskjeder. Prosjektet består av åpen kildekode lisensiert under MIT-lisensen. 
+
+Gjennom å automatisere oppgavene knyttet til utrulling på iOS-platformen reduserer man feilkilder, fjerner smertemomenter og tilrettelegger for hyppigere utgivelser. Samtidig sparer man selvfølgelig svært mye tid!
+
+Fastlane tar seg av tradisjonelle oppgaver som bygging, testing og signering av kode, i tillegg til mer mobilspesifikke oppgaver som forberedelse av skjermbilder tilpasset alle skjermstørrelser og språk. Fastlane integrerer også mot iTunes Connect slik at du enkelt kan dytte ut nye versjoner til brukertesting og videre til AppStore.
+
+Det finnes i skrivende stund 10 forskjellige verktøy som sammen gir deg det du trenger for å tilpasse Fastlane til dine egne behov. Det er et prosjekt med en voksende brukerbase og et meget aktivt miljø. Fastlane ble i oktober 2015 en del av [Fabric](https://get.fabric.io/) – Twitters utviklerplattform for mobile applikasjoner og forvaltes nå av et dedikert team. Fastlane brukes aktivt av blant annet av Wikipedia, Fitbay og Firefox.

@@ -1,0 +1,5 @@
+Mange applikasjoner bruker i dag tredjepartsbiblioteker eller -rammeverk i stor grad. Over tid kan det bli oppdaget sikkerhetsfeil i disse bibliotekene, og metoden for å utnytte dem blir ofte offentliggjort på nettet. Dette kan medføre at applikasjonen din plutselig har en alvorlig sikkerhetsfeil som det er lett å utnytte.
+
+Vi anbefaler å benytte et verktøy som kan gi automatisk beskjed når det blir oppdaget sikkerhetsfeil i biblioteker eller rammeverk man benytter. [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) er et verktøy vi har brukt mye, og som kan integreres med byggserveren.
+
+Siden dagens webapplikasjoner i stor grad kjører på klientsiden i JavaScript, er det også viktig å følge med på sikkerhetsfeil i JavaScript-rammeverk eller -biblioteker. Til dette formålet kan en bruke [Retire.js](http://retirejs.github.io/retire.js/), som kan integreres med byggeserveren eller kjøre som en nettleserplugin.

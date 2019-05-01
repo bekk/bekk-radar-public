@@ -1,0 +1,7 @@
+Progressive enhancement er viktigere enn noen gang. At weben er i kontinuerlig utvikling har blitt veldig tydelig i den siste tiden. Vi har en myriade med forskjellige enheter, alt fra klokker til kjøleskap til svære retina skjermer, som befinner seg på mer eller mindre oppdaterte operativsystemer. Kontekstene for bruk er også like forskjellige, vi bruker nettet på alt fra forblåste fjelltopper på nordvestlandet til urbane kaffesjapper, når vi er på farta eller sitter godt tilrette i sofakroken. Å lage webapplikasjoner for ideal-brukeren i ideal-situasjonen fungerer ikke.
+
+Progressive enhancement spiller på lag med måten nettlesere fungerer på, ved at kjernefunksjonaliteten er kodet inn i markup-laget. Deretter blir funksjonaliteten gradvis forbedret etterhvert som flere funksjoner og teknologier blir tilgjengelig.
+
+Å spille på lag med nettleseren på denne måten gir oss en rekke fordeler. Produktene vi lager blir mer robuste, mer tilgjengelige (som i universell tilgjengelighet) og får en bedre og mer gjennomtenkt brukeropplevelse fordi vi blir tvunget til å tenke på kjernefunksjonaliteten eller kjernetjenesten.
+
+Det er fortsatt en del utfordringer knyttet til å utvikle løsninger etter progressive enhancement-prinsipper, men en viktig nyvinning over de senere årene er nye rammeverk og biblioteker for front-end som også kan rendres på serversiden ved hjelp av Node.js. Dette gjør det enklere å lage moderne webapplikasjoner som fortsatt kan utvikles på en måte som er i tråd med progressive enhancement prinsippet.

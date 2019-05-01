@@ -1,0 +1,387 @@
+title: Teknologiradar 2016
+tags: []
+levels:
+  - title: Bruk
+    radius: 0.3333333333333333
+  - title: Vurder
+    radius: 0.6666666666666666
+  - title: Avstå
+    radius: 1
+categories:
+  frontend-og-mobil:
+    title: Frontend og mobil
+    tagline: ''
+    points:
+      wai-aria:
+        title: WAI-ARIA
+        tags: []
+        score: 0.018518518518518517
+      funksjonell-programmering-i-frontend:
+        title: Funksjonell programmering i frontend
+        tags: []
+        score: 0.05555555555555555
+      react:
+        title: React
+        tags: []
+        score: 0.09259259259259259
+      svg:
+        title: SVG
+        tags: []
+        score: 0.12962962962962962
+      npm:
+        title: npm
+        tags: []
+        score: 0.16666666666666666
+      websockets-og-server-sent-events:
+        title: WebSockets og Server-Sent Events
+        tags: []
+        score: 0.2037037037037037
+      xamarin:
+        title: Xamarin
+        tags: []
+        score: 0.24074074074074073
+      byggetrinn-for-frontend:
+        title: Byggetrinn for frontend
+        tags: []
+        score: 0.2777777777777778
+      ytelse-som-kvalitetsfortrinn:
+        title: Ytelse som kvalitetsfortrinn
+        tags: []
+        score: 0.31481481481481477
+      angular:
+        title: Angular
+        tags: []
+        score: 0.34848484848484845
+      react-native:
+        title: React Native
+        tags: []
+        score: 0.3787878787878788
+      backends-for-frontends:
+        title: Backends For Frontends
+        tags: []
+        score: 0.40909090909090906
+      less-og-sass:
+        title: Less og Sass
+        tags: []
+        score: 0.43939393939393934
+      moderne-web-interaksjon:
+        title: Moderne Web-interaksjon
+        tags: []
+        score: 0.46969696969696967
+      particleio:
+        title: Particle.io
+        tags: []
+        score: 0.5
+      beacons:
+        title: Beacons
+        tags: []
+        score: 0.5303030303030303
+      smartklokker:
+        title: Smartklokker
+        tags: []
+        score: 0.5606060606060606
+      fastlane:
+        title: Fastlane
+        tags: []
+        score: 0.5909090909090908
+      progressive-enhancement:
+        title: Progressive enhancement
+        tags: []
+        score: 0.6212121212121211
+      progressive-web-apps:
+        title: Progressive Web Apps
+        tags: []
+        score: 0.6515151515151515
+      backbone:
+        title: Backbone
+        tags: []
+        score: 0.8333333333333333
+  sprak-og-rammeverk:
+    title: Språk og rammeverk
+    tagline: ''
+    points:
+      funksjonelt-paradigme:
+        title: Funksjonelt paradigme
+        tags: []
+        score: 0.013888888888888888
+      redux:
+        title: Redux
+        tags: []
+        score: 0.041666666666666664
+      net-core-og-aspnet-core:
+        title: .NET Core og ASP.NET Core
+        tags: []
+        score: 0.06944444444444443
+      f:
+        title: 'F#'
+        tags: []
+        score: 0.09722222222222221
+      go:
+        title: Go
+        tags: []
+        score: 0.125
+      scala:
+        title: Scala
+        tags: []
+        score: 0.15277777777777776
+      swift:
+        title: Swift
+        tags: []
+        score: 0.18055555555555555
+      terraform:
+        title: Terraform
+        tags: []
+        score: 0.20833333333333334
+      akka:
+        title: Akka
+        tags: []
+        score: 0.23611111111111108
+      biblioteker-over-rammeverk:
+        title: Biblioteker over rammeverk
+        tags: []
+        score: 0.2638888888888889
+      sikkerhetsrammeverk:
+        title: Sikkerhetsrammeverk
+        tags: []
+        score: 0.2916666666666667
+      okhttp:
+        title: OkHttp
+        tags: []
+        score: 0.3194444444444444
+      sql-og-mikro-orm:
+        title: SQL og Mikro-ORM
+        tags: []
+        score: 0.35416666666666663
+      reactive-extensionsjs:
+        title: Reactive Extensions.JS
+        tags: []
+        score: 0.3958333333333333
+      java-bootstrap-rammeverk:
+        title: Java bootstrap-rammeverk
+        tags: []
+        score: 0.4375
+      typet-javascript:
+        title: Typet JavaScript
+        tags: []
+        score: 0.47916666666666663
+      electron:
+        title: Electron
+        tags: []
+        score: 0.5208333333333333
+      elm:
+        title: Elm
+        tags: []
+        score: 0.5625
+      clojure:
+        title: Clojure
+        tags: []
+        score: 0.6041666666666666
+      elixir:
+        title: Elixir
+        tags: []
+        score: 0.6458333333333333
+      komponentbaserte-serverside-rammeverk:
+        title: Komponentbaserte serverside-rammeverk
+        tags: []
+        score: 0.8333333333333333
+  arkitektur-og-plattform:
+    title: Arkitektur og plattform
+    tagline: ''
+    points:
+      public-cloud:
+        title: Public cloud
+        tags: []
+        score: 0.018518518518518517
+      smidig-arkitektur:
+        title: Smidig arkitektur
+        tags: []
+        score: 0.05555555555555555
+      streamingarkitektur:
+        title: Streamingarkitektur
+        tags: []
+        score: 0.09259259259259259
+      logg-aggregering:
+        title: Logg-aggregering
+        tags: []
+        score: 0.12962962962962962
+      tjenesteorientering:
+        title: Tjenesteorientering
+        tags: []
+        score: 0.16666666666666666
+      infrastruktur-som-data:
+        title: Infrastruktur som data
+        tags: []
+        score: 0.2037037037037037
+      polyglot-databaselosninger:
+        title: Polyglot databaseløsninger
+        tags: []
+        score: 0.24074074074074073
+      nodejs:
+        title: Node.js
+        tags: []
+        score: 0.2777777777777778
+      containerisering:
+        title: Containerisering
+        tags: []
+        score: 0.31481481481481477
+      private-cloud:
+        title: Private cloud
+        tags: []
+        score: 0.3472222222222222
+      atom-feeds:
+        title: ATOM Feeds
+        tags: []
+        score: 0.375
+      engangsinfrastruktur:
+        title: Engangsinfrastruktur
+        tags: []
+        score: 0.40277777777777773
+      event-store:
+        title: Event Store
+        tags: []
+        score: 0.4305555555555555
+      mikrotjenester:
+        title: Mikrotjenester
+        tags: []
+        score: 0.4583333333333333
+      container-as-a-service:
+        title: Container-as-a-Service
+        tags: []
+        score: 0.48611111111111105
+      nobackend-mashups:
+        title: noBackend/Mashups
+        tags: []
+        score: 0.5138888888888888
+      mlaas:
+        title: MLaaS
+        tags: []
+        score: 0.5416666666666666
+      maskinlaring:
+        title: Maskinlæring
+        tags: []
+        score: 0.5694444444444444
+      blockchain:
+        title: Blockchain
+        tags: []
+        score: 0.5972222222222222
+      api-gateway:
+        title: API Gateway
+        tags: []
+        score: 0.625
+      angrepsdeteksjon:
+        title: Angrepsdeteksjon
+        tags: []
+        score: 0.6527777777777777
+      virtualisering-20:
+        title: Virtualisering 2.0
+        tags: []
+        score: 0.7222222222222222
+      overdreven-standardisering:
+        title: Overdreven standardisering
+        tags: []
+        score: 0.8333333333333333
+      applikasjonsservere:
+        title: Applikasjonsservere
+        tags: []
+        score: 0.9444444444444444
+  prosess-og-kvalitet:
+    title: Prosess og kvalitet
+    tagline: ''
+    points:
+      metrikker-for-maling-visualisering-og-varsling:
+        title: 'Metrikker for måling, visualisering og varsling'
+        tags: []
+        score: 0.00980392156862745
+      kontinuerlige-leveranser:
+        title: Kontinuerlige leveranser
+        tags: []
+        score: 0.029411764705882353
+      automatisert-deteksjon-av-sarbare-biblioteker:
+        title: Automatisert deteksjon av sårbare biblioteker
+        tags: []
+        score: 0.04901960784313725
+      autonome-team:
+        title: Autonome team
+        tags: []
+        score: 0.06862745098039215
+      monitorering-og-hyppig-deploy-fremfor-uttommende-testing:
+        title: Monitorering og hyppig deploy fremfor uttømmende testing
+        tags: []
+        score: 0.08823529411764706
+      kodeprinsipper:
+        title: Kodeprinsipper
+        tags: []
+        score: 0.10784313725490195
+      deployment-pipeline:
+        title: Deployment Pipeline
+        tags: []
+        score: 0.12745098039215685
+      malbare-kvalitetskrav:
+        title: Målbare kvalitetskrav
+        tags: []
+        score: 0.14705882352941177
+      full-stack-brukeropplevelse:
+        title: Full stack brukeropplevelse
+        tags: []
+        score: 0.16666666666666666
+      pull-requests:
+        title: Pull-requests
+        tags: []
+        score: 0.18627450980392157
+      chat-som-samhandling:
+        title: |
+          Chat som samhandling
+        tags: []
+        score: 0.20588235294117646
+      ambidekster-organisasjon:
+        title: Ambidekster organisasjon
+        tags: []
+        score: 0.22549019607843135
+      smidig-anskaffelse:
+        title: Smidig anskaffelse
+        tags: []
+        score: 0.24509803921568624
+      lean-startup:
+        title: Lean Startup
+        tags: []
+        score: 0.2647058823529412
+      chatops:
+        title: ChatOps
+        tags: []
+        score: 0.28431372549019607
+      kontinuerlig-maling-av-forretningsverdi:
+        title: Kontinuerlig måling av forretningsverdi
+        tags: []
+        score: 0.30392156862745096
+      akkurat-nok-prosess:
+        title: Akkurat nok prosess
+        tags: []
+        score: 0.3235294117647059
+      releasetog:
+        title: Releasetog
+        tags: []
+        score: 0.36666666666666664
+      iterasjoner:
+        title: Iterasjoner
+        tags: []
+        score: 0.43333333333333335
+      automatiserte-ende-til-ende-tester:
+        title: Automatiserte ende-til-ende-tester
+        tags: []
+        score: 0.5
+      produktutvikling-som-prosjekter:
+        title: Produktutvikling som prosjekter
+        tags: []
+        score: 0.5666666666666667
+      scrum:
+        title: Scrum
+        tags: []
+        score: 0.6333333333333333
+      hovedreleaser:
+        title: Hovedreleaser
+        tags: []
+        score: 0.75
+      estimering-i-utviklingsfasen:
+        title: Estimering i utviklingsfasen
+        tags: []
+        score: 0.9166666666666666

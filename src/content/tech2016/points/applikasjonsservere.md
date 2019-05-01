@@ -1,0 +1,9 @@
+Java Applikasjonsserveren er et konsept og en arkitektur som oppsto med J2EE-standarden som ble lansert i 1999. J2EE-standarden var et svar på datidens utfordringer med utvikling av applikasjoner. Siden den tid har flere J2EE- og JEE-standarder blitt lansert, men det grunnleggende konseptet og arkitekturen ligger fast. 
+
+Selv om standarden skal hindre knytning til en konkret implementasjon eller leverandør, ser vi stadig eksempler på det motsatte – gjerne grunnet mangler i standarden og bruk av leverandørspesifikke tjenester eller API-er.
+
+Selv om JEE API-er og tjenestespesifikasjoner fortsatt benyttes, er det ikke lenger hensiktsmessig å implementere dem i en stor, monolittisk server. Knytningen til en konkret applikasjonsserver, og utfordringer rundt forvaltning av denne, gir i seg selv høy risiko. Samtidig er det uklare grenser mellom applikasjon, server og JVM, noe som gir utfordringer både ved utvikling, drift og vedlikehold.
+
+Både arkitekturmessig og utviklingsmessig gir applikasjonsserveren i dag minimalt med verdi. Ressurser er for eksempel ikke like begrenset i dag, og deling av ressurser skaper større utfordringer enn fordelene det gir.
+
+Vi anbefaler i stedet å bruke en lettvekts servlet container, f.eks. [Jetty](http://www.eclipse.org/jetty/). Denne kan pakkes sammen med applikasjonen slik at hver applikasjon får sin egen server. Et slikt oppsett vil føre til at man har større kontroll på avhengigheter og ressursbruk. Dette passer også godt sammen med et utrullingsregime basert på [containerteknologi](https://radar.bekk.no/tech2016/arkitektur-og-plattform/containerisering) som Docker.

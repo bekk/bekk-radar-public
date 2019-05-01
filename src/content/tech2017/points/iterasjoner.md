@@ -1,0 +1,5 @@
+Iterasjoner, eller sprinter, var hensiktsmessige som en inngangsport til å jobbe mer smidig. De delte arbeidet inn i kortere faser enn tidligere, og skapte en viss rytme for å gjøre ting som å ta avsjekk på fremdrift og retning, planlegge oppgaver for neste iterasjon, og å se seg selv i speilet for å kunne forbedre seg.
+
+Men iterasjonene er i praksis en rekke med korte vannfall — kunstige konstruksjoner med en start og en slutt. Planlegging og design skjer i starten, og testing og eventuell læring skjer til slutt. Man har også en ikke-neglisjerbar administrasjonskostnad rundt det å fylle en iterasjon med innhold, og deretter håndtere flytting av uferdige oppgaver eller funn under testing over i den neste.
+
+Vi anbefaler heller å fokusere på oppgaver, features eller brukerhistorier, som med et flytbasert system, [kontinuerlige leveranser](https://radar.bekk.no/tech2017/prosess-og-kvalitet/kontinuerlige-leveranser) og tanker fra [lean startup](https://radar.bekk.no/tech2017/prosess-og-kvalitet/lean-startup). Hvis man føler at man mister noe, som f.eks. jevnlige retrospektiver, er det ikke noe i veien for å gjøre dette med faste mellomrom i tillegg.

@@ -1,0 +1,5 @@
+Public PaaS og IaaS er trygge valg dersom man ønsker å bruke skytjenester i dag. Leverandører som Microsoft Azure, Heroku og Amazon AWS, er modne og har gjennom mange år vist at de leverer sikre og tilgjengelige løsninger. Vi har brukt disse leverandørene med suksess og har flere prosjekter kjørende på Public PaaS. 
+
+Skytjenester gjør det enkelt å automatisere installasjon og konfigurasjon og gir fleksibilitet rundt opp- og nedskalering. Den største fordelen med public fremfor private er at man slipper en større investering i infrastruktur og at man får større fleksibilitet. Det tilbys også mange tjenester som gir god verdi. 
+
+En utfordring kan være usikkerheten rundt å plassere sine data utenfor sitt eget datasenter. Så lenge man holder seg innenfor lovverket og evaluerer leverandøren godt, ser vi få problemer med dette.

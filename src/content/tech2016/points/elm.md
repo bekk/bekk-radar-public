@@ -1,0 +1,9 @@
+[Elm](http://elm-lang.org/) er et statisk typet, funksjonelt programmeringsspråk for weben som kompilerer til HTML, CSS og JavaScript. Målet er å gjøre det enklere å utvikle interaktive brukergrensesnitt på weben, da språket fjerner mange detaljer som du må forholde deg til i tradisjonelle språk som JavaScript.
+
+Elm er skrevet i [Haskell](https://www.haskell.org/) og er designet for såkalt Functional Reactive Programming (FRP), et paradigme som egner seg utrolig godt til å skrive svært interaktive web-applikasjoner med en deklarativ programmeringsstil. Som [React](https://radar.bekk.no/tech2016/frontend-og-mobil/react), baserer Elm seg på en virtuell dom for å rendre HTML, noe som gjør at du abstraherer bort selve DOM-en og ikke trenger å forholde deg til dens detaljer.
+
+Du kan bruke Elm til å skrive en hel applikasjon, men kan også bygge inn Elm-komponenter som en del av en eksisterende JavaScript-applikasjon. I tillegg kan du kommunisere mellom eksisterende JavaScript-applikasjoner og Elm gjennom såkalte ports.
+
+Elm har en rekke gode verktøy og kommer blant annet med en time-travelling debugger, en kompilator med veldig gode feilmeldinger og et pakkehåndteringssystem som håndhever semantisk versjonering av alle biblioteker. I tillegg er Elm godt dokumentert og det eksisterer mange gode eksempler du kan bruke for å komme i gang med språket.
+
+Elm kommer med flere spennende konsepter, som blant annet har inspirert utviklerne av [Redux](https://radar.bekk.no/tech2016/sprak-og-rammeverk/redux), og er også et spennende språk med tanke på [den funksjonelle tankegangen](https://radar.bekk.no/tech2016/frontend-og-mobil/funksjonell-programmering-i-frontend) som har begynt å treffe web-plattformen for fullt. Vi mener det er et språk det er verdt å bruke tid på å lære seg og bør vurderes hvis du skal utvikle hendelsesdrevne og ytelseskritiske applikasjoner.

@@ -1,0 +1,3 @@
+Automatisering av miljø og utrulling kan spare tid og frustrasjon, og er en forutsetning for hyppigere produksjonssetting. En fleksibel infrastuktur (i form av IaaS eller PaaS-løsninger) kan bidra til dette, men er strengt tatt ikke nødvendig.
+
+En privat PaaS-løsning vil kunne gi store fordeler ved utrulling og oppsett av applikasjoner, både ved produksjonssetting og under utvikling. Det siste året har mange private sky-produkter modnet kraftig, som et resultat av at microcontainer-teknologien har økt i popularitet. Markedet satser kraftig, og mange respektable aktører setter sin tillit til privat sky. Terskelen for eksperimentering med oppsettet er lav, og det er potensiale for å forenkle utviklingsløp og kontinuerlig utrulling betraktelig.

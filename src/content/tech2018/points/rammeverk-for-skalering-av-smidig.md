@@ -1,0 +1,10 @@
+
+Det kan være vanskelig å skalere smidig i store organisasjoner. For å forsøke å løse utfordringene har det dukket opp rammeverk som SAFe og LeSS. Felles for disse er at de legger til en rekke nye roller, prosesser, praksiser og verktøy som minner om artefakter fra rammeverk som ikke assosieres med smidig. Både SAFe og LeSS baserer seg på scrum og er ikke kompatible med [kontinuerlige leveranser](https://radar.bekk.no/tech2018/prosess-og-kvalitet/kontinuerlige-leveranser). Rammeverkene bryter med den første og siste verdien i smidig-manifestet som er "Personer og samspill fremfor prosesser og verktøy" og "Å reagere på endringer fremfor å følge en plan".
+
+Ferdige rammeverk kan være tiltalende og fristende å ty til, og se ut som den perfekte løsningen for å kunne skalere smidig i organisasjonen. De kan tilsynelatende gi en opplevd kontroll som minner om de mer tradisjonelle rammeverkene for prosjektstyring, eksempelvis Prince2, som mange organisasjoner har sverget til i mange år. Det er fristende!
+
+Det store problemet er at man velger å gå rett på en "ferdig løsning" i stedet for å gå i dybden på hvilke utfordringer man faktisk har i sin organisasjon og sin kontekst. Hva er det som smerter aller mest? Hva er det som er faktisk skal til for å levere bedre produkter mer effektivt i *din* organisasjon? Smidig er ikke å ta i bruk ferdigtygde løsninger.
+
+Vi mener at du må starte med å skape autonome og kryssfunksjonelle team, som minimerer behovet for koordinering og kommunikasjon på tvers av teamene. Skap uavhengighet og sørg for å unngå tette bindinger i IT-arkitekturen mellom ulike forretningsmessige eller funksjonelle områder. All teknisk kommunikasjon bør foregå over API-er. Gi teamene frihet, ikke en tvangstrøye. 
+
+Skalering av smidig *er* vanskelig og det *vil* gi smerte, men å ta i bruk ferdige rammeverk som introduserer prosesser og mer koordineringsbehov er å skyte seg selv i foten. Tenk tilbake på manifestet og de tolv prinsippene! Ferdige rammeverk vil gi mindre rom for eksperimentering og kontinuerlig forbedring. De hindrer deg i å være ekte smidig og å få ut det beste i menneskene og teamene i din organisasjon.

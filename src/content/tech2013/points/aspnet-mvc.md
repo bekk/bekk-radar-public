@@ -1,0 +1,1 @@
+Skal du lage en ny web-løsning i dag på .NET, så er MVC 4 det selvfølgelige valget. MVC gjør det lett å skille mellom visning og logikk, og er generelt mye mer testbart en sin storebror WebForms. Razor er også en veldig god visningsmotor som gir deg som utvikler full kontroll på HTML'en som blir generert. Det kommer godt med i disse HTML5-tider.

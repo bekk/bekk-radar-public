@@ -1,0 +1,5 @@
+Funksjonell programmering får nå fotfeste, også på tradisjonelle plattformer og kjøretidsmiljøer som Java og .NET.
+
+Som for andre paradigmeskifter kan overgangen fra klassisk imperativ og/eller objekt-orientert programmering være ressurs- og tidkrevende. Imidlertid kan man prøve å gjøre overgangen mer gradvis dersom verktøyene man har til rådighet åpner for det. Eksempelvis ser vi klare trekk fra funksjonell tankegang og programmeringsstil i ren Java på Java 8, og Scala tilbyr mange konsepter fra funksjonell programmering. Rene funksjonelle språk er også tilgjengelige på utbredte kjøretidsmiljøer, se egne punkter for Clojure og F#.
+
+Funksjonell programmering har eksistert en lang stund men har ikke fått stor utbredelse i industrien. Vi mener at dagens rammebetingelser for effektiv prosessering kan endre dette: God parallellitet er nå viktigere for å sikre skalerbarhet enn god single-thread ytelse. Og immutabilitet, en helt grunnleggende egenskap i funksjonell programmering, senker terskelen for å oppnå effektiv og feilfri parallellisering.

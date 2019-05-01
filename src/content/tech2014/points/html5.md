@@ -1,0 +1,1 @@
+HTML5 har god støtte i IE9+ og på mobil, og i tillegg finnes det shims og polyfills for å utvide støtten. Det er en rekke gode JavaScript-API-er i HTML5, blant annet for geolokasjon, canvas og lokal lagring i nettleseren, som vi bruker på en rekke prosjekter idag.

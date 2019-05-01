@@ -1,0 +1,5 @@
+Ytelsestesting er stebarnet i utviklingsprosjekter. I den grad det gjøres, er det ofte en prosess som krever mye jobb å reprodusere, og det prioriteres fort ned til fordel for forretningsbehov og andre krav. Holdningen er gjerne at man bare kan "kaste på mer jern" hvis man får problemer med ytelsen. Virkeligheten er dog noe dystrere: Ytelsesproblem kan være vanskelige å lokalisere, og er ofte vanskelige å løse med mer hardware. Ytelsestester gjøres gjerne rett før lansering, eller enda verre: Etter at problemene viser seg.
+
+I stadig flere av våre prosjekter forsøker vi å bygge inn ytelesestesting som en del av den kontinuerlige utviklingsprosessen og helst så tidlig som mulig. Det er ikke alltid enkelt, men kontinuerlig testing av ytelse bør vurderes i de fleste prosjekter. 
+
+Vi har god erfaring med å bruke Gatling på våre prosjekter og anbefaler alle å investere tid i å øke kompetansen på verktøyet. Vi vil anbefale dette over lignende verktøy som Locust, JMeter og Grinder.

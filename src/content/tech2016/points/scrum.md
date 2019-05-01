@@ -1,0 +1,8 @@
+Vår opplevelse av hvordan Scrum blir operasjonalisert er ikke i tråd med de grunnleggende tankene og ideene scrum er bygget på. Dette gjorde at vi i fjor hadde Scrum på avstå i vår radar for å sette fokus på dette. Slik scrum ofte praktiseres, knyttes operasjonaliseringen til konstruksjonsfasen. Foregående og avsluttende faser kjennetegnes ved overleveringer, prosesskontroll og risikodeling. Smidigheten forsvinner. Dette er uheldig for scrum som metodisk rammeverk, og for organisasjonene som implementerer metodikken slik.
+
+Overordnet bør målet i en smidig tilnærming være å håndtere raske og store endringer i rammebetingelser virksomhetene opererer i. For å møte slike utfordringer må organisasjonen legge til rette for mer dynamisk organisering, kreativ problemløsning og smidige leveranseprosesser. Konkurransebildet beveger seg mot oppdatering i sanntid. Leveranseprosesser og løsningene må følge etter med samme fart uten å senke kravene til kvalitet og risiko. Ideer og verdier fra smidig og lean imøtekommer dette. Scrum er opprinnelig en smidig metodikk. Operativt er det to hovedutfordringer som må imøtegåes:
+
+- Leveranse- og utviklingsprosessene bør omfatte hele verdikjeden fra vugge til grav, og ha som mål å tilrettelegge for kontinuerlige prioriteringer, leveranser og forbedringer. Ingen overleveringer.
+- Leveranseorganisasjonen bør implementeres som selvorganiserende, og helst autonome team. Hvor ansvaret er reelt. Ikke bare for løsningen, men også for gevinsten.
+
+Gjort riktig kan utfordringene helt eller delvis løses gjennom en implementasjon av scrum. Metodikken er middelet - ikke målet.

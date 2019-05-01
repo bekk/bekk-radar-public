@@ -1,0 +1,5 @@
+Det er nå 15 år siden [det smidige manifest](http://agilemanifesto.org/iso/no/) ble skrevet, men fortsatt er mye av arkitekturarbeidet preget av fossefallsprosesser og en plan-build-run-tilnærming. Arkitekturen detaljeres og dokumenteres utdypende, for så å godkjennes i arkitekturfora i forkant av endringer.
+
+En slik fremgangsmåte er tidkrevende, og harmonerer dårlig med et smidig leveranseregime og selvdrevne team som har ansvar for egne systemer. Rigide rammer på feil nivå, og beslutninger som tas fjernt i tid og rom fra selve problemstillingen, fjerner muligheten til å velge optimal arkitektur og teknologi i hvert enkelt tilfelle.
+
+Arkitektur bør utarbeides inkrementelt og iterativt, ved at man til enhver tid tar de valg som trengs for å komme videre i prosessen. Videre bør arkitektur på et gitt nivå sette overordnede rammer for arkitekturen på nivået under uten å begrense handlingsrommet unødig. Ettersom virkeligheten stadig endrer seg bør man etterstrebe en arkitektur som tåler endringer og kan justeres over tid.

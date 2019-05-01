@@ -1,0 +1,1 @@
+Django er et python-basert web-rammeverk som lover å levere Web-applikasjoner raskere med mindre kode. Et greit alternativ for python-entusiastene, men vil nok ikke bli "mainstream"

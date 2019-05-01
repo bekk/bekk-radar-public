@@ -1,0 +1,13 @@
+@import "~styles/colors.styl"
+
+.link
+  color $color-lightGray
+  text-decoration underline
+  &:hover
+    text-decoration-color $color-bekkRed
+  &:focus
+    color $color-bekkRed
+    outline 1px dotted $color-bekkRed
+
+.pointDetails-comments a
+  @extend .link

@@ -1,0 +1,5 @@
+SOA-bølgen for mange år siden dreide seg om å benytte uavhengige og løst koblede komponenter, som kommuniserer i form av tjenester, til å implementere veldefinert og avgrenset forretningslogikk for å realisere forretningsverdi. Høres dette kjent ut?
+
+Til tross for gode prinsipper og tanker, ble SOA etter hvert et skjellsord. Begrepet ble synonymt med bruk av tjenestebusser og tunge integrasjonsplattformer, og store leverandører drev aggressivt, buzzword-drevet salg av disse produktene.
+
+Fremveksten av forretningsdrevne API-er, mikrotjenester og skyplattformer har økt fokuset på tjenesteorientert arkitektur. Tjenesterorientering er gjenfødt, denne gangen med et sunt fokus på versjonering, avgrensede forretningskontekster, tjenesteoppslag, kommunikasjonsstiler, granularitet på tjenestene, teknologiuavhengighet med mer. Kanskje klarer man denne gangen å ta ut gevinstene som tjenesteorientering forespeiler oss?

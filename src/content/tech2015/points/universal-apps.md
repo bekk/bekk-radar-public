@@ -1,0 +1,3 @@
+Universal apps for Windows er apper man utvikler en gang, men kan kjøre på både Windows Phone og Windows 8. Man kan bruke XAML, HTML og DirectX sammen med programmeringsspråkene C++, C# eller JavaScript for å utvikle universal apps. I tillegg kan man velge om deler eller all kode skal deles mellom telefoner og datamaskiner/tablets. Hvis en kjøper en applikasjon på telefon kan man velge at kunden også får bruke applikasjonen på datamaskin/tablet uten ekstra kostnad.
+
+Universal apps blir utviklet på Windows med Visual Studio 2013 eller nyere. For organisasjoner som bruker Windows-teknologier så kan universal apps være en enkel måte å implementere forretningsapplikasjoner som kan kjøres på en datamaskin/tablet eller i en telefon.

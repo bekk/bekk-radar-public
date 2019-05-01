@@ -1,0 +1,395 @@
+title: Teknologiradar 2013
+levels:
+  - title: Avstå
+    radius: 1
+  - title: Vurder
+    radius: 0.8253443588330851
+  - title: Bruk
+    radius: 0.497909461849789
+categories:
+  frontend-og-mobil:
+    title: Frontend og mobil
+    points:
+      websockets:
+        title: WebSockets
+        score: 0.8221250973767598
+        tags: []
+      sass-less:
+        title: 'SASS, LESS'
+        score: 0.4929211102222438
+        tags: []
+      typescript-coffeescript:
+        title: 'TypeScript, CoffeeScript'
+        score: 0.8225326731692335
+        tags: []
+      requirejs:
+        title: RequireJS
+        score: 0.49081817699560615
+        tags: []
+      knockoutjs:
+        title: KnockoutJS
+        score: 0.819103054691504
+        tags: []
+      extjs:
+        title: Ext.js
+        score: 0.9931826242410242
+        tags: []
+      jquery:
+        title: jQuery
+        score: 0.49269136009310993
+        tags: []
+      underscore:
+        title: Underscore
+        score: 0.49645181146469003
+        tags: []
+      backbone:
+        title: Backbone
+        score: 0.49417502602468244
+        tags: []
+      angularjs:
+        title: Angular.js
+        score: 0.817107092029669
+        tags: []
+      templating-rammeverk:
+        title: Templating-rammeverk
+        score: 0.8162640139926882
+        tags: []
+      html5:
+        title: HTML5
+        score: 0.4947206040654724
+        tags: []
+      css3:
+        title: CSS3
+        score: 0.8191211700892693
+        tags: []
+      window-phone-8-apps:
+        title: Window Phone 8 Apps
+        score: 0.8235318387360449
+        tags: []
+      sencha-touch:
+        title: Sencha Touch
+        score: 0.8226967589501502
+        tags: []
+      android:
+        title: Android
+        score: 0.49445559935345923
+        tags: []
+      appcelerator:
+        title: Appcelerator
+        score: 0.8201867970879878
+        tags: []
+      xamarin:
+        title: Xamarin
+        score: 0.820598183217365
+        tags: []
+      ios-app:
+        title: iOS App
+        score: 0.4942490398880132
+        tags: []
+  sprak-og-rammeverk:
+    title: Språk og rammeverk
+    points:
+      orm-rammeverk:
+        title: ORM-rammeverk
+        score: 0.49658936459158637
+        tags: []
+      sikkerhetsrammeverk:
+        title: Sikkerhetsrammeverk
+        score: 0.8167752038380603
+        tags: []
+      grid-rammeverk:
+        title: Grid-rammeverk
+        score: 0.8232512769440493
+        tags: []
+      java-8:
+        title: Java 8
+        score: 0.49653015150496144
+        tags: []
+      scala:
+        title: Scala
+        score: 0.8190116377496297
+        tags: []
+      clojure:
+        title: Clojure
+        score: 0.9925399747169401
+        tags: []
+      c:
+        title: 'C#'
+        score: 0.49318430962247123
+        tags: []
+      f:
+        title: 'F#'
+        score: 0.8196223426220854
+        tags: []
+      sp2013:
+        title: SP2013
+        score: 0.49432362572487115
+        tags: []
+      sp2010:
+        title: SP2010
+        score: 0.9920363767599799
+        tags: []
+      aspnet-mvc:
+        title: ASP.NET MVC
+        score: 0.49460753416114783
+        tags: []
+      aspnet-web-api:
+        title: ASP.NET Web API
+        score: 0.49633700638032885
+        tags: []
+      aspnet-web-forms:
+        title: ASP.NET Web forms
+        score: 0.994665738025368
+        tags: []
+      aspnet-signalr:
+        title: ASP.NET SignalR
+        score: 0.8193609356963917
+        tags: []
+      ruby-on-rails:
+        title: Ruby-on-rails
+        score: 0.4971942287586416
+        tags: []
+      sinatra:
+        title: Sinatra
+        score: 0.8218889903401468
+        tags: []
+      django:
+        title: Django
+        score: 0.8233265369961739
+        tags: []
+      wicket:
+        title: Wicket
+        score: 0.4974550698275765
+        tags: []
+      spring-mvc:
+        title: Spring MVC
+        score: 0.4954656375663548
+        tags: []
+      grails:
+        title: Grails
+        score: 0.8224229627055288
+        tags: []
+      nodejs:
+        title: Node.js
+        score: 0.8222034638084059
+        tags: []
+      google-web-toolkit:
+        title: Google Web Toolkit
+        score: 0.9956242745106623
+        tags: []
+      javaserver-faces:
+        title: 'JavaServer Faces '
+        score: 0.99153863755139
+        tags: []
+      tapestry:
+        title: Tapestry
+        score: 0.9920043604443399
+        tags: []
+      jsp:
+        title: JSP
+        score: 0.9992811448455581
+        tags: []
+      jersey:
+        title: Jersey
+        score: 0.49279449331588715
+        tags: []
+  arkitektur-og-plattform:
+    title: Arkitektur og plattform
+    points:
+      javascript-klienter:
+        title: JavaScript-klienter
+        score: 0.49213704935481906
+        tags: []
+      event-sourcing:
+        title: Event sourcing
+        score: 0.8228562570907726
+        tags: []
+      mini-vertikaler:
+        title: Mini-vertikaler
+        score: 0.8194966523832683
+        tags: []
+      hendelsesdrevet-arkitektur:
+        title: Hendelsesdrevet arkitektur
+        score: 0.8209183884063985
+        tags: []
+      3-lags-arkitektur:
+        title: 3-lags-arkitektur
+        score: 0.49628693269393065
+        tags: []
+      mikrotjenester:
+        title: Mikrotjenester
+        score: 0.8219292593653778
+        tags: []
+      ikke-invaderende-rammeverk:
+        title: Ikke-invaderende rammeverk
+        score: 0.8190251428214124
+        tags: []
+      asynkrone-tjenester:
+        title: Asynkrone tjenester
+        score: 0.8232936927151742
+        tags: []
+      actors:
+        title: Actors
+        score: 0.8183696286702128
+        tags: []
+      soap-ws-:
+        title: 'SOAP/WS-*'
+        score: 0.9948770451768918
+        tags: []
+      rest-niva-1-2:
+        title: REST nivå 1-2
+        score: 0.49376138003891906
+        tags: []
+      rest-niva-3:
+        title: REST nivå 3
+        score: 0.8191748335946835
+        tags: []
+      lettvekts-applikasjonsservere:
+        title: Lettvekts applikasjonsservere
+        score: 0.4937276782275416
+        tags: []
+      java-ee-5-6-applikasjonsservere:
+        title: Java EE 5/6 applikasjonsservere
+        score: 0.49684534431469923
+        tags: []
+      enterprise-service-bus:
+        title: Enterprise Service Bus
+        score: 0.8233451352386169
+        tags: []
+      lettvekts-service-bus:
+        title: Lettvekts Service Bus
+        score: 0.8224554317900857
+        tags: []
+      intern-serverpark:
+        title: Intern serverpark
+        score: 0.8226463188748631
+        tags: []
+      private-paas-iaas:
+        title: 'Private PaaS/IaaS '
+        score: 0.8202481970942337
+        tags: []
+      public-paas-iaas:
+        title: 'Public PaaS/IaaS '
+        score: 0.8234903220625064
+        tags: []
+      web-basert-app:
+        title: Web-basert app
+        score: 0.49664974633853975
+        tags: []
+      hybrid-app:
+        title: Hybrid-app
+        score: 0.8235965949179069
+        tags: []
+      native-app:
+        title: Native-app
+        score: 0.49592538399104186
+        tags: []
+      relasjonsdatabaser:
+        title: Relasjonsdatabaser
+        score: 0.4916771607154791
+        tags: []
+      key-value-databaser:
+        title: Key-value-databaser
+        score: 0.8220011798748393
+        tags: []
+      apne-sokemotorer:
+        title: Åpne søkemotorer
+        score: 0.4936612724961116
+        tags: []
+      grafdatabaser:
+        title: Grafdatabaser
+        score: 0.8196246206244394
+        tags: []
+      dokumentdatabaser:
+        title: Dokumentdatabaser
+        score: 0.816272217432943
+        tags: []
+  prosess-og-kvalitet:
+    title: Prosess og kvalitet
+    points:
+      kanban:
+        title: Kanban
+        score: 0.4959688921733917
+        tags: []
+      scrum:
+        title: Scrum
+        score: 0.818480418607182
+        tags: []
+      devops:
+        title: DevOps
+        score: 0.49600212707861246
+        tags: []
+      kontinuerlige-leveranser:
+        title: Kontinuerlige leveranser
+        score: 0.4932016116018371
+        tags: []
+      smidig-anskaffelse:
+        title: Smidig anskaffelse
+        score: 0.8197296976221886
+        tags: []
+      prosjekt-linje-organisering:
+        title: Prosjekt-linje-organisering
+        score: 0.9915122312694677
+        tags: []
+      utvikling-drift-separasjon:
+        title: 'Utvikling-drift-separasjon '
+        score: 0.9935033451414267
+        tags: []
+      mega-prosjekter:
+        title: Mega-prosjekter
+        score: 0.8228105781039607
+        tags: []
+      funksjonelle-team:
+        title: Funksjonelle team
+        score: 0.8236887632496451
+        tags: []
+      virtuelle-team:
+        title: Virtuelle team
+        score: 0.9948736205945188
+        tags: []
+      automatisert-oppsett-og-utrulling:
+        title: Automatisert oppsett og utrulling
+        score: 0.8178822052390473
+        tags: []
+      byggekjede:
+        title: Byggekjede
+        score: 0.8180924618779755
+        tags: []
+      automatisk-migrering-rollback-av-database:
+        title: Automatisk migrering/rollback av database
+        score: 0.49579827219772055
+        tags: []
+      provisjoneringsrammeverk:
+        title: Provisjoneringsrammeverk
+        score: 0.8182968633035673
+        tags: []
+      feature-toggling:
+        title: Feature toggling
+        score: 0.820771523684805
+        tags: []
+      feature-branches:
+        title: Feature branches
+        score: 0.8208206548668522
+        tags: []
+      kodekvalitetsmetrikker:
+        title: Kodekvalitetsmetrikker
+        score: 0.8203563903374237
+        tags: []
+      automatisert-ytelsestesting:
+        title: Automatisert ytelsestesting
+        score: 0.8211159729262008
+        tags: []
+      automatisert-deteksjon-av-sarbare-biblioteker:
+        title: Automatisert deteksjon av sårbare biblioteker
+        score: 0.8214813265719373
+        tags: []
+      distribuert-vcs:
+        title: Distribuert VCS
+        score: 0.4935650547693948
+        tags: []
+      sentralisert-vcs:
+        title: Sentralisert VCS
+        score: 0.8218868150289106
+        tags: []
+tags: []
+intro: null

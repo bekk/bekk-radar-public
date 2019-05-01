@@ -1,0 +1,5 @@
+I mange organisasjoner opererer man med ikke-funksjonelle krav, eller kvalitetskrav. Vi opplever ofte at disse kravene er vagt definerte og at de ikke tar form av konkrete oppgaver som man jobber målbevisst for å oppfylle i utviklingsløpet. I en påfølgende testfase gjør man kanskje – eller kanskje ikke – en avsjekk på om eller hvordan enkelte av kravene er oppfylt.
+
+Dersom man mener at kvalitetskrav er viktige, må de behandles deretter og ikke bli en salderingspost. Man bør definere hva man legger i kvalitet og hvilke egenskaper man skal ta hensyn til. ISO 25010-standarden definerer en kvalitetsmodell som kan være et utgangspunkt for oppfølging av kvalitetskrav.
+
+Kravene bør bli egne oppgaver på linje med funksjonelle oppgaver, så man kan jobbe målrettet for å nå dem. Kravene må være målbare slik at de enkelt lar seg verifisere. Da kan man også tilnærme seg kravene gjennom korte iterasjoner eller eksperimenter. 

@@ -1,0 +1,1 @@
+Funksjonell programmering er noe som kommer mer og mer. Det gir en muligheter å være mer kompakt i det man skriver og samtidig komme nærmere problemet man løser. F# er bra integrert i .NET så du kan benytte det kun i den delen av applikasjonen der du trenger kraften i et funksjonelt språk.

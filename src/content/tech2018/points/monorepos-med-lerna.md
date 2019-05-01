@@ -1,0 +1,5 @@
+Et monorepo er et Git-repository med flere forskjellige prosjekter i seg. Hvis man har mange beslektede prosjekter på GitHub-profilen sin, kan det kanskje virke logisk å slå de sammen. Denne organiseringen kan gi mening for å forenkle endringer på tvers av prosjektene.
+
+[Lerna](https://lernajs.io/) er et verktøy som letter arbeidet med monorepos for JavaScript-prosjekter, og er etter vår mening det beste verktøyet til dette. Lerna tar seg av oppdatering av versjoner, installering av kryss-avhengigheter og en haug andre problemer som dukker opp når man arbeider med mange pakker på tvers. Lerna fungerer godt sammen med [conventional commits](https://conventionalcommits.org/) – en konvensjon for Git-commits som lar Lerna automatisk oppdatere versjoner, changelogs og lage releases.
+
+Et godt eksempel kan være et designsystem, hvor flere pakker avhenger av hverandre. Med et monorepo slipper du unna med én pull request i stedet for mange.

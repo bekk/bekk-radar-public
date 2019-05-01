@@ -1,0 +1,5 @@
+Polyglot lagring handler om å bruke det beste verktøyet for å løse et gitt behov. Relasjonelle databaser og SQL har lenge vært måten lagring har blitt gjort på, men utviklingen på internett og nye bruksområder har ført til krav som en tradisjonell relasjonsdatabase har utfordringer med å tilfredsstille.  Å velge en data- og lagringsmodell laget spesifikt for behovet gjør at man unngår kompromisser.
+
+Mange nye databaser og varianter har kommet på banen (key/value, dokument, graf) og den senere tiden ser vi at polyglot lagring også i større grad kommer innebygget i ett og samme produkt. For eksempel støtter PostgreSQL JSON i dokumentdatabaser og har for ikke lenge siden lansert meget gode api-er for dette. ArrangoDB, OrientDB og andre nykommere er designet fra starten av som polyglot databaser.
+
+Vi tror at polyglot lagring er en løsning for fremtiden og flere prosjekter har allerede høstet gode erfaringer. Vi vil se mer av at de etablerte produsentene bekrefter denne retningen NoSQL har staket ut ved at de implementerer mer polyglot lagring i sine produkter.

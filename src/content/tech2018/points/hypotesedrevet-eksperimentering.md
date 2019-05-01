@@ -1,0 +1,9 @@
+Vi lever i en verden der kunden/brukeren sitter med makten, og har et utall valgmuligheter for å få dekket sine behov. Kampen om kundene står på å forutsi deres adferd og preferanser, og dekke behovene deres på best mulig måte. Men hvordan kan vi forutsi kundens adferd og preferanser? En måte er å formulere og teste hypoteser.
+
+En usikkerhet er en antagelse, som igjen kan kalles en hypotese. Ved å identifisere konseptets største usikkerheter har vi identifisert hypotesene som konseptet er basert på. Neste steg er å finne lav-kost-måter å teste om hypotesene stemmer eller ikke stemmer. Basert på utfallet av hypotesetestene kan vi bestemme tjenestekonseptets fremtid; skal det forkastes, justeres, eller kan det regnes som validert?
+
+En hypotesetest bør skje i en mest mulig reell setting, slik at testen er så god at utfallet bringer oss nærmere en beslutning. Det er mulig å teste mange ulike hypoteser, og testen må tilpasses konteksten. 
+
+I tidligfase tjeneste- eller konseptutvikling ønsker man kanskje å teste hvordan ulike verdiforslag appellerer til kundene. Her kan man bruke _Fake Doors_-metoden, som f.eks. kan være å lage en nettside som presenterer tjenestens verdiforslag med en tydelig _call to action_ (eks. "kjøp", "tips en venn", "bestill"). Tjenesten trenger ikke være utviklet – bak _call to action_ kan man f.eks. komme til en side med melding om at "tjenesten er under utvikling" eller liknende.
+
+Ved å teste ulike verdiforslag på ulike, men sammenlignbare kundegrupper, kan man få en idé om hvilket verdiforslag som fungerer best basert på konverteringsratene. Neste steg vil gjerne være å teste om, eller hvor mye, brukerne er villige til å betale for tjenesten. Dette kan man gjøre på samme måte, ved å også presentere ulike priser knyttet til et verdiforslag.

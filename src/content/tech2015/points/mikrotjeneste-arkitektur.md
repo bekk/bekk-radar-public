@@ -1,0 +1,5 @@
+I en mikrotjeneste-arkitektur deler man opp systemets totale funksjonalitet i mange små og isolerte komponenter som kan rulles ut uavhengig av hverandre. Komponentene er orientert rundt forretnings-funksjoner, eller "capabilities", og kommuniserer over en lettvekts-protokoll.
+
+Arkitekturen støtter opp om kvaliteter som oppetid, robusthet, skalering og ytelse, samtidig som uavhengig utviklingstakt mellom komponentene blir naturlig. Arkitekturen gjør det lettere å ta i bruk rett verktøy til rett jobb, raskere ta i bruk ny teknologi og enklere bytte ut utdaterte tjenester uten store kostnader ettersom hver komponent er fokusert, isolert og liten.
+
+Før man tar steget over til å bruke mikrotjenester er det viktig at man innser implikasjonene. Organisasjonen må tilpasse seg arbeidstakten og en mer distribuert utviklingsmodell. Man trenger også ha god kontroll på alt fra infrastruktur til applikasjonsdrift og ha kapasitet til å håndtere en mengde nye tekniske utfordringer inntil applikasjonsporteføljen har modnet.

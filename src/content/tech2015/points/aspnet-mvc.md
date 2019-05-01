@@ -1,0 +1,3 @@
+Neste versjon av ASP.NET MVC er en fusjon av Web API og MVC til et felles rammeverk. Neste versjon er snart ute, så om man starter nye webprosjekter så anbefaler vi at man benytter denne versjonen. Dersom man ikke har anledning til dette så er det bedre å bli på de versjonene som har support i dag.
+
+En ny feature som man absolutt bør vurdere hvis man kan gå for neste versjon av ASP.NET MVC er å benytte seg av Core CLR som skal være et "cloud-optimized runtime". Med dette får man et minimalt sett med avhengigheter og kan kjøre applikasjoner på forskjellige versjoner av .NET - noe som er en stor fordel i en organisasjon med flere applikasjoner.

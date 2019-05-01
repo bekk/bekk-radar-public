@@ -1,0 +1,5 @@
+[Elixir](http://elixir-lang.org/) er et ekstremt feiltolerant funksjonelt språk designet for å bygge skalerbare og vedlikeholdbare applikasjoner. Språket kjører på [Erlangs](https://www.erlang.org/) virtuelle maskin, en plattform som har blitt mye brukt i distribuerte systemer innenfor telekom, bank og e-handel hvor systemene har høye krav til ytelse og oppetid.
+
+En grunnleggende del av Erlang og Elixir, er Actors, som lar en opprette hundretusener av kommuniserende prosesser som sammen utfører oppgavene. Dette gjør det mulig å skalere en applikasjon utover flere noder som også henter seg inn igjen om deler av systemet feiler. 
+
+BEKK har ikke mye erfaring med Elixir, men språket er en up-and-coming plattform som er kjærlig omtalt i miljøet for funksjonell programmering. Og med webrammeverket Phoenix er Elixir et språk som det er verdt å vurdere for å skrive webapplikasjoner.

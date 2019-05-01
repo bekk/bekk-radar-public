@@ -1,0 +1,1 @@
+GDPR-regelverket berører hele IT-porteføljen, og for å oppfylle kravene om begrunnet lagring av persondata og ha muligheten til å hente ut all data om enkeltpersoner må IT-arkitekturen ha støtte for dette

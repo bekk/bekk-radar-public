@@ -1,0 +1,7 @@
+Med automatisert akseptansetest menes automatiserte tester som verifiserer funksjonalitet som forretningssiden bidrar til å skrive og vedlikeholde. De kan implementeres av utviklerne, men forretningssiden eier testene og kan tolke resultater fra kjøring av testene.
+
+For applikasjoner med mye forretnings- eller faglogikk er det fornuftig å ha automatiserte akseptansetester i tillegg til manuelle tester og automatiserte enhets-, integrasjon- og systemtester.
+
+Det lønner seg å ha forretningslogikken bak klart definerte grensesnitt i applikasjonen slik at de kan nås av de automatiserte akseptansetestene uten å gå via brukergrensesnittet. Automatiserte akseptansetester via brukergrensesnittet (f.eks web tester) er ikke å anbefale, da de er trege, skjøre og gjør det vanskelig å verifisere all implementert logikk. Fokus på automatisert akseptansetest bør inn på et tidlig stadie i et prosjekt slik at design og kode gjøres testbart. 
+
+Verktøy og biblioteker for automatisert akseptansetest er ikke alltid like gode og moderne, men de som har tabell-fokus (f.eks Excel-ark hvor en rad er en test) er ofte effektive. Alternativt kan man lage testene med skreddersøm. Det viktige er at forretningssiden kan lese og forstå testene, samt at det er enkelt å kjøre og forvalte testene i samme versjonskontrollsystem som resten av koden.

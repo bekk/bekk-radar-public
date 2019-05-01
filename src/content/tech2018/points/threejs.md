@@ -1,0 +1,5 @@
+Three.js er er lettvektsrammeverk for 3D- og 2D-grafikk via WebGL. Mens WebGL har gjort avansert høy-ytelses animert grafikk tilgjengelig i nettleseren, har det dratt med seg de tunge, nitidige og maskinvarespesifikke detaljene fra OpenGL-standarden. Dette abstraherer Three.js bort på en så effektiv måte at det er blitt en de facto standard for WebGL-rammeverk.
+
+Med Three.js jobber man med modeller, teksturer, kamera og andre elementer for å bygge sammen visualiseringer og animasjoner. Det følger også med godt skrevet kode for matematiske vektor-operasjoner, import av eksterne modellfiler og støtte for de forskjellige nettleserne.
+
+I Bekk har vi brukt Three.js for å lage visualiseringen på bekk.no, og som bakgrunn på stand på JavaZone. Vi har fått gode erfaringer med hvor fort man kan jobbe i Three.js, og hvor lett det er å koble visualiseringene til sanntidsdata. Three.js er et solid og trygt valg for 3D- og 2D-grafikk på nett.

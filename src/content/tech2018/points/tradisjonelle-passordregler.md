@@ -1,0 +1,7 @@
+Vi har alle vært der der. To nye måneder har gått, og passordet må skiftes. Minst åtte tegn. Må inneholde stor bokstav. Liten bokstav. To spesialtegn. Tre tall og en DNA-prøve fra din førstefødte. «Flott, en glimrende anledning til å komme opp med et nytt og enda sikrere passord!» Tenkte ingen. Noensinne. I stedet blir du forbanna. Lei. Hva var det siste tallet fra før? 7? Får prøve 8 denne gangen, da. Kanskje like greit å skrive ned passordet på en post-it og klistre det på skjermen.
+
+God sikkerhet får du ved å spille på lag med brukerne dine. Vi har tro på løsninger som oppfordrer og rådgir brukerne sine til å bruke sterke passord med [god entropi,](https://xkcd.com/936/) og la dem styre sin egen passordrotasjon. For å hindre at passordene gjettes bør du svarteliste de mest vanlige, og sørge for at kontoer låses etter for mange forsøk.
+
+Hvis du har behov for ekstra sikkerhet bør du bruke [to-faktor-autentisering](https://radar.bekk.no/tech2018/prosess-og-kvalitet/to-faktor-autentisering) for de mest kritiske delene av tjenesten.
+
+For en glimrende gjennomgang av passordregler anbefaler vi Troy Hunts bloggpost "[Passwords Evolved: Authentication Guidance for the Modern Era](https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/)".

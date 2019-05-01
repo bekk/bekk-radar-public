@@ -1,0 +1,371 @@
+title: Teknologiradar 2015
+levels:
+  - title: Avstå
+    radius: 1
+  - title: Vurder
+    radius: 0.8017405778313246
+  - title: Bruk
+    radius: 0.5894639906449874
+categories:
+  frontend-og-mobil:
+    title: Frontend og mobil
+    points:
+      bootstrap:
+        title: Bootstrap
+        score: 0.9961223444364947
+        tags: []
+      react:
+        title: React
+        score: 0.5841584695795944
+        tags: []
+      es6:
+        title: ES6
+        score: 0.7981790932113844
+        tags: []
+      universal-apps:
+        title: Universal apps
+        score: 0.7987774135259222
+        tags: []
+      less-og-sass:
+        title: Less og Sass
+        score: 0.798009188752082
+        tags: []
+      angular:
+        title: Angular
+        score: 0.7956065236356286
+        tags: []
+      ibeacons:
+        title: iBeacons
+        score: 0.7952455401399524
+        tags: []
+      web-components:
+        title: Web Components
+        score: 0.7958917482869872
+        tags: []
+      persistent-data-structures:
+        title: Persistent data structures
+        score: 0.7956147377287045
+        tags: []
+      isomorfe-javascript-applikasjoner:
+        title: Isomorfe JavaScript-applikasjoner
+        score: 0.7975585628383125
+        tags: []
+      xamarin:
+        title: Xamarin
+        score: 0.7988548504819646
+        tags: []
+      wearables:
+        title: Wearables
+        score: 0.7978517864675388
+        tags: []
+      wai-aria:
+        title: WAI-ARIA
+        score: 0.5864479177473031
+        tags: []
+      npm:
+        title: npm
+        score: 0.5878857693894899
+        tags: []
+      websockets-og-server-sent-events:
+        title: WebSockets og Server-Sent Events
+        score: 0.5877164865383976
+        tags: []
+      browserify-og-webpack:
+        title: browserify og webpack
+        score: 0.5850373943924139
+        tags: []
+      byggetrinn-for-frontend:
+        title: Byggetrinn for frontend
+        score: 0.5862941866700112
+        tags: []
+      hybrid-app:
+        title: Hybrid-app
+        score: 0.582771759363263
+        tags: []
+  sprak-og-rammeverk:
+    title: Språk og rammeverk
+    points:
+      objective-c:
+        title: Objective-C
+        score: 0.995371566077268
+        tags: []
+      komponent-baserte-rammeverk:
+        title: Komponent-baserte rammeverk
+        score: 0.9967748825327801
+        tags: []
+      typesafe-config:
+        title: Typesafe config
+        score: 0.7992423743694776
+        tags: []
+      hystrix:
+        title: Hystrix
+        score: 0.7936624214762602
+        tags: []
+      functional-reactive-programming:
+        title: Functional reactive programming
+        score: 0.7970917338859836
+        tags: []
+      go:
+        title: Go
+        score: 0.7987780561951668
+        tags: []
+      spring-boot:
+        title: Spring Boot
+        score: 0.7984517996734677
+        tags: []
+      clojure:
+        title: Clojure
+        score: 0.7934272449931163
+        tags: []
+      mikro-orm:
+        title: Mikro-ORM
+        score: 0.7981323625817905
+        tags: []
+      swift:
+        title: Swift
+        score: 0.5883078032134156
+        tags: []
+      aspnet-mvc:
+        title: ASP.net MVC
+        score: 0.588060225901399
+        tags: []
+      akka:
+        title: Akka
+        score: 0.5827321022117826
+        tags: []
+      funksjonell-programmering:
+        title: Funksjonell programmering
+        score: 0.5827475482760966
+        tags: []
+      f:
+        title: 'F#'
+        score: 0.5851193091825986
+        tags: []
+      sikkerhetsrammverk:
+        title: Sikkerhetsrammverk
+        score: 0.5884205583229963
+        tags: []
+      dropwizard:
+        title: Dropwizard
+        score: 0.5850397162908857
+        tags: []
+      hikaricp:
+        title: HikariCP
+        score: 0.5885708875326536
+        tags: []
+      lettvekts-integrasjonsrammeverk:
+        title: Lettvekts Integrasjonsrammeverk
+        score: 0.588444066415078
+        tags: []
+      rxjava:
+        title: RxJava
+        score: 0.5862050510783741
+        tags: []
+      scala:
+        title: Scala
+        score: 0.5808026613026556
+        tags: []
+      jooq-sql-i-java:
+        title: JooQ (SQL i java)
+        score: 0.5884600168286598
+        tags: []
+  arkitektur-og-plattform:
+    title: Arkitektur og plattform
+    points:
+      tjenesteorientering:
+        title: Tjenesteorientering
+        score: 0.5848661041348038
+        tags: []
+      mikrotjeneste-arkitektur:
+        title: Mikrotjeneste-arkitektur
+        score: 0.7944227239988985
+        tags: []
+      overdreven-standardisering:
+        title: Overdreven standardisering
+        score: 0.9957364993206774
+        tags: []
+      on-premise-sharepoint:
+        title: On-premise Sharepoint
+        score: 0.9959492763286643
+        tags: []
+      javascript-pa-backend:
+        title: JavaScript på backend
+        score: 0.7983039608284356
+        tags: []
+      lettvekts-virtualiseringsplatformer:
+        title: Lettvekts virtualiseringsplatformer
+        score: 0.7942196987279265
+        tags: []
+      angrepsdeteksjon:
+        title: Angrepsdeteksjon
+        score: 0.7967890610317112
+        tags: []
+      skallsikring:
+        title: Skallsikring
+        score: 0.7982951436961817
+        tags: []
+      docker:
+        title: Docker
+        score: 0.7941248731207424
+        tags: []
+      event-store:
+        title: Event Store
+        score: 0.7986383820053289
+        tags: []
+      hateoas-hypermedia-as-the-engine-of-application-state:
+        title: HATEOAS (Hypermedia as the Engine of Application State)
+        score: 0.7988535403407799
+        tags: []
+      elasticsearch:
+        title: Elasticsearch
+        score: 0.5881005983946865
+        tags: []
+      just-in-time-arkitektur:
+        title: Just-in-time arkitektur
+        score: 0.5820500046387199
+        tags: []
+      transisjonsarkitektur:
+        title: Transisjonsarkitektur
+        score: 0.5832425196127735
+        tags: []
+      office-365-sharepoint-online:
+        title: Office 365 (SharePoint Online)
+        score: 0.5844441333693547
+        tags: []
+      gradle:
+        title: Gradle
+        score: 0.5883223331009796
+        tags: []
+      infrastruktur-som-data:
+        title: Infrastruktur som data
+        score: 0.5881201051564072
+        tags: []
+      zookeeper:
+        title: ZooKeeper
+        score: 0.588523770372055
+        tags: []
+      monitorering-og-hyppig-deploy-fremfor-uttommende-testing:
+        title: Monitorering og hyppig deploy fremfor uttømmende testing
+        score: 0.5884583761803485
+        tags: []
+      visualisering-av-metrikker:
+        title: Visualisering av metrikker
+        score: 0.588400055977084
+        tags: []
+      hendelsesdrevet-arkitektur:
+        title: Hendelsesdrevet arkitektur
+        score: 0.5858586935042654
+        tags: []
+      polyglot-databaselosninger:
+        title: Polyglot databaseløsninger
+        score: 0.5863513943578434
+        tags: []
+      grafdatabaser:
+        title: Grafdatabaser
+        score: 0.5864583140546905
+        tags: []
+      private-cloud:
+        title: Private cloud
+        score: 0.5867627612690516
+        tags: []
+      logg-aggregering:
+        title: Logg-aggregering
+        score: 0.5863513943578434
+        tags: []
+      public-cloud:
+        title: Public cloud
+        score: 0.5840010887150039
+        tags: []
+      streaming-arkitektur:
+        title: Streaming arkitektur
+        score: 0.7980401201367844
+        tags: []
+      datomic:
+        title: Datomic
+        score: 0.7937259916605197
+        tags: []
+  prosess-og-kvalitet:
+    title: Prosess og kvalitet
+    points:
+      samlede-releaser:
+        title: Samlede releaser
+        score: 0.9957309478226137
+        tags: []
+      skreddersydd-datavarehus:
+        title: Skreddersydd datavarehus
+        score: 0.7990375865144933
+        tags: []
+      industrialisert-it:
+        title: Industrialisert IT
+        score: 0.9948934121886843
+        tags: []
+      smidig-i-hele-organisasjonen:
+        title: Smidig i hele organisasjonen
+        score: 0.5835708447491023
+        tags: []
+      automatisert-akseptansetest:
+        title: Automatisert akseptansetest
+        score: 0.5880629232981027
+        tags: []
+      automatisert-deteksjon-av-sarbare-biblioteker:
+        title: Automatisert deteksjon av sårbare biblioteker
+        score: 0.5880599806415449
+        tags: []
+      trello-for-samhandling:
+        title: Trello for samhandling
+        score: 0.583370902062258
+        tags: []
+      team-med-beslutningsmyndighet:
+        title: Team med beslutningsmyndighet
+        score: 0.5814926269244437
+        tags: []
+      kodeprinsipper:
+        title: Kodeprinsipper
+        score: 0.5884550939855957
+        tags: []
+      kontinuerlig-ytelsestesting:
+        title: Kontinuerlig ytelsestesting
+        score: 0.5880048649553549
+        tags: []
+      malbare-kvalitetskrav:
+        title: Målbare kvalitetskrav
+        score: 0.5862991581083333
+        tags: []
+      smidig-anskaffelse-trialsourcing:
+        title: Smidig anskaffelse/Trialsourcing
+        score: 0.5874581274743446
+        tags: []
+      consumer-driven-contracts:
+        title: Consumer-driven contracts
+        score: 0.5850664983359285
+        tags: []
+      deployment-pipeline:
+        title: Deployment Pipeline
+        score: 0.5853484118186026
+        tags: []
+      klassisk-prosjektgjennomforing:
+        title: Klassisk prosjektgjennomføring
+        score: 0.7999177690569989
+        tags: []
+      minst-mulig-prosess:
+        title: Minst mulig prosess
+        score: 0.7945822286549932
+        tags: []
+      lean-startups:
+        title: Lean startups
+        score: 0.7964880519461389
+        tags: []
+      pull-requests:
+        title: Pull-requests
+        score: 0.796640730571386
+        tags: []
+      kodekvalitetsmetrikker:
+        title: Kodekvalitetsmetrikker
+        score: 0.7984511341884977
+        tags: []
+      scrum:
+        title: Scrum
+        score: 0.9952595565291421
+        tags: []
+tags: []
+intro: 'Punktene i radaren er valgt ut med bakgrunn i de utfordringene våre kunder har, erfaringene vi gjør på våre prosjekter, og arbeidet vi gjør i faggruppene våre. Radaren er et bilde av hvordan vi ser på dette landskapet nå, med henblikk på teknologiens potensiale, modenhet og tilgjengelig kompetanse – alt i en norsk kontekst.'

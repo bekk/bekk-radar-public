@@ -1,0 +1,5 @@
+Å standardisere gjøres gjerne for å ha noen faste holdepunkter i en systemportefølje som er i konstant bevegelse. Standardisering skal sikre at systemene er forvaltbare og gjenkjennbare på tvers av porteføljen, og at organisasjonen har kontroll - både arkitekturmessig, økonomisk og strategisk.
+
+Men standardisering betyr også at man låser noe fast og inngår kompromisser, og dermed mister fleksibilitet, endringsevne og mulighet til å velge den optimale løsningen i hvert enkelt tilfelle. Virkeligheten endrer seg raskt, og hvis man standardiserer på feil eller for detaljert nivå, kan valgene raskt bli utdatert og gi en uhensiktsmessig begrensning på løsningene.
+
+Standardisering bør brukes strategisk. Standardiser på områder hvor det er viktig å sikre stabilitet og kontinuitet, men unngå det på områder hvor man trenger fleksibilitet og optimalt tilpassede løsninger. Standardisering har en pris, og det er ikke et mål i seg selv å standardisere.

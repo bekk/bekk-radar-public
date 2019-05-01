@@ -1,0 +1,415 @@
+title: Teknologiradar 2014
+levels:
+  - title: Avstå
+    radius: 1
+  - title: Vurder
+    radius: 0.8305531855963881
+  - title: Bruk
+    radius: 0.570037990538873
+categories:
+  frontend-og-mobil:
+    title: Frontend og mobil
+    points:
+      javascript-klienter:
+        title: JavaScript-klienter
+        score: 0.5630321784486075
+        tags: []
+      web-basert-mobilapp:
+        title: Web-basert mobilapp
+        score: 0.5690434878136003
+        tags: []
+      native-app:
+        title: Native-app
+        score: 0.8207904594719149
+        tags: []
+      websockets:
+        title: WebSockets
+        score: 0.8222343307169178
+        tags: []
+      sass-less:
+        title: 'SASS, LESS'
+        score: 0.5650496389113278
+        tags: []
+      requirejs:
+        title: RequireJS
+        score: 0.5629467056846902
+        tags: []
+      jquery:
+        title: jQuery
+        score: 0.564819888782194
+        tags: []
+      backbone:
+        title: Backbone
+        score: 0.5663035547137665
+        tags: []
+      angularjs:
+        title: Angular.js
+        score: 0.5673248627303316
+        tags: []
+      html5:
+        title: HTML5
+        score: 0.5668491327545565
+        tags: []
+      css3:
+        title: CSS3
+        score: 0.5669284030713534
+        tags: []
+      modulbaserte-frontendrammeverk:
+        title: Modulbaserte frontendrammeverk
+        score: 0.9957615388457127
+        tags: []
+      hybrid-app-basert-pa-rammeverk:
+        title: Hybrid-app basert på rammeverk
+        score: 0.8283087768590525
+        tags: []
+      alternative-webrammeverk-net:
+        title: Alternative Webrammeverk .NET
+        score: 0.8263094879300708
+        tags: []
+      rendre-gui-serverside:
+        title: Rendre GUI serverside
+        score: 0.8278790203655791
+        tags: []
+      nye-flater:
+        title: Nye flater
+        score: 0.8269361651627728
+        tags: []
+      pakkesystem-for-javascript:
+        title: Pakkesystem for JavaScript
+        score: 0.8235443336251215
+        tags: []
+      reactive-programming:
+        title: Reactive programming
+        score: 0.5686316067425929
+        tags: []
+      wai-aria:
+        title: WAI-ARIA
+        score: 0.5647655995470154
+        tags: []
+      distribuerte-frontend-komponenter:
+        title: Distribuerte frontend-komponenter
+        score: 0.8217276318588748
+        tags: []
+      prekompilator-for-javascript:
+        title: Prekompilator for JavaScript
+        score: 0.825579319984644
+        tags: []
+      hybrid-app-med-integrert-web-view:
+        title: Hybrid-app med integrert web view
+        score: 0.5687782261775267
+        tags: []
+      automatisert-bygging-av-mobilapplikasjoner:
+        title: Automatisert bygging av mobilapplikasjoner
+        score: 0.56898293537131
+        tags: []
+      wearables:
+        title: Wearables
+        score: 0.8213890041931368
+        tags: []
+      xamarin:
+        title: Xamarin
+        score: 0.8259553244318177
+        tags: []
+  sprak-og-rammeverk:
+    title: Språk og rammeverk
+    points:
+      ikke-invaderende-rammeverk:
+        title: Ikke-invaderende rammeverk
+        score: 0.5657215258442885
+        tags: []
+      elasticsearch:
+        title: Elasticsearch
+        score: 0.56690430596518
+        tags: []
+      orm-rammeverk:
+        title: ORM-rammeverk
+        score: 0.8284856443833399
+        tags: []
+      sikkerhetsrammeverk:
+        title: Sikkerhetsrammeverk
+        score: 0.5682210499613924
+        tags: []
+      grid-rammeverk:
+        title: Grid-rammeverk
+        score: 0.8284601037073523
+        tags: []
+      java-8:
+        title: Java 8
+        score: 0.562840275948553
+        tags: []
+      scala:
+        title: Scala
+        score: 0.5667988927778685
+        tags: []
+      clojure:
+        title: Clojure
+        score: 0.8255381514653084
+        tags: []
+      f:
+        title: 'F#'
+        score: 0.8248311693853885
+        tags: []
+      aspnet-mvc:
+        title: ASP.NET MVC
+        score: 0.5667360628502319
+        tags: []
+      wicket:
+        title: Wicket
+        score: 0.8301947840392025
+        tags: []
+      spring-mvc:
+        title: Spring MVC
+        score: 0.8251322919461204
+        tags: []
+      nodejs-som-stotteverktoy:
+        title: Node.js som støtteverktøy
+        score: 0.5685077026429091
+        tags: []
+      javaserver-faces:
+        title: 'JavaServer Faces '
+        score: 0.996413498370781
+        tags: []
+      funksjonell-javascript:
+        title: Funksjonell JavaScript
+        score: 0.568648658858598
+        tags: []
+      jax-rs:
+        title: JAX-RS
+        score: 0.5649230220049712
+        tags: []
+      gatling:
+        title: Gatling
+        score: 0.8222890278124532
+        tags: []
+      polyglot-jvm:
+        title: Polyglot JVM
+        score: 0.8256675801816109
+        tags: []
+      nodejs-serverside:
+        title: Node.js serverside
+        score: 0.8285608217937138
+        tags: []
+      promises-for-asynkronitet:
+        title: Promises for asynkronitet
+        score: 0.8222590707365967
+        tags: []
+      linux-containers:
+        title: Linux Containers
+        score: 0.8260788108965113
+        tags: []
+      solr:
+        title: SOLR
+        score: 0.5690250636904001
+        tags: []
+      ende-til-ende-rammeverk:
+        title: Ende-til-ende-rammeverk
+        score: 0.8291081904585245
+        tags: []
+      functional-reactive-programming:
+        title: Functional Reactive Programming
+        score: 0.8264181680700691
+        tags: []
+  arkitektur-og-plattform:
+    title: Arkitektur og plattform
+    points:
+      hendelsesdrevet-arkitektur:
+        title: Hendelsesdrevet arkitektur
+        score: 0.5687275087146948
+        tags: []
+      lagdelt-arkitektur:
+        title: Lagdelt arkitektur
+        score: 0.5684154613830147
+        tags: []
+      mikrotjenester:
+        title: Mikrotjenester
+        score: 0.5689286428036371
+        tags: []
+      asynkrone-tjenester:
+        title: Asynkrone tjenester
+        score: 0.5684882759546303
+        tags: []
+      actors:
+        title: Actors
+        score: 0.8224370115022059
+        tags: []
+      soap-ws-:
+        title: 'SOAP/WS-*'
+        score: 0.9948770451768918
+        tags: []
+      rest-niva-1-2:
+        title: REST nivå 1-2
+        score: 0.5658899087280032
+        tags: []
+      rest-niva-3:
+        title: REST nivå 3
+        score: 0.8302504823788118
+        tags: []
+      lettvekts-applikasjonsservere:
+        title: Lettvekts applikasjonsservere
+        score: 0.5658562069166256
+        tags: []
+      java-ee-5-6-applikasjonsservere:
+        title: Java EE 5/6 applikasjonsservere
+        score: 0.991888834894887
+        tags: []
+      enterprise-service-bus:
+        title: Enterprise Service Bus
+        score: 0.9926682851650221
+        tags: []
+      private-paas-iaas:
+        title: 'Private PaaS/IaaS '
+        score: 0.8254570238575367
+        tags: []
+      public-paas-iaas:
+        title: 'Public PaaS/IaaS '
+        score: 0.8239357512297386
+        tags: []
+      relasjonsdatabaser:
+        title: Relasjonsdatabaser
+        score: 0.5638056894045632
+        tags: []
+      key-value-databaser:
+        title: Key-value-databaser
+        score: 0.8223665734812009
+        tags: []
+      grafdatabaser:
+        title: Grafdatabaser
+        score: 0.5693515093761211
+        tags: []
+      dokumentdatabaser:
+        title: Dokumentdatabaser
+        score: 0.5688483221137639
+        tags: []
+      embedded-appcontainer:
+        title: Embedded appcontainer
+        score: 0.5643755376992915
+        tags: []
+      regel-og-prosessmotor:
+        title: Regel- og prosessmotor
+        score: 0.9929437218992264
+        tags: []
+      skreddersydd-datavarehus:
+        title: Skreddersydd datavarehus
+        score: 0.8241315874753092
+        tags: []
+      horisontal-skalering:
+        title: Horisontal skalering
+        score: 0.5668553159864128
+        tags: []
+      transisjonsarkitektur:
+        title: Transisjonsarkitektur
+        score: 0.5625329420967019
+        tags: []
+      polyglot-persistence:
+        title: Polyglot persistence
+        score: 0.8263841310651558
+        tags: []
+      totp:
+        title: TOTP
+        score: 0.5665002886985311
+        tags: []
+      mikromaskiner-og-prototypebrett:
+        title: Mikromaskiner og prototypebrett
+        score: 0.825959298968202
+        tags: []
+  prosess-og-kvalitet:
+    title: Prosess og kvalitet
+    points:
+      kanban:
+        title: Kanban
+        score: 0.5680974208624757
+        tags: []
+      scrum:
+        title: Scrum
+        score: 0.823689245370485
+        tags: []
+      devops:
+        title: DevOps
+        score: 0.5681306557676965
+        tags: []
+      kontinuerlige-leveranser:
+        title: Kontinuerlige leveranser
+        score: 0.5653301402909211
+        tags: []
+      smidig-anskaffelse:
+        title: Smidig anskaffelse
+        score: 0.8232673632048677
+        tags: []
+      prosjekt-linje-organisering:
+        title: Prosjekt-linje-organisering
+        score: 0.9921976116949436
+        tags: []
+      mega-prosjekter:
+        title: Mega-prosjekter
+        score: 0.9927473103780038
+        tags: []
+      funksjonelle-team:
+        title: Funksjonelle team
+        score: 0.8288975900129482
+        tags: []
+      automatisert-oppsett-og-utrulling:
+        title: Automatisert oppsett og utrulling
+        score: 0.8230910320023503
+        tags: []
+      byggekjede:
+        title: Byggekjede
+        score: 0.8233012886412785
+        tags: []
+      automatisk-migrering-rollback-av-database:
+        title: Automatisk migrering/rollback av database
+        score: 0.5679268008868046
+        tags: []
+      provisjoneringsrammeverk:
+        title: Provisjoneringsrammeverk
+        score: 0.8235056900668704
+        tags: []
+      feature-toggling:
+        title: Feature toggling
+        score: 0.5686585668377492
+        tags: []
+      kodekvalitetsmetrikker:
+        title: Kodekvalitetsmetrikker
+        score: 0.8255652171007267
+        tags: []
+      kontinuerlig-ytelsestesting:
+        title: Kontinuerlig ytelsestesting
+        score: 0.8225749867737014
+        tags: []
+      automatisert-deteksjon-av-sarbare-biblioteker:
+        title: Automatisert deteksjon av sårbare biblioteker
+        score: 0.8266901533352403
+        tags: []
+      distribuert-vcs:
+        title: Distribuert VCS
+        score: 0.5656935834584789
+        tags: []
+      sentralisert-vcs:
+        title: Sentralisert VCS
+        score: 0.9925098263881522
+        tags: []
+      tfs-build-server:
+        title: TFS Build Server
+        score: 0.9934481208854369
+        tags: []
+      github:
+        title: GitHub
+        score: 0.5661722085605697
+        tags: []
+      trello-for-samhandling:
+        title: Trello for samhandling
+        score: 0.5687045890254117
+        tags: []
+      alternative-byggesystemer:
+        title: Alternative byggesystemer
+        score: 0.8264185931945707
+        tags: []
+      logg-aggregator:
+        title: Logg-aggregator
+        score: 0.8220415297962926
+        tags: []
+      utvikling-drift-separasjon:
+        title: 'Utvikling-drift-separasjon '
+        score: 0.9934021244158968
+        tags: []
+tags: []
+intro: 'Punktene i radaren er valgt ut med bakgrunn i de utfordringene våre kunder har, erfaringene vi gjør på våre prosjekter, og arbeidet vi gjør i faggruppene våre. Radaren er et bilde av hvordan vi ser på dette landskapet nå, med henblikk på teknologiens potensiale, modenhet og tilgjengelig kompetanse – alt i en norsk kontekst.'

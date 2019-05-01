@@ -1,0 +1,5 @@
+I likhet med Dropwizard er Spring Boot et lite rammeverk som raskt lar deg komme i gang med Java-applikasjoner ved å samle et sett med rammeverk og bibliotek i et ferdig oppsett. Spring følger med på lasset, men har du allikevel tenkt å bruke Spring vil Spring Boot gjøre det enkelt for deg. Du kan velge mellom servere som Jetty, Tomcat og Undertow. Metrics, databasetilkobling, helsesjekk og kommandolinjeverktøy følger også med, for å nevne noen. Fra og med Spring Boot 1.2 får du også med Jersey, som gir JAX-RS-støtte, og det liker vi godt.
+
+Hvis du trekker inn en avhengighet du ikke har konfigurert kan Spring Boot autokonfigurere den, vel å merke dersom du har tillat det med å bruke @EnableAutoConfiguration-annotasjonen. Du kan fri deg fra de automatiske avhengighetene etterhvert. Spring Boot viker raskt unna om utvikleren overstyrer, og på den måten kan man begynne med avhengighetene Spring Boot gir, men gradvis gå over til et skreddersydd oppsett.
+
+Koblingen til Spring gjør at vi sier Vurdér. I mange prosjekter gir lettvektere som Guice deg det du trenger og bør vurderes.

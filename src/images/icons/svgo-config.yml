@@ -1,0 +1,5 @@
+plugins:
+  - removeDimensions: true
+  - transformsWithOnePath: true
+js2svg:
+  pretty: true

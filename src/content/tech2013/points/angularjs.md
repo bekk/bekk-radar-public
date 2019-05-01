@@ -1,0 +1,1 @@
+Angular.js er et Google-støttet JavaScript-rammeverk. Det er til en viss grad inspirert av Java-verdenen og benytter seg av IoC-mekanismer, som gir gode muligheter for å få på plass automatiske tester med for eksempel Jasmine. Angular.js begynner å få stor utbredelse, er fortsatt ikke mye brukt i BEKK-prosjekter, men velges ofte på nye satsinger.

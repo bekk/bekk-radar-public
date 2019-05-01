@@ -1,0 +1,76 @@
+@import "~styles/colors"
+@import "~styles/type"
+
+.footer-firstRow
+  color $color-white
+  display flex
+  align-items center
+  justify-content flex-start
+  height 3rem
+  margin 0 1rem
+
+.footer-feedback
+  border 2px solid $color-mediumGray
+  padding 0.45rem 0.6rem
+  font-size $fontSize-smaller
+  flex-grow 1
+  text-align center
+
+.footer-buttonList
+  display flex
+  align-items center
+  justify-content space-around
+  flex-grow 2
+
+.footer-buttonList li
+  display inline-block
+  border 2px solid $color-mediumDarkGray
+  padding 0.3rem 0.3rem
+
+.footer-feedback,
+.footer-buttonList li
+  transition border 100ms ease-in, color 100ms ease-in
+
+.footer-buttonListItemShare:hover,
+.footer-feedback:hover
+  border 2px solid $color-bekkRed
+  color $color-bekkRed
+
+.footer-buttonListItemFacebook:hover
+  border 2px solid $color-facebook
+  >.icon fill $color-facebook
+
+.footer-buttonListItemTwitter:hover
+  border 2px solid $color-twitter
+  >.icon fill $color-twitter
+
+.footer-buttonListItemLinkedin:hover
+  border 2px solid $color-linkedin
+  >.icon fill $color-linkedin
+
+.footer-linkList
+  display flex
+  justify-content center
+
+.footer-linkList li
+  color $color-bekkGray
+  font-size $fontSize-smaller
+  display inline-block
+  margin-right 0.5rem
+
+.footer-linkList li:first-child
+  font-weight 700
+
+.footer-linkList li a
+  color $color-bekkGray
+
+
+@media screen and (min-width: 600px)
+  .footer-buttonList
+    justify-content flex-end
+
+  .footer-buttonList li
+    margin-right 1rem
+
+  .footer-linkList li
+    margin-right 3rem

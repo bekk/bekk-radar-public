@@ -1,0 +1,7 @@
+_Autonome team_ er team som kan løse alle oppgaver som skal til for å videreutvikle produkter uten ekstern innblanding eller behov for å henvende seg til utenforstående personer.
+
+Teamene er kryssfunksjonelle og har ansvaret for hele livssyklusen til systemene de produserer. Autonomiteten gjør at de kan bevege seg raskt og smidig og på den måten understøtte forretningssiden sine ønsker om å lage best mulig tjenester på en forutsigbar måte. En forutsetning for å lykkes er en forretningsside som er involvert fra dag til dag.
+
+På ledelsesnivå setter man i gang slike team basert på et forretningsbehov eller en retning man tror på, og overlater til teamet å finne ut av resten. Når teamene vet hvor man vil med produktene som lages, og hvilken verdi man ønsker å oppnå, blir det lettere å ta de rette valgene.
+
+I BEKK har vi meget god erfaring med å jobbe på denne måten sammen med våre kunder. Vi opplever at det som produseres er fleksibelt og treffer forventningene til brukerne og forretningssiden godt. Vår erfaring er også at det som produseres har svært høy kvalitet, og at prosessen fra utvikling til produksjon blir meget smidig. Når teamet har det hele og fulle ansvaret opplever vi at oppgaver automatiseres, at systemene blir omfattende monitorert og at nye tjenester leveres hyppig og kontinuerlig. Vi tror at sammenhengen mellom ansvar og resultat er viktig.

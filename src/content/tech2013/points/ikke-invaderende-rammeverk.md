@@ -1,0 +1,1 @@
+En del rammeverk krever tett kobling til koden, hvor Hollywood-prinsippet gjelder ("Don't call us, we'll call you"). Hvis denne typen rammeverk ikke kan unngås, så bør anti-korrupsjonslag innføres for å holde foretningslogikken ren. Guice er et DI-rammeverk på fremmarsj, og som er enklere å bruke og mindre invaderende enn Spring.

@@ -1,0 +1,83 @@
+@import "~styles/colors"
+@import "~styles/type"
+@import "~styles/breakpoints"
+@import "~styles/zIndex"
+
+.smallCategoryChooser
+  color white
+  display none
+  align-items center
+  width 100%
+  justify-content center
+  z-index $zIndex-2
+  background $color-black
+
+.smallCategoryChooser--shortTitles
+  display flex
+  @media screen and (min-width: $breakpoint-min-medium)
+    display none
+
+.smallCategoryChooser-innerContainer
+  margin-right -4rem
+  width 100vw
+  display flex
+  align-items center
+
+.smallCategoryChooser-next
+  margin-right 1rem
+
+.smallCategoryChooser-prev
+  margin-left 1rem
+
+.smallCategoryChooser-next,
+.smallCategoryChooser-prev
+  border 0
+  text-decoration none
+  text-align center
+
+.smallCategoryChooser-currentCategory
+  flex-grow 1
+  min-height 4rem
+  position relative
+
+.smallCategoryChooser-currentCategory-text
+  position absolute
+  width 100%
+  height 4rem
+  text-transform uppercase
+  font-size $fontSize-small
+  display flex
+  flex-direction row
+  justify-content space-around
+  text-align center
+  align-items center
+
+  &.animate-right-enter
+    opacity 0.01
+    transform translate3d(20%, 0, 0)
+    &.animate-right-enter-active
+      opacity 1
+      transform translate3d(0, 0, 0)
+      transition opacity 300ms ease-in, transform 400ms ease-out
+  &.animate-right-leave
+    transform translate3d(0, 0, 0)
+    opacity 1
+    &.animate-right-leave-active
+      opacity 0.01
+      transform translate3d(-20%, 0, 0)
+      transition opacity 300ms ease-out, transform 400ms ease-out
+
+  &.animate-left-enter
+    opacity 0.01
+    transform translate3d(-20%, 0, 0)
+    &.animate-left-enter-active
+      opacity 1
+      transform translate3d(0, 0, 0)
+      transition opacity 300ms ease-in, transform 400ms ease-out
+  &.animate-left-leave
+    transform translate3d(0, 0, 0)
+    opacity 1
+    &.animate-left-leave-active
+      opacity 0.01
+      transform translate3d(20%, 0, 0)
+      transition opacity 300ms ease-out, transform 400ms ease-out

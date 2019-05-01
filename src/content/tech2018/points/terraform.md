@@ -1,0 +1,7 @@
+Terraform er infrastruktur definert i kode. Rammeverket lar deg etablere komplette miljøer hvor alt fra virtuelle servere til DNS og lagringstjenester fra ulike skyleverandører inngår. Ved behov for endringer i infrastrukturen lar Terraform deg rulle ut oppdateringer på en rask og trygg måte.
+
+Terraform er åpen kildekode og lages av det anerkjente firmaet HashiCorp som også står bak kjente DevOps-verktøy som Consul og Vault.
+
+I motsetning til lignende proprietære verktøy som Azure Resource Manager templates, AWS CloudFormation, Google Cloud Deployment Manager og OpenStack Heat, lar Terraform deg kombinere tjenester fra ulike skyplattformer i samme infrastruktur på en enhetlig og enkel måte. Det gjør bindingen til skyleverandøren mindre, samtidig som man kan utnytte styrkene i de ulike skyplattformene på en effektiv måte.
+
+Terraform-plattformen fortsetter å utvikle seg, og i den forbindelse er det særlig verdt å trekke frem [Terraform Module Registry](https://registry.terraform.io/) som inneholder en katalog over standardiserte og kvalitetssikrede løsninger. I tillegg kan nevnes at plugin-arkitekturen siden i fjor har fått seg en overhaling, slik at f.eks. nye providere raskere kan implementeres og oppdateres uavhengig av Terraform selv.   

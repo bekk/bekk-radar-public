@@ -1,0 +1,2 @@
+Skal du lage en ny web-løsning på .NET i dag, er MVC 5 det selvfølgelige valget. MVC gjør det lett å skille mellom visning og logikk, og er generelt mer testbart en sin storebror WebForms. Razor er også en god visningsmotor som gir deg som utvikler full kontroll på HTML-en som blir generert. Det kommer godt med i disse HTML5-tider.
+Web API er et rammeverk fra Microsoft som gjør det enkelt å lage HTTP-tjenester, f.eks. REST. Både MVC og Web API er gitt ut under en open source-lisens.

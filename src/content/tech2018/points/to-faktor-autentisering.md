@@ -1,0 +1,9 @@
+To-faktor-autentisering (2FA) krever ved innlogging en ekstra form for autentisering, i tillegg til for eksempel brukernavn og passord. 2FA er en effektiv måte å styrke sikkerheten rundt pålogging, ved å legge til et ekstra lag med sikkerhet.
+
+Fordi mennesker er svært dårlige til å huske gode passord, så gjenbrukes ofte passordene til flere tjenester. Når passord og brukernavn er gjenbrukt, er det potensielt nok at bare en av tjenestene har lekket brukerdata for at alle tjenestene kan bli kompromittert av angripere. Mange velger dessuten dårlige passord som er enkle å gjette. 
+
+2FA implementeres ofte som en kombinasjon av _noe du vet_ (typisk et passord) og _noe du har_ (f.eks. en kodekalkulator, mobiltelefon, sikkerhetskort eller elektronisk sertifikat). Det kan også benyttes en faktor av typen _noe du er_ (f.eks. biometri slik som fingeravtrykk, iris, stemme eller ansiktsform).
+
+Om man må ha fysisk tilgang til brukerens mobiltelefon for å få logget inn, så har man gjort det vesentlig mye vanskeligere for uvedkommende å få tilgang til brukerens konto. Man fjerner også en hel klasse med angrep, der angriperen kan sitte hvor som helst i verden og prøve ut stjålet innloggingsinformasjon mot forskjellige tjenester. 
+
+Vi anbefaler at man tar i bruk 2FA alle steder der det er tilgjengelig, som for eksempel GitHub og Dropbox. Du bør også vurdere å tilby 2FA til brukerne av dine egne applikasjoner, særlig hvis applikasjonene er tilgjengelig for allmennheten og kan inneholde personopplysninger.  Husk å ha en løsning for brukere som låser seg ute, og den bør helst være basert på noe mer enn kun at brukeren har tilgang til riktig epostadresse.  

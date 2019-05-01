@@ -1,0 +1,7 @@
+Det å implementere mekanismer for å håndtere passord, kryptering eller beskytte mot "Cross Site Scripting", er ofte mye vanskeligere enn man tror. Eksempelvis finnes det på Stack Overflow store mengder godtatte svar som er direkte feil. Innen sikkerhet bør man derfor velge rammeverk som er godt testet og bruker mekanismene på riktig måte.
+
+[Spring Security](https://projects.spring.io/spring-security/) er et modent Java-rammeverk for autentisering og autorisering. For enklere eller mindre løsninger kan [Apache Shiro](https://shiro.apache.org/) være et godt alternativ. Apache Shiro er et Java-rammeverk som håndterer autentisering, autorisering, sesjonshåndtering og kryptering. Det har god støtte for tilleggsfunksjonalitet man vanligvis ikke finner i slike rammeverk, så som korrekt caching av brukerobjekter og "husk meg"-støtte ved innlogging.
+
+[OWASP Java HTML Sanitizer](https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer_Project) gjør det mulig å la brukere publisere HTML uten at det utsetter applikasjonen for XSS-sårbarheter. Det er viktig at policy-konfigurasjonen man setter opp her er restriktiv. Jo åpnere policyen er, jo større risiko har en for å introdusere hull som gjør at en ondsinnet bruker kan injisere kjørbar kode. På klientsiden anbefales [DOMPurify](https://github.com/cure53/DOMPurify) for å unngå XSS-sårbarheter.
+
+BEKK benytter denne typen rammeverk på flere prosjekter.

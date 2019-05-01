@@ -1,0 +1,5 @@
+[Backends For Frontends (BFF)](http://samnewman.io/patterns/architectural/bff/) er et arkitekturmønster som har dukket opp og fått en del momentum de siste par årene. Kort fortalt handler BFF om to ting:
+
+1. Skille logikk og presentasjon. Tjenesten som genererer og tilgjengeliggjør data er ikke alltid det beste stedet å generere presentasjonen av dataene. Presentasjon av data har ofte behov, som for eksempel serverside rendering av JavaScript-applikasjoner, som går veldig på siden av hva en tjeneste som driver med forretningslogikk burde ha ansvaret for. Dette er mest aktuelt for web-frontends hvor behovene til levering av frontenden skiller seg ut.
+
+2. Være et sted for å konsolidere API-kall til ulike systemer. Dette behovet kan komme av ulike årsaker. Avgrensing av gamle systemer er kanskje den mest aktuelle, hvor en BFF kan fungere som en bro mellom et brukergrensesnitt og et gammelt system. En annen årsak kan være ytelse, samlingen av API-kall til flere ulike systemer til ett kall for å spare frontenden for ekstra jobb.

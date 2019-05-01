@@ -1,0 +1,1 @@
+ASP.NET WebForms var ment å være en myk landing i overgangen fra ASP til ASP.NET da .NET ble lansert. Nå oppleves en serverbasert modell for generering av side-basert HTML gammeldags og lite effektiv, både for utviklere og brukere.

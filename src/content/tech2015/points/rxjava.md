@@ -1,0 +1,3 @@
+RxJava er et lite, open-source bibliotek for å bygge hendelsesdrevne, parallelle og asynkrone programmer på JVM. Biblioteket er Reactive Extensions(Rx) implementert for JVM (http://reactivex.io/).
+
+Rx gir deg nyttige verktøy så du kan forholde deg til "infinite streams of bursting data" på en sømløs måte, uten å la datastrømmene gå over sine bredder og uten at sikringer går i utviklerhjernene. En bruker av et Rx-API trenger ikke vite om en operasjon er synkron eller asynkron - man gjør kallet på samme måte uansett. RxJava anbefales for alle som skal tilgjengeliggjøre et Java API. Rammeverket støtter mange forskjellige JVM-språk - slik at man enkelt kan integrere tjenester på tvers av språk.

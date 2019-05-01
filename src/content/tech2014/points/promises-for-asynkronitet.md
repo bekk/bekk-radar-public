@@ -1,0 +1,1 @@
+For å unngå dypt nøstede callbacks, bruker vi i stadig større grad promises for asynkronitet i JavaScript. Standardiseringen av promises, kalt Promises/A+, har kommet langt og vi vil etterhvert få native promises i JavaScript. Mens vi venter på native støtte, er det derimot en rekke biblioteker vi kan bruke for promises, blant annet anbefaler vi jQuery, Q og RSVP.js

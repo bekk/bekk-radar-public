@@ -1,0 +1,3 @@
+I en arkitektur hvor applikasjoner er avhengige av kontinuerlig kommunikasjon med hverandre kan ustabilitet i ett ledd fort forplante seg til mange ledd. Hystrix er et rammeverk utviklet av Netflix, som hjelper deg å unngå ytterligere belastning av tjenester som sliter, overvåke status, og realisere ulike fallback-strategier. Feil blir isolert i arkitekturen, noe som reduserer risikoen for forplantning av feil. I tillegg tilbyr Hystrix et godt monitorerings-dashboard ut av boksen.
+
+Tankegangen med automatiske circuit breakers, isolering av feil og fallback-strategier er god å ta med inn i arkitekturen uansett om man benytter Hystrix til dette eller ikke.

@@ -1,0 +1,3 @@
+"Persistent data structures" og "immutable objects" kan gjøre håndtering av tilstand og endringer enklere å forholde seg til. Ideen er enkel; data som er lagt til kan ikke endres. Dette konseptet brukes i LINQ (C#), Streams (Java 8) og funksjonell programmering. I tillegg finnes det biblioteker som Immutable.js (JavaScript) og Mori (ClojureScript). 
+
+Gjennom bruk av disse konseptene kan man enklere teste koden og man er sikret mot tilfeldige sideeffekter ved bruk av datastrukturer som parametere til funksjoner. Flere prosjekter i BEKK har gode erfaringer med bruk av disse konseptene.

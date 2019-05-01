@@ -1,0 +1,9 @@
+Angulars popularitet er igjen på vei oppover etter en lengre periode med nedgang, og dette rammeverket konkurrerer for øyeblikket med [React](https://radar.bekk.no/tech2017/frontend-og-mobil/react) om å være "det beste frontend rammeverket". Angular har nylig kommet i versjon 4. Versjonsnummeret kan virke høyt, men dette er fordi de har tatt i bruk [SemVer](http://semver.org/). I praksis er versjon 4 lik 2.4.3, og i motsetning til å oppgradere fra versjon 1.x til 2.x er oppgraderingen lett.
+
+Angular byr nå på et enklere og mindre rammeverk som kan brukes uten at man må være ekspert på hvordan directives fungerer. Som et eksempel bruker man nå isteden moduler som inneholder components, binding av data og dependency injection for å lage services.
+
+Angular.js (v1) fikk mye kritikk for å være et stort rammeverk. I versjon 2 og senere utgaver har man derimot gått bort ifra mange Angular-spesifikke konsepter og i større grad benyttet seg av standard JavaScript. Dette bidrar til en positiv effekt på læringskurven og gjør rammeverket lettere å ta i bruk. Noe annet som er nytt i Angular er at det er utviklet i TypeScript. Dette gjør at man kan ta i bruk [typet JavaScript](https://radar.bekk.no/tech2017/sprak-og-rammeverk/typet-javascript) hvis man ønsker det. Angular er imidlertid også tilgjengelig for ren JavaScript og Dart.
+
+Ønsker du å lage en SPA er det mulig å kombinere Angular med [Redux](https://radar.bekk.no/tech2017/frontend-og-mobil/redux), men vi anbefaler likevel at React er det som benyttes sammen med Redux.
+
+Om man bruker Angular.js på prosjekter i dag anbefaler vi å sette i gang med migrering til nyere versjoner. Ved å følge anbefalingene fra [angular-styleguide](https://github.com/johnpapa/angular-styleguide) kan man gjøre koden klar for migrering. Man har også mulighet for å ta i bruk upgrade-modulen som lar deg oppgradere applikasjonen gradvis, men dette medfører at man i migreringsperioden må kjøre begge versjonene side om side.

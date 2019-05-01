@@ -1,0 +1,107 @@
+@import "~styles/colors.styl"
+@import "~styles/type.styl"
+@import "~styles/zIndex.styl"
+@import "~styles/breakpoints.styl"
+
+.radarIndex
+  height 100%
+  display flex
+  flex-direction column
+
+.radarIndex-header
+  background $color-darkGrayBackground
+  display block
+
+.radarIndex-header-container
+  height 4rem
+  display flex
+  align-items center
+
+.radarIndex-header-logo
+  $logoAspectRatio = 405.0 / 99.0
+  position relative
+  top 0.015rem
+  height 1.15rem
+  width @height * $logoAspectRatio // because IE
+  display block
+  margin-left 1rem
+  margin-right 0.6rem
+
+.radarIndex-header-text
+  color $color-bekkRed
+  text-transform uppercase
+  font-size 1.35rem
+  padding-top: 3px
+  position relative
+
+.radarIndex-radars
+  flex-grow 1
+  overflow-y auto
+  display flex
+  max-width 100%
+
+.radarIndex-radars-list
+  margin 0
+  padding 0
+  display flex
+  flex-grow 1
+  align-items stretch
+  flex-wrap wrap
+  max-width 100%
+
+.radarIndex-radars-list-radar
+  flex-grow 1
+  list-style-type none
+  position relative
+  display flex
+  align-items stretch
+  overflow hidden
+  flex-basis 100vw
+  height 50vh // for devices not supporting calc
+  height calc(50vh - 2rem) // no divide because we need to support old android
+
+  @media screen and (orientation: landscape)
+    flex-basis 49vw
+    height calc(100vh - 3rem)
+  @media screen and (min-width: $breakpoint-min-extraLarge)
+    flex-basis 49vw
+    height 50vh // for devices not supporting calc
+    height calc(50vh - 2rem)
+
+.radarIndex-radars-list-radar-link
+  position relative
+  display flex
+  width 100%
+  &:hover .radarIndex-radars-list-radar-link-image
+    transform scale(1.1, 1.1)
+  &:hover .radarIndex-radars-list-radar-link-textWrapper-text
+    border-bottom 0.1em solid $color-bekkRed
+    transition border-bottom 0.2s ease-out 0s
+  &:focus .radarIndex-radars-list-radar-link-textWrapper-text
+    color $color-bekkRed
+    outline 1px dotted $color-bekkRed
+  &:focus:hover .radarIndex-radars-list-radar-link-textWrapper-text
+    outline none
+    color $color-white
+
+.radarIndex-radars-list-radar-link-image
+  transition transform 500ms cubic-bezier(0.46, 1, 0.64, 1.01)
+  width 100%
+  background url('../images/radar-index-placeholder.jpg') no-repeat center center local
+  background-size cover
+  background-position 50% 50%
+  opacity 0.7
+
+.radarIndex-radars-list-radar-link-textWrapper
+  position absolute
+  left 0
+  width 100%
+  height 100%
+  display flex
+  align-items center
+  justify-content space-around
+
+.radarIndex-radars-list-radar-link-textWrapper-text
+  border-bottom 0.1em solid transparent
+  color $color-white
+  font-size $fontSize-largest

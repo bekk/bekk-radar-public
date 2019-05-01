@@ -1,0 +1,59 @@
+@import "~styles/colors.styl"
+@import "~styles/menuButton.styl"
+
+*
+  box-sizing border-box
+  font-family sans-serif
+
+/* styles not controlled by react */
+.br-html, .br-body, .br-app
+  height 100%
+
+.br-html
+  background-color $color-black
+
+  // WebKit scrollbars (only on desktop)
+  @media screen and (pointer: fine)
+    ::-webkit-scrollbar // @stylint ignore (stylint bug)
+      width 0.5rem
+      height 0.5rem
+
+    ::-webkit-scrollbar-thumb // @stylint ignore (stylint bug)
+      background lighten($color-gray, 20%)
+      border-radius 0.25rem
+      &:hover
+        background lighten($color-gray, 30%)
+
+    ::-webkit-scrollbar-track // @stylint ignore (stylint bug)
+      background transparent
+
+  // IE scrollbars
+  scrollbar-face-color lighten($color-gray, 20%) // @stylint ignore
+  scrollbar-track-color $color-gray // @stylint ignore
+
+
+.screenReaderOnly
+  position absolute
+  width 1rem
+  height 1rem
+  margin -1rem
+  padding 0
+  overflow hidden
+  clip rect(0,0,0,0)
+  border 0
+
+.screenReaderOnly--focusable:active,
+.screenReaderOnly--focusable:focus
+  position static
+  width auto
+  height auto
+  margin 0
+  overflow visible
+  clip auto
+
+.clearfix:after
+  content ""
+  visibility hidden
+  display block
+  height 0
+  clear both

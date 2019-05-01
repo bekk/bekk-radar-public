@@ -1,0 +1,3 @@
+En del sverger fortsatt til virtuelle utviklerverktøy/utviklerimages.  Det betyr at utviklerne må jobbe på ferdigoppsatte VM'er som de ikke har mulighet til å tilpasse selv, og som i tillegg ofte har mindre ressurser tilgjengelig enn det de ville hatt på sin egen maskin.  Dette fører til lengre byggetider, mer venting og mindre effektivt arbeid.  Hvis noe går galt med utviklerimaget har man dessuten vanligvis ingen mulighet til å rette feilen selv, men blir avhengig av andre.  
+
+Utviklere bør få jobbe på sin egen maskin så langt det er mulig.  Når man selv kan velge hvilket operativsystem man vil bruke og hvilke verktøy og tilpasninger man trenger får man som utvikler mulighet til å bli mye mer effektiv i det daglige.  

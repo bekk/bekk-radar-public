@@ -1,0 +1,3 @@
+Forventningene til applikasjoner, systemer og innhold vi lager blir bare større og større. Et av områdene der forventningene har blitt høye, er hvilken grad av ytelse vi godtar. Hvor kjapp og responsiv en webside er spiller en viktig rolle i hvorvidt vi som brukere ønsker å bruke løsningen eller ikke. To til fem sekunder venting er smertegrensen for de fleste mennesker i dag.
+
+At ytelse er viktig er det nok ingen som blir overrasket over, samtidig erfarer vi ofte at ytelse blir sett på som en "ting vi kan fikse til slutt" i mange prosjekter. Ytelse er en feature, og må aktivt prioriteres og designes for. Vi mener det er viktig å fokusere på ytelsen til en applikasjon fra starten til prosjektet, og gjennom hele utviklingsprosessen.

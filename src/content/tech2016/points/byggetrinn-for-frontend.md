@@ -1,0 +1,7 @@
+Alle JavaScript-applikasjoner må i dag gjennom et byggetrinn, enten kun for å minifisere koden, eller større oppgaver som for eksempel modulhåndtering, transpilere fra andre språk, kjøre tester eller kvalitetssjekke koden. Det har kommet en rekke verktøy de siste årene, hvorav de mest kjente er [npm](https://radar.bekk.no/tech2016/frontend-og-mobil/npm), [Gulp](http://gulpjs.com/) og [Grunt](http://gruntjs.com/). Vi har hatt positive erfaringer med alle.
+
+Vi mener et viktig poeng er å kjøre koden under utvikling så nært som mulig slik den vil kjøres i produksjon. Med overvåkning av filendringer i byggeprosessen er det relativt smertefritt å kontinuerlig bygge en fil som ser lik ut i utvikling og produksjon, slik at du kan føle deg sikker mens du utvikler. En annen mulighet overvåkning av filer gir, er å kjøre testene hver gang du gjør kodeendringer. Da kan du kontinuerlig se status på testene.
+
+Samtidig vil vi påpeke at det er viktig å holde byggetrinnet enkelt, så det ikke blir for mye magi, og at byggesteget skal vedlikeholdes på lik linje med annen kode i prosjektet.
+
+Vi anbefaler å bruke JavaScript-baserte verktøy til bygging av JavaScript-applikasjoner, altså verktøy som kan kjøres fra [Node.js](https://radar.bekk.no/tech2016/arkitektur-og-plattform/nodejs).

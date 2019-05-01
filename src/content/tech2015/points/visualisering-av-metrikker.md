@@ -1,0 +1,3 @@
+For å oppnå og sikre stabil funksjonalitet og god ytelse må man oppdage unormal oppførsel i applikasjoner og infrastruktur tidlig på tvers av tjenester. Ved å visualisere ulike metrikker fra applikasjoner, kjøretidsmiljø og infrastruktur over tid kan man oppdage usunne trender tidlig, og samtidig få verdifull ny innsikt i hvordan applikasjonene faktisk brukes og kjører.
+
+For å få til dette må både applikasjoner og infrastruktur tilby uthenting av metrikker og man må visualisere og sammenstille metrikkene f.eks. i et dashboard. Dropwizard Metrics er et godt metrikkrapporteringsverktøy, mens Kibana, Graphite og Grafana er gode verktøy for visualisering.

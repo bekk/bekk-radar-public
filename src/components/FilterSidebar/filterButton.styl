@@ -1,0 +1,68 @@
+@import "~styles/colors"
+@import "~styles/type"
+
+.filterButton
+  font-size $fontSize-base
+  color $color-mediumLightGray
+  text-decoration none
+  padding 0.3em
+  background-color transparent
+  border none
+  text-align left
+  position relative
+  display inline-block
+  border 0.1rem solid transparent
+  & > *
+    position relative // don't let IE mess with position: http://stackoverflow.com/questions/6744406/internet-explorer-buttonactive-inner-padding
+
+.filterButton:focus
+  outline none
+  color $color-bekkRed
+
+.filterButton:hover
+  color $color-lightGray
+
+.filterButton > .filterButton-icon
+  position relative
+  display inline-block
+  height $fontSize-large
+  width $fontSize-large
+  background-color transparent
+  border 0.13rem solid $color-mediumDarkGray
+  border-radius 2px
+  margin-right 0.75rem
+  fill transparent
+  top 0.22rem
+
+.filterButton:hover > .filterButton-icon
+  background-color $color-bekkRed
+  border-color $color-bekkRed
+  transition all 0.2s ease-out 0s
+
+
+.filterButton.is-selected > .filterButton-icon
+  background-color $color-bekkRed
+  border-color $color-bekkRed
+  fill $color-lightGray
+  animation-name scaleUp
+  animation-duration 400ms
+
+  @keyframes scaleUp
+      0%
+        transform scale(1)
+      50%
+        transform scale(1.1)
+      100%
+        transform scale(1)
+
+.filterButton-icon
+  animation-name scaleDown
+  animation-duration 400ms
+
+  @keyframes scaleDown
+      0%
+        transform scale(1)
+      50%
+        transform scale(1.1)
+      100%
+        transform scale(1)

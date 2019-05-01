@@ -1,0 +1,3 @@
+De siste årene har vi sett stadig nye smarte klær, briller, armbånd og klokker. Spesielt har klokkene sett en oppsving i popularitet. Først gjennom Pebble, så Android wear og nå Apple Watch. Vi tror stadig flere vil eie en smartklokke i tiden fremover og det åpner for enda flere applikasjonsflater som det er verdt å investere kompetansetid i.
+
+Vi er nå tidlig i utviklingen rundt wearables, og vi tror ikke det finnes store muligheter for høy Return on investment på investeringer gjort rundt wearables i Norge for øyeblikket. Det kan dog være verdt å bygge kompetanse på dette, samt lage små prototyper eller stunts som kan vekke oppmerksomhet i markedet. Særlig ser vi spent på mulighetene som finnes rundt helse og aktivitetssporing.

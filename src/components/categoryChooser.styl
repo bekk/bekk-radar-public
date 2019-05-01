@@ -1,0 +1,87 @@
+@import "~styles/colors"
+@import "~styles/type"
+@import "~styles/breakpoints"
+@import "~styles/zIndex"
+
+.categoryChooser-container
+  overflow-x auto
+  overflow-y hidden
+  align-items center
+  display flex
+  justify-content flex-start
+  flex-direction row
+  z-index $zIndex-2
+  padding 0 1rem //needs padding-right/left or else category underline will cause scrolling
+  @media screen and (min-width: $breakpoint-min-medium)
+    background-color transparent
+  @media screen and (min-width: $breakpoint-min-large)
+    overflow-x hidden
+
+.categoryChooser-container--shortTitles
+  display none
+  @media screen and (min-width: $breakpoint-min-medium)
+    display flex
+
+.categoryChooser-buttonContainer
+  display flex
+  align-items center
+  justify-content flex-start
+  height 4rem
+  color $color-white
+  position relative
+
+.categoryChooser-buttonWrapper
+  padding 0
+
+.categoryChooser-numberContainer:first-of-type
+  margin-left 0
+
+.categoryChooser-numberContainer
+  list-style-type none
+  float left
+  flex-grow 1
+  justify-content center
+  align-items center
+  margin-left 1.2rem
+  height 100%
+
+.categoryChooser-category
+  text-decoration none
+  color $color-white
+  text-transform uppercase
+  font-size $fontSize-small
+  z-index $zIndex-1
+  border none
+  cursor pointer
+  display flex
+  height 100%
+  align-items center
+
+  &:hover
+    border none
+
+  &:focus
+    outline none
+    color $color-bekkRed
+    [data-whatinput="mouse"] &, [data-whatinput="touch"] &
+      color $color-white
+
+.categoryChooser-selected
+  position absolute
+  height 1rem
+  top unset
+  bottom 0
+  left 0
+
+.categoryChooser-container--shortTitles .categoryChooser-selected
+  @media screen and (min-width: $breakpoint-min-medium)
+    top unset
+    bottom 0
+
+.categoryChooser-selected-span
+  background $color-bekkRed
+  position absolute
+  width 0
+  height 0.3rem
+  transform translate(0,0)
+  transition transform 200ms ease-in, background 500ms ease-in, width 100ms ease-in

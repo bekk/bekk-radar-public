@@ -1,0 +1,7 @@
+Det begynner nå å bli etablert et marked for maskinlæringstjenester. På samme måte som for annen programvare, kan det å leie et produkt hvor mye er ferdig satt opp, konfigurert og driftet være et godt alternativ i mange tilfeller.
+
+De store aktørene, som [Google](https://cloud.google.com/ml/), [Amazon](https://aws.amazon.com/machine-learning/), [IBM](https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/) med flere, har alle etablerte skybaserte tjenester for maskinlæring. Akkurat nå virker det som om alle prøver å få sine plattformer til å bli markedsledende, så markedet er ikke veldig modent enda og det er mye bevegelse i tjenestene som tilbys.
+
+Selv om slike tjenester kan ta bort mye kompleksitet, og dermed senke behovet for innsikt i matematikk og statistikk, må man ikke undervurdere hvilke krav som stilles til dataene som tjenestene og algoritmene skal operere på. Det vil være kritisk å avklare om dine data passer til en gitt algoritme – og også hva som vil være nødvendig av datavask, konvertering eller annen prosessering før du kan få gode resultater.
+
+Anbefalingen vår er å følge med på hva som skjer på området, men vær kritisk til kvalitet, helhetsbilde og forutsetninger for å få tjenestene til å fungere med dine data. Slike tjenester er i startfasen nå, og det vil ta en stund før de blir ferdig utprøvd, får stor utbredelse og – ikke minst – blir brukervennlige.

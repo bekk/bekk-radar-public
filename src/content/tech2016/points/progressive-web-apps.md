@@ -1,0 +1,11 @@
+Vi vet at [progressive enhancement](https://radar.bekk.no/tech2016/frontend-og-mobil/progressive-enhancement) er en nøkkelfaktor for å lage gode produkter for weben. Men til nå har det vært utfordrende å jobbe på lag med nettleseren med et ønske om mer applikasjonsaktig oppførsel og tjenestebasert funksjonalitet, fremfor kun statisk informasjon og innhold. Men det har skjedd en rekke nyvinninger på nettleserteknologifronten det siste året som er med på å dekke disse behovene.
+
+[ServiceWorker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) er en programmerbar cache for nettleseren som gir et stort løft til offline-støtte og ytelse i henting av ressurser. ServiceWorker kommer også med muligheten for å kunne registrere kode for kjøring mens nettsiden er lukket, slik at webapplikasjoner kan ha periodiske jobber på lik linje med native mobilapplikasjoner. 
+
+[WebWorkers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) er lettvekts prosesser som kan gjøre CPU-intensivt arbeid på en annen tråd enn UI-tråden, for et løft i opplevd ytelse. Det har også kommet en rekke nye device-sensor API-er, som f.eks. geolocation, orientation og vibration, som gir webapplikasjoner en del av de samme mulighetene som mobilapplikasjoner. 
+
+[WebRTC](https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC) gir muligheten til å integrere med kamera og mikrofon, notifikasjons-API-er, og mye mer.
+
+Disse teknologiene, og den generelle retningen weben beveger seg i, gjør at vi ikke lenger er nødt til å gi avkall på det weben er god på for å lage gode og brukervennlige applikasjoner. Vi kan velge webens overlegne distribusjonsmekanisme og få god ytelse, offline-støtte og device-integrasjon med på kjøpet.
+
+Dette er fortsatt ganske fersk teknologi, så det er fortsatt en del egeninnsats som må påberegnes for å høste god funksjonalitet. Spesifikasjonene er ganske stabile, men noen endringer må forventes. Men det er ingen grunn til å ikke starte med utforskning og kunnskapsbygging på disse teknologiene, for de har kommet for å bli.

@@ -1,0 +1,5 @@
+[Scala](http://www.scala-lang.org/) er et hybrid funksjonelt og objektorientert språk som kjører på JVM-en. Scala har et avansert typesystem og alt man forventer av et fullblods funksjonelt språk inkludert høyere ordens funksjoner, pattern-matching og et standardbibliotek med effektive immutable datastrukturer.
+
+En av fordelene med Scala er at det muliggjør en gradvis overgang fra tradisjonell objektorientert programmering til det funksjonelle paradigmet, og det har avansert IDE-støtte i både Eclipse og IntelliJ.
+
+Scala brukes i store forretningskritiske systemer hos bl.a. LinkedIn, Twitter og The Guardian. I BEKK bruker vi Scala i flere kundeprosjekter i kombinasjon med bl.a. [Akka](https://radar.bekk.no/tech2016/sprak-og-rammeverk/akka), [Play](https://www.playframework.com/), [Spark](http://spark.apache.org/) og [Gatling](http://gatling.io/#/). Scala kan tas inn i eksisterende utviklingsmiljø, rulles ut på eksisterende Java-infrastruktur og er et reelt alternativ til Java 8.

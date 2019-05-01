@@ -1,0 +1,3 @@
+[WAI-ARIA](https://www.w3.org/WAI/intro/aria) er en spesifikasjon fra W3C som definerer hvordan applikasjoner og annet nettinnhold kan gjøres tilgjengelig for de som bruker IKT-hjelpemidler – som for eksempel skjermlesere.
+
+WAI-ARIA er et sett attributter som settes på HTML-elementer og fungerer som et ekstra lag med beskrivende metadata. Disse er ikke ment som en erstatning for det semantiske innholdet som god bruk av HTML allerede gir, men som et tillegg. Det kan brukes til å informere skjermleseren om tilstander og oppdateringer i grensesnittet, noe som HTML i selg selv ikke har støtte for. Eksempelvis kan vi ved hjelp av WAI-ARIA informere brukeren om hvorvidt en meny er åpen eller lukket, om nytt innhold er lastet inn, eller om en feilmelding har dukket opp.

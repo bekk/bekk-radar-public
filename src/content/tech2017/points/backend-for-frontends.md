@@ -1,0 +1,7 @@
+Backends For Frontends (BFF) er et arkitekturmønster som har dukket opp og fått en del momentum de siste par årene. BFF går ut på å la ulike frontends, f.eks. for web og mobil, ha hver sin backend slik at spesialtilpasninger på APIet for den aktuelle frontenden kan gjennomføres uten at det går utover vedlikeholdbarheten til forretningens kjerne-API.
+
+For eksempel vil mobil-frontenden bruke minst mulig båndbredde ved å redusere datamengden per kall, mens web-frontenden vil kunne sende mer data over linjen. Man kan også se for seg API-er som er spesiallaget for funksjonalitet på en frontend, for eksempel for å ta imot `form-data` fra et nettleserskjema.
+
+Dette ekstra laget gjør også at det teamet som vedlikeholder en gitt frontend får kontroll over sin egen backend, og at det teamet som vedlikeholder kjernesystemet ikke trenger å ta inn over seg alle de ulike casene som må løses for en spesifikk frontend. Med kontroll over sin egen backend kan et frontendteam også realisere en del gevinster som før ble mer komplekse - det er ikke uvanlig at teknologiske avgjørelser basert på behovene til kjerne-APIet smitter utover og påvirker frontende unødig. Med BFF kan dette reduseres eller forhindres.
+
+Som et eksempel kan det for en web-frontend være veldig aktuelt å gjøre renderingen av JavaScript-applikasjoner direkte på serveren. Dette krever ofte en type server-teknologi som vanligvis ikke egner seg spesielt godt for forretningsprosesser. Men med en egen BFF kan denne typen optimalisering gjennomføres uten at det påvirker basis-API-et.

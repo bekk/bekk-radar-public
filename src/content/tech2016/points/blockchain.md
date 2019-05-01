@@ -1,0 +1,5 @@
+Blockchain er den distribuerte og signerte transaksjonsloggen som understøtter hovedboka i Bitcoin. Blockchain muliggjør en direkte overføring av en digital ressurs _uten en sentral myndighet eller mellomledd_. Dette er ikke begrenset til Bitcoin eller kryptovaluta. 
+
+Potensialet for blockchain omfatter smarte kontrakter, eiendomsbevis, distribuert lagring og prosessering, identitetsdokumenter, folkefinansiering, musikkdistribusjon, helseopplysniger og mye mer. Spesielt finansvirksomheter eksperimenterer nå med denne teknologien, mens Ethereum tar mål av seg til å redefinere Internett med sin blockchain. Estland tilbyr _Notarius publicus_  via blockchain, Azure tilbyr Blockchain as a Service, og selskaper som IBM og Intel etablerer Open Ledger Initiative. 
+
+Potensialet er enormt, aktiviteten er overveldende, men vær oppmerksom på overoppheting.

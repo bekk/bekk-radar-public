@@ -1,0 +1,54 @@
+@import "~styles/zIndex"
+@import "~styles/breakpoints"
+
+.radar-sweep
+  position fixed
+  top 0
+  right 0
+  bottom 0
+  overflow visible
+  left 0
+  pointer-events none
+  z-index $zIndex-1
+  @media screen and (min-width: $breakpoint-min-large)
+    position absolute
+    overflow hidden
+
+.radar-sweep-container
+  display block
+  height 140vh
+  width 140vh
+  margin-left -70vh
+  left 50%
+  top 20%
+  z-index $zIndex-8
+  animation-name spin
+  animation-duration 2s
+  animation-iteration-count 1
+  animation-timing-function linear
+  // We force the animation into hardware acceleration (GPU)
+  // Do not remove translate3d!
+  transform rotateZ(-90deg) translate3d(0,0,0)
+  backface-visibility hidden
+  perspective 1000px
+  position absolute
+  transform-origin 50% -100vw
+  @media screen and (min-width: $breakpoint-min-large)
+    margin-left unset
+    top unset
+    position relative
+    left unset
+    height 200vw
+    width auto
+
+
+.radar-sweep-container-svg
+  width 100%
+  height 100%
+
+  @keyframes spin
+      from
+        transform rotateZ(-20deg) translate3d(0,0,0)
+      to
+        transform rotateZ(40deg) translate3d(0,0,0)
+

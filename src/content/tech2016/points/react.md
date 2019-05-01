@@ -1,0 +1,7 @@
+[React](https://facebook.github.io/react/) blir av mange oppfattet som noe nytt, og representerer det kule som "alle" skal ha en bit av om dagen. Sannheten er at det har gått hele tre år siden Facebook åpnet kildekoden til dette biblioteket, som de skrev for å løse utfordringene knyttet til utviklingen av sin massive webapplikasjon.
+
+Det siste året har oppmerksomheten rundt React virkelig skutt i været. Med React bygger man små, gjenbrukbare komponenter med en deklarativ tilnærming – en uttrykker hvordan applikasjonen skal se ut, heller enn hvilke DOM-operasjoner som er nødvendig for å oppnå det man ønsker. Dette er en veldig behagelig måte å jobbe på, og dette har gjort at React har blitt et svært utbredt verktøy for å bygge komplekse webapplikasjoner.
+
+En av fordelene med React er at den konseptuelle modellen er lett å forstå, noe som gjør det enkelt for nye utviklere å sette seg inn i. Vi bruker React på svært mange av våre prosjekter med stort hell, og nær sagt alle nye prosjekter som har startet opp det siste året bruker React.
+
+Utfordringen med React er at det kan sies å kun være V-laget i en MVC-arkitektur, og det trenger dermed minst én lekekamerat for å få en helhetlig frontendarkitektur. Her finnes det flere gode alternativer som f.eks. [Redux](https://radar.bekk.no/tech2016/sprak-og-rammeverk/redux). Det er likevel en jobb å sette alt dette sammen og dette er kanskje det største ankepunktet mot React.

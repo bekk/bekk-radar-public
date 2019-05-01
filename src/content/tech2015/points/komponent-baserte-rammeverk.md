@@ -1,0 +1,5 @@
+Vi har gjort vår andel web-prosjekter med ulike komponent-baserte web-rammeverk og teknologier. Eksempler på dette er Wicket og JSF i Java, Web Forms for .NET, og Lift i Scala. I dag er den komponentorienterte tankegangen på hell, og vi vil anbefale å avstå fra slik teknologi i dag når man starter på nye prosjekter.
+
+Komponent-baserte rammeverk gjør et forsøk på å abstrahere bort mye av hvordan web-en egentlig fungerer, f.eks. http og request/response-flyten. Dersom man skal feilsøke, eller utvikle ting rammeverket ikke støtter "ut av boksen", må man imidlertid ofte alikevel forholde seg til, og forstå, det som er forsøkt abstrahert bort.
+
+En annen utfordring med bruk av rammeverkene er at de gir tett binding mellom frontend og backend. Dette gjør det vanskelig å ha ulik endringstakt på de ulike delene av applikasjonen og det blir problematisk å oppgradere/bytte ut frontend-rammeverket uavhengig av backend. 

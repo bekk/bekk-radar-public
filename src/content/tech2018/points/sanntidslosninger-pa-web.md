@@ -1,0 +1,7 @@
+Stadig flere nettsteder tar nå i bruk sannstids webløsninger, det vil si løsninger der grensesnittet fortløpende oppdateres med informasjon fra eksterne kilder. Det er mange populære eksempler på slike applikasjoner, f.eks. chat, samarbeid i Google Docs og multiplayer-spill.
+
+For at brukeren skal oppleve løsningen som sanntid, dvs. at oppdatering kommer i samme øyeblikk som de skjer eksternt, kreves det at både frontend og ikke minst backend er designet for sanntidsoppførsel. Det å lage gode sanntids webapplikasjoner er derfor mest en arkitekturutfordring, og i mindre grad et spørsmål om nettleserteknologi.
+
+For å lage sanntids webløsninger, er det beste alternativer å bruke WebSockets fordi de oppretter en toveis kobling mellom nettleser og server. Dette gjør at du kan sende data fra serveren til nettleseren i det data endres og ikke må vente på at nettleseren spør om oppdateringer. WebSockets bryter dermed med den klassiske klient/tjener-modellen og gjør at web-applikasjoner kan få spennende funksjonalitet. Alle vanlige nettlesere har full støtte for WebSockets.
+
+Samtidig er det slik at komponentene i infrastrukturen omkring serveren noen ganger kan skape problemer for WebSockets. Feil eller manglende støtte i brannmur eller reverse proxy kan gi overraskelser eller bli omfattende å feilsøke. Du bør derfor undersøke hvordan WebSockets fungerer i din infrastruktur før du baserer deg for sterkt på denne teknologien.

@@ -1,0 +1,1 @@
+Mustache og Handlebars er eksempler på templating-rammeverk som er blottet for logikk og kontrollstrukturer. Det finnes for mange plattformer, men vi bruker JS-varianten i web-applikasjoner, og da gjerne sammen med MVC-rammeverk. 

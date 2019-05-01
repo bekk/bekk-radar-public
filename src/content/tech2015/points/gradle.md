@@ -1,0 +1,3 @@
+Vi mener oppgaveorienterte verktøy som Gradle er bedre skikket enn pluginbaserte verktøy som Maven og Ant til byggerelaterte oppgaver i prosjekter. Groovy er en mer lesbar måte å uttrykke prosjektets oppgaver på enn XML, man kan utføre flere oppgaver og man utvikler seg i takt med prosjektets livssyklus. 
+
+Anerkjente firmaer som Netflix, SpringFramework og LinkedIn benytter seg i stor grad av Gradle for sine Java-prosjekter. BEKK har også god erfaring med å bruke Gradle som en sentral byggesten i flere prosjekter og vi ser at det kan brukes til mer enn å bare bygge Java-pakker. Verktøyet er meget modent, hyppig utviklet, har masse plugins og vel verdt å ta en titt på som arvtaker for Maven.

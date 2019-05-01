@@ -1,0 +1,1 @@
+Apache Wicket er et komponentorientert web-rammeverk i Java. Det har vært ganske så populært de siste 4-5 årene, og vi har gjort vår andel av web-prosjekter med Wicket. Nå er den komponentorienterte web-æraen på hell, og vi ville ikke startet en ny web-applikasjon på Wicket.

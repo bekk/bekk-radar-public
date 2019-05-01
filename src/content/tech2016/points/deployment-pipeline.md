@@ -1,0 +1,5 @@
+Automatisert bygging, testing, release og deploy er en sentral del av kontinuerlige leveranser. Deployment pipeline er en måte å bryte opp denne prosessen i mindre deler for å få rask feedback. Pipelines gir også en god visuell oversikt, en god pekepinn på flaskehalser i prosessen og gjør noe som ofte er komplekst lett forståelig.
+
+I BEKK har vi flere prosjekter som benytter seg av Deployment Pipelines i forskjellige kontinuerlige integrasjonsservere som [TeamCity](https://www.jetbrains.com/teamcity/), [Jenkins](https://jenkins.io/) og [Bamboo](https://www.atlassian.com/software/bamboo) og vi vil anbefale det for bruk i alle prosjekter. Et annet godt alternativ verdt å se på er Thougtworks sin [Go](https://www.thoughtworks.com/go/) hvor kjernefunksjonaliteten er sentrert rundt Deployment Pipelines.
+
+Det kan også være verdt å se på [ChatOps](https://radar.bekk.no/tech2016/prosess-og-kvalitet/chatops) som et supplement til, eller som en erstatning, for Deployment Pipelines.

@@ -1,0 +1,5 @@
+I tradisjonelle systemutviklingsprosjekter baserer man seg ofte på at arkitekturen defineres på et detaljert nivå før utviklingsløpet begynner - gjerne gjennom en kombinasjon av tidlig detaljplanlegging og vedtatte standarder for teknologi og produkter.
+
+En slik fremgangsmåte harmonerer dårlig med et smidig leveranseregime og selvdrevne team som har ansvar for egne systemer. Rigide rammer på feil nivå  fjerner muligheten til å velge optimal arkitektur og teknologi i hvert enkelt tilfelle.
+
+Arkitektur bør utarbeides gradvis og iterativt ved at man til enhver tid gjør de valg som trengs for å komme videre i prosessen. Videre bør arkitektur på et gitt nivå sette overordnede rammer for arkitekturen på nivået under uten å begrense handlingsrommet unødig. Ettersom virkeligheten stadig endrer seg bør man etterstrebe en arkitektur som tåler endringer og kan justeres over tid.

@@ -1,0 +1,1 @@
+HTML5 kommer med veldig mye snacks. Det har fortsatt vesentlige problemer med nettleser-støtte på stasjonære og bærbare maskiner, og er derfor mest relevant for mobilapplikasjoner. HTML5-shims kan være en løsning på dette.

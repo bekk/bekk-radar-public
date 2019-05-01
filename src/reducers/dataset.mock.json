@@ -1,0 +1,2184 @@
+{
+    "radar": {
+        "title": "Technologiradar 2015",
+        "levels": [{
+            "radius": 0.5,
+            "title": "Bruk"
+        }, {
+            "radius": 0.75,
+            "title": "Vurder"
+        }, {
+            "radius": 1,
+            "title": "Avstå"
+        }],
+        "categories": {
+            "languages": {
+                "title": "Språk og rammeverk",
+                "points": {
+                    "go": {
+                        "title": "Go",
+                        "score": 0.65,
+                        "tags": ["go", "google"],
+                        "markdown": "# Go\n\nGo er et programmeringsspråk utviklet av google. blablabla. Kjør programmer med `go run`.\n\n## Egenskaper ved go\n\n * a\n * lsjfsld\n * lalala\n\n## Eksempel\n\n```go\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"hello world\")\n}\n```\n\n[Les mer om Go](https://golang.org)\n",
+                        "id": "go",
+                        "categoryId": "languages"
+                    },
+                    "scala": {
+                        "title": "Scala",
+                        "score": 0.05,
+                        "tags": ["scala"],
+                        "markdown": "# Scala\n\nNoe om scala\n",
+                        "id": "scala",
+                        "categoryId": "languages"
+                    },
+                    "objc": {
+                        "title": "Objective C",
+                        "score": 0.85,
+                        "tags": ["objective","google"],
+                        "markdown": "# Objective C\n\nNoe om Objective C\n",
+                        "id": "objc",
+                        "categoryId": "languages"
+                    }
+                },
+                "id": "languages"
+            },
+            "frontend": {
+                "title": "Frontend og mobil",
+                "points": {
+                    "react": {
+                        "title": "React",
+                        "score": 0.1,
+                        "markdown": "# React\n\nReact er laget av Facebook, og har vokst raskt i popularitet gjennom det\nforegående året. Biblioteket brukes for å utvikle brukergrensesnittet i\njavascript-applikasjoner, gjerne som V-en i et MVC-rammeverk, eller med\nFlux-arkitekturen til Facebook. \n\nI motsetning til større js-rammeverk som Angular kan React tas i bruk på deler\nav applikasjonen, uten å kreve at hele applikasjonen benytter seg av React. Med\nReact bygger man små gjenbrukbare komponenter med en deklarativ tilnærming - en\nuttrykker hvordan applikasjonen skal se ut, heller enn hvilke DOM-operasjoner\nsom er nødvendige for å oppnå det man ønsker.\n\nGjennom å generere midlertidige DOM-noder i JavaScript og benytte en\ndiff-algoritme, kan React beregne om det i det hele tatt trenger å gjøre en\nendring i DOM-en når data forandrer seg og hva som er den minimale endringen\nsom skal til. Slik sett abstraherer man bort DOM-en og oppnår samtidig svært\ngod ytelse.\n\nDen deklarative tilnærmingen inspirert av funksjonell programmering oppleves\nsom svært nyttig i utviklingen av komplekse grensesnitt.\n\n```jsx\n// tutorial2.js\nvar CommentList = React.createClass({\n  render: function() {\n    return (\n      <div className=\"commentList\">\n        Hello, world! I am a CommentList.\n      </div>\n    );\n  }\n});\n\nvar CommentForm = React.createClass({\n  render: function() {\n    return (\n      <div className=\"commentForm\">\n        Hello, world! I am a CommentForm.\n      </div>\n    );\n  }\n});\n```\n",
+                        "id": "react",
+                        "categoryId": "frontend"
+                    }
+                },
+                "id": "frontend"
+            }
+        },
+        "id": "2015"
+    },
+    "index": {
+        "version": "0.6.0",
+        "fields": [{
+            "name": "title",
+            "boost": 10
+        }, {
+            "name": "categoryId",
+            "boost": 1
+        }, {
+            "name": "markdown",
+            "boost": 1
+        }, {
+            "name": "score",
+            "boost": 1
+        }, {
+            "name": "tags",
+            "boost": 100
+        }, {
+            "name": "title",
+            "boost": 1
+        }, {
+            "name": "_id",
+            "boost": 1
+        }],
+        "ref": "id",
+        "documentStore": {
+            "store": {
+                "go": ["a", "blablabl", "egenskap", "eksempel", "fmt", "func", "go", "googl", "import", "kjør", "lalal", "languag", "les", "lsjfsld", "main", "mer", "packag", "programm", "programmeringsspråk", "run", "utvikl", "world"],
+                "scala": ["languag", "scal"],
+                "objc": ["c", "languag", "objectiv"],
+                "react": ["a", "abstraher", "algoritm", "am", "angul", "applikasjon", "arkitektur", "benytt", "beregn", "bibliotek", "bort", "bruk", "brukergrensesnitt", "bygg", "classnam", "commentform", "commentlist", "dat", "deklarativ", "del", "diff", "div", "dom", "endring", "facebook", "flux", "forandr", "foregå", "frontend", "function", "funksjonell", "generer", "gjenbrukbar", "gjennom", "gjern", "gjør", "god", "grensesnitt", "hel", "hell", "hello", "inspirer", "javascript", "js", "jsx", "kompleks", "komponent", "krev", "lag", "midlertid", "minimal", "motsetning", "mvc", "nod", "nytt", "nødvend", "operasjon", "opplev", "oppnå", "oppnår", "popularit", "programmering", "rammeverk", "raskt", "react", "rend", "return", "samtid", "se", "sett", "små", "størr", "svært", "tas", "tatt", "tilnærming", "treng", "tutorial", "uttrykk", "utvikl", "utvikling", "v", "vokst", "world", "ytels", "året", "ønsk"]
+            },
+            "length": 4
+        },
+        "tokenStore": {
+            "root": {
+                "docs": {},
+                "a": {
+                    "docs": {
+                        "go": {
+                            "ref": "go",
+                            "tf": 0.03571428571428571
+                        },
+                        "react": {
+                            "ref": "react",
+                            "tf": 0.016260162601626018
+                        }
+                    },
+                    "b": {
+                        "docs": {},
+                        "s": {
+                            "docs": {},
+                            "t": {
+                                "docs": {},
+                                "r": {
+                                    "docs": {},
+                                    "a": {
+                                        "docs": {},
+                                        "h": {
+                                            "docs": {},
+                                            "e": {
+                                                "docs": {},
+                                                "r": {
+                                                    "docs": {
+                                                        "react": {
+                                                            "ref": "react",
+                                                            "tf": 0.008130081300813009
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "l": {
+                        "docs": {},
+                        "g": {
+                            "docs": {},
+                            "o": {
+                                "docs": {},
+                                "r": {
+                                    "docs": {},
+                                    "i": {
+                                        "docs": {},
+                                        "t": {
+                                            "docs": {},
+                                            "m": {
+                                                "docs": {
+                                                    "react": {
+                                                        "ref": "react",
+                                                        "tf": 0.008130081300813009
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "m": {
+                        "docs": {
+                            "react": {
+                                "ref": "react",
+                                "tf": 0.016260162601626018
+                            }
+                        }
+                    },
+                    "n": {
+                        "docs": {},
+                        "g": {
+                            "docs": {},
+                            "u": {
+                                "docs": {},
+                                "l": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.008130081300813009
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "p": {
+                        "docs": {},
+                        "p": {
+                            "docs": {},
+                            "l": {
+                                "docs": {},
+                                "i": {
+                                    "docs": {},
+                                    "k": {
+                                        "docs": {},
+                                        "a": {
+                                            "docs": {},
+                                            "s": {
+                                                "docs": {},
+                                                "j": {
+                                                    "docs": {},
+                                                    "o": {
+                                                        "docs": {},
+                                                        "n": {
+                                                            "docs": {
+                                                                "react": {
+                                                                    "ref": "react",
+                                                                    "tf": 0.032520325203252036
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "r": {
+                        "docs": {},
+                        "k": {
+                            "docs": {},
+                            "i": {
+                                "docs": {},
+                                "t": {
+                                    "docs": {},
+                                    "e": {
+                                        "docs": {},
+                                        "k": {
+                                            "docs": {},
+                                            "t": {
+                                                "docs": {},
+                                                "u": {
+                                                    "docs": {},
+                                                    "r": {
+                                                        "docs": {
+                                                            "react": {
+                                                                "ref": "react",
+                                                                "tf": 0.008130081300813009
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "b": {
+                    "docs": {},
+                    "l": {
+                        "docs": {},
+                        "a": {
+                            "docs": {},
+                            "b": {
+                                "docs": {},
+                                "l": {
+                                    "docs": {},
+                                    "a": {
+                                        "docs": {},
+                                        "b": {
+                                            "docs": {},
+                                            "l": {
+                                                "docs": {
+                                                    "go": {
+                                                        "ref": "go",
+                                                        "tf": 0.03571428571428571
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "e": {
+                        "docs": {},
+                        "n": {
+                            "docs": {},
+                            "y": {
+                                "docs": {},
+                                "t": {
+                                    "docs": {},
+                                    "t": {
+                                        "docs": {
+                                            "react": {
+                                                "ref": "react",
+                                                "tf": 0.016260162601626018
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "r": {
+                            "docs": {},
+                            "e": {
+                                "docs": {},
+                                "g": {
+                                    "docs": {},
+                                    "n": {
+                                        "docs": {
+                                            "react": {
+                                                "ref": "react",
+                                                "tf": 0.008130081300813009
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "i": {
+                        "docs": {},
+                        "b": {
+                            "docs": {},
+                            "l": {
+                                "docs": {},
+                                "i": {
+                                    "docs": {},
+                                    "o": {
+                                        "docs": {},
+                                        "t": {
+                                            "docs": {},
+                                            "e": {
+                                                "docs": {},
+                                                "k": {
+                                                    "docs": {
+                                                        "react": {
+                                                            "ref": "react",
+                                                            "tf": 0.008130081300813009
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "o": {
+                        "docs": {},
+                        "r": {
+                            "docs": {},
+                            "t": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "r": {
+                        "docs": {},
+                        "u": {
+                            "docs": {},
+                            "k": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.016260162601626018
+                                    }
+                                },
+                                "e": {
+                                    "docs": {},
+                                    "r": {
+                                        "docs": {},
+                                        "g": {
+                                            "docs": {},
+                                            "r": {
+                                                "docs": {},
+                                                "e": {
+                                                    "docs": {},
+                                                    "n": {
+                                                        "docs": {},
+                                                        "s": {
+                                                            "docs": {},
+                                                            "e": {
+                                                                "docs": {},
+                                                                "s": {
+                                                                    "docs": {},
+                                                                    "n": {
+                                                                        "docs": {},
+                                                                        "i": {
+                                                                            "docs": {},
+                                                                            "t": {
+                                                                                "docs": {},
+                                                                                "t": {
+                                                                                    "docs": {
+                                                                                        "react": {
+                                                                                            "ref": "react",
+                                                                                            "tf": 0.008130081300813009
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "y": {
+                        "docs": {},
+                        "g": {
+                            "docs": {},
+                            "g": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "e": {
+                    "docs": {},
+                    "g": {
+                        "docs": {},
+                        "e": {
+                            "docs": {},
+                            "n": {
+                                "docs": {},
+                                "s": {
+                                    "docs": {},
+                                    "k": {
+                                        "docs": {},
+                                        "a": {
+                                            "docs": {},
+                                            "p": {
+                                                "docs": {
+                                                    "go": {
+                                                        "ref": "go",
+                                                        "tf": 0.03571428571428571
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "k": {
+                        "docs": {},
+                        "s": {
+                            "docs": {},
+                            "e": {
+                                "docs": {},
+                                "m": {
+                                    "docs": {},
+                                    "p": {
+                                        "docs": {},
+                                        "e": {
+                                            "docs": {},
+                                            "l": {
+                                                "docs": {
+                                                    "go": {
+                                                        "ref": "go",
+                                                        "tf": 0.03571428571428571
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "n": {
+                        "docs": {},
+                        "d": {
+                            "docs": {},
+                            "r": {
+                                "docs": {},
+                                "i": {
+                                    "docs": {},
+                                    "n": {
+                                        "docs": {},
+                                        "g": {
+                                            "docs": {
+                                                "react": {
+                                                    "ref": "react",
+                                                    "tf": 0.016260162601626018
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "f": {
+                    "docs": {},
+                    "m": {
+                        "docs": {},
+                        "t": {
+                            "docs": {
+                                "go": {
+                                    "ref": "go",
+                                    "tf": 0.07142857142857142
+                                }
+                            }
+                        }
+                    },
+                    "u": {
+                        "docs": {},
+                        "n": {
+                            "docs": {},
+                            "c": {
+                                "docs": {
+                                    "go": {
+                                        "ref": "go",
+                                        "tf": 0.03571428571428571
+                                    }
+                                },
+                                "t": {
+                                    "docs": {},
+                                    "i": {
+                                        "docs": {},
+                                        "o": {
+                                            "docs": {},
+                                            "n": {
+                                                "docs": {
+                                                    "react": {
+                                                        "ref": "react",
+                                                        "tf": 0.016260162601626018
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "k": {
+                                "docs": {},
+                                "s": {
+                                    "docs": {},
+                                    "j": {
+                                        "docs": {},
+                                        "o": {
+                                            "docs": {},
+                                            "n": {
+                                                "docs": {},
+                                                "e": {
+                                                    "docs": {},
+                                                    "l": {
+                                                        "docs": {},
+                                                        "l": {
+                                                            "docs": {
+                                                                "react": {
+                                                                    "ref": "react",
+                                                                    "tf": 0.008130081300813009
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "a": {
+                        "docs": {},
+                        "c": {
+                            "docs": {},
+                            "e": {
+                                "docs": {},
+                                "b": {
+                                    "docs": {},
+                                    "o": {
+                                        "docs": {},
+                                        "o": {
+                                            "docs": {},
+                                            "k": {
+                                                "docs": {
+                                                    "react": {
+                                                        "ref": "react",
+                                                        "tf": 0.016260162601626018
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "l": {
+                        "docs": {},
+                        "u": {
+                            "docs": {},
+                            "x": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "o": {
+                        "docs": {},
+                        "r": {
+                            "docs": {},
+                            "a": {
+                                "docs": {},
+                                "n": {
+                                    "docs": {},
+                                    "d": {
+                                        "docs": {},
+                                        "r": {
+                                            "docs": {
+                                                "react": {
+                                                    "ref": "react",
+                                                    "tf": 0.008130081300813009
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "e": {
+                                "docs": {},
+                                "g": {
+                                    "docs": {},
+                                    "å": {
+                                        "docs": {
+                                            "react": {
+                                                "ref": "react",
+                                                "tf": 0.008130081300813009
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "r": {
+                        "docs": {},
+                        "o": {
+                            "docs": {},
+                            "n": {
+                                "docs": {},
+                                "t": {
+                                    "docs": {},
+                                    "e": {
+                                        "docs": {},
+                                        "n": {
+                                            "docs": {},
+                                            "d": {
+                                                "docs": {
+                                                    "react": {
+                                                        "ref": "react",
+                                                        "tf": 1
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "g": {
+                    "docs": {},
+                    "o": {
+                        "docs": {
+                            "go": {
+                                "ref": "go",
+                                "tf": 11.214285714285714
+                            }
+                        },
+                        "o": {
+                            "docs": {},
+                            "g": {
+                                "docs": {},
+                                "l": {
+                                    "docs": {
+                                        "go": {
+                                            "ref": "go",
+                                            "tf": 0.03571428571428571
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "d": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        }
+                    },
+                    "e": {
+                        "docs": {},
+                        "n": {
+                            "docs": {},
+                            "e": {
+                                "docs": {},
+                                "r": {
+                                    "docs": {},
+                                    "e": {
+                                        "docs": {},
+                                        "r": {
+                                            "docs": {
+                                                "react": {
+                                                    "ref": "react",
+                                                    "tf": 0.008130081300813009
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "j": {
+                        "docs": {},
+                        "e": {
+                            "docs": {},
+                            "n": {
+                                "docs": {},
+                                "b": {
+                                    "docs": {},
+                                    "r": {
+                                        "docs": {},
+                                        "u": {
+                                            "docs": {},
+                                            "k": {
+                                                "docs": {},
+                                                "b": {
+                                                    "docs": {},
+                                                    "a": {
+                                                        "docs": {},
+                                                        "r": {
+                                                            "docs": {
+                                                                "react": {
+                                                                    "ref": "react",
+                                                                    "tf": 0.008130081300813009
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "n": {
+                                    "docs": {},
+                                    "o": {
+                                        "docs": {},
+                                        "m": {
+                                            "docs": {
+                                                "react": {
+                                                    "ref": "react",
+                                                    "tf": 0.016260162601626018
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "r": {
+                                "docs": {},
+                                "n": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.008130081300813009
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "ø": {
+                            "docs": {},
+                            "r": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "r": {
+                        "docs": {},
+                        "e": {
+                            "docs": {},
+                            "n": {
+                                "docs": {},
+                                "s": {
+                                    "docs": {},
+                                    "e": {
+                                        "docs": {},
+                                        "s": {
+                                            "docs": {},
+                                            "n": {
+                                                "docs": {},
+                                                "i": {
+                                                    "docs": {},
+                                                    "t": {
+                                                        "docs": {},
+                                                        "t": {
+                                                            "docs": {
+                                                                "react": {
+                                                                    "ref": "react",
+                                                                    "tf": 0.008130081300813009
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "i": {
+                    "docs": {},
+                    "m": {
+                        "docs": {},
+                        "p": {
+                            "docs": {},
+                            "o": {
+                                "docs": {},
+                                "r": {
+                                    "docs": {},
+                                    "t": {
+                                        "docs": {
+                                            "go": {
+                                                "ref": "go",
+                                                "tf": 0.03571428571428571
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "n": {
+                        "docs": {},
+                        "s": {
+                            "docs": {},
+                            "p": {
+                                "docs": {},
+                                "i": {
+                                    "docs": {},
+                                    "r": {
+                                        "docs": {},
+                                        "e": {
+                                            "docs": {},
+                                            "r": {
+                                                "docs": {
+                                                    "react": {
+                                                        "ref": "react",
+                                                        "tf": 0.008130081300813009
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "k": {
+                    "docs": {},
+                    "j": {
+                        "docs": {},
+                        "ø": {
+                            "docs": {},
+                            "r": {
+                                "docs": {
+                                    "go": {
+                                        "ref": "go",
+                                        "tf": 0.03571428571428571
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "o": {
+                        "docs": {},
+                        "m": {
+                            "docs": {},
+                            "p": {
+                                "docs": {},
+                                "l": {
+                                    "docs": {},
+                                    "e": {
+                                        "docs": {},
+                                        "k": {
+                                            "docs": {},
+                                            "s": {
+                                                "docs": {
+                                                    "react": {
+                                                        "ref": "react",
+                                                        "tf": 0.008130081300813009
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "o": {
+                                    "docs": {},
+                                    "n": {
+                                        "docs": {},
+                                        "e": {
+                                            "docs": {},
+                                            "n": {
+                                                "docs": {},
+                                                "t": {
+                                                    "docs": {
+                                                        "react": {
+                                                            "ref": "react",
+                                                            "tf": 0.008130081300813009
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "r": {
+                        "docs": {},
+                        "e": {
+                            "docs": {},
+                            "v": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "l": {
+                    "docs": {},
+                    "a": {
+                        "docs": {},
+                        "l": {
+                            "docs": {},
+                            "a": {
+                                "docs": {},
+                                "l": {
+                                    "docs": {
+                                        "go": {
+                                            "ref": "go",
+                                            "tf": 0.03571428571428571
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "n": {
+                            "docs": {},
+                            "g": {
+                                "docs": {},
+                                "u": {
+                                    "docs": {},
+                                    "a": {
+                                        "docs": {},
+                                        "g": {
+                                            "docs": {
+                                                "go": {
+                                                    "ref": "go",
+                                                    "tf": 1
+                                                },
+                                                "scala": {
+                                                    "ref": "scala",
+                                                    "tf": 1
+                                                },
+                                                "objc": {
+                                                    "ref": "objc",
+                                                    "tf": 1
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "g": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        }
+                    },
+                    "e": {
+                        "docs": {},
+                        "s": {
+                            "docs": {
+                                "go": {
+                                    "ref": "go",
+                                    "tf": 0.03571428571428571
+                                }
+                            }
+                        }
+                    },
+                    "s": {
+                        "docs": {},
+                        "j": {
+                            "docs": {},
+                            "f": {
+                                "docs": {},
+                                "s": {
+                                    "docs": {},
+                                    "l": {
+                                        "docs": {},
+                                        "d": {
+                                            "docs": {
+                                                "go": {
+                                                    "ref": "go",
+                                                    "tf": 0.03571428571428571
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "m": {
+                    "docs": {},
+                    "a": {
+                        "docs": {},
+                        "i": {
+                            "docs": {},
+                            "n": {
+                                "docs": {
+                                    "go": {
+                                        "ref": "go",
+                                        "tf": 0.07142857142857142
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "e": {
+                        "docs": {},
+                        "r": {
+                            "docs": {
+                                "go": {
+                                    "ref": "go",
+                                    "tf": 0.03571428571428571
+                                }
+                            }
+                        }
+                    },
+                    "i": {
+                        "docs": {},
+                        "d": {
+                            "docs": {},
+                            "l": {
+                                "docs": {},
+                                "e": {
+                                    "docs": {},
+                                    "r": {
+                                        "docs": {},
+                                        "t": {
+                                            "docs": {},
+                                            "i": {
+                                                "docs": {},
+                                                "d": {
+                                                    "docs": {
+                                                        "react": {
+                                                            "ref": "react",
+                                                            "tf": 0.008130081300813009
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "n": {
+                            "docs": {},
+                            "i": {
+                                "docs": {},
+                                "m": {
+                                    "docs": {},
+                                    "a": {
+                                        "docs": {},
+                                        "l": {
+                                            "docs": {
+                                                "react": {
+                                                    "ref": "react",
+                                                    "tf": 0.008130081300813009
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "o": {
+                        "docs": {},
+                        "t": {
+                            "docs": {},
+                            "s": {
+                                "docs": {},
+                                "e": {
+                                    "docs": {},
+                                    "t": {
+                                        "docs": {},
+                                        "n": {
+                                            "docs": {},
+                                            "i": {
+                                                "docs": {},
+                                                "n": {
+                                                    "docs": {},
+                                                    "g": {
+                                                        "docs": {
+                                                            "react": {
+                                                                "ref": "react",
+                                                                "tf": 0.008130081300813009
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "v": {
+                        "docs": {},
+                        "c": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        }
+                    }
+                },
+                "p": {
+                    "docs": {},
+                    "a": {
+                        "docs": {},
+                        "c": {
+                            "docs": {},
+                            "k": {
+                                "docs": {},
+                                "a": {
+                                    "docs": {},
+                                    "g": {
+                                        "docs": {
+                                            "go": {
+                                                "ref": "go",
+                                                "tf": 0.03571428571428571
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "r": {
+                        "docs": {},
+                        "o": {
+                            "docs": {},
+                            "g": {
+                                "docs": {},
+                                "r": {
+                                    "docs": {},
+                                    "a": {
+                                        "docs": {},
+                                        "m": {
+                                            "docs": {},
+                                            "m": {
+                                                "docs": {
+                                                    "go": {
+                                                        "ref": "go",
+                                                        "tf": 0.03571428571428571
+                                                    }
+                                                },
+                                                "e": {
+                                                    "docs": {},
+                                                    "r": {
+                                                        "docs": {},
+                                                        "i": {
+                                                            "docs": {},
+                                                            "n": {
+                                                                "docs": {},
+                                                                "g": {
+                                                                    "docs": {
+                                                                        "react": {
+                                                                            "ref": "react",
+                                                                            "tf": 0.008130081300813009
+                                                                        }
+                                                                    },
+                                                                    "s": {
+                                                                        "docs": {},
+                                                                        "s": {
+                                                                            "docs": {},
+                                                                            "p": {
+                                                                                "docs": {},
+                                                                                "r": {
+                                                                                    "docs": {},
+                                                                                    "å": {
+                                                                                        "docs": {},
+                                                                                        "k": {
+                                                                                            "docs": {
+                                                                                                "go": {
+                                                                                                    "ref": "go",
+                                                                                                    "tf": 0.03571428571428571
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "o": {
+                        "docs": {},
+                        "p": {
+                            "docs": {},
+                            "u": {
+                                "docs": {},
+                                "l": {
+                                    "docs": {},
+                                    "a": {
+                                        "docs": {},
+                                        "r": {
+                                            "docs": {},
+                                            "i": {
+                                                "docs": {},
+                                                "t": {
+                                                    "docs": {
+                                                        "react": {
+                                                            "ref": "react",
+                                                            "tf": 0.008130081300813009
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "r": {
+                    "docs": {},
+                    "u": {
+                        "docs": {},
+                        "n": {
+                            "docs": {
+                                "go": {
+                                    "ref": "go",
+                                    "tf": 0.03571428571428571
+                                }
+                            }
+                        }
+                    },
+                    "a": {
+                        "docs": {},
+                        "m": {
+                            "docs": {},
+                            "m": {
+                                "docs": {},
+                                "e": {
+                                    "docs": {},
+                                    "v": {
+                                        "docs": {},
+                                        "e": {
+                                            "docs": {},
+                                            "r": {
+                                                "docs": {},
+                                                "k": {
+                                                    "docs": {
+                                                        "react": {
+                                                            "ref": "react",
+                                                            "tf": 0.016260162601626018
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "s": {
+                            "docs": {},
+                            "k": {
+                                "docs": {},
+                                "t": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.008130081300813009
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "e": {
+                        "docs": {},
+                        "a": {
+                            "docs": {},
+                            "c": {
+                                "docs": {},
+                                "t": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 11.065040650406504
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "n": {
+                            "docs": {},
+                            "d": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.016260162601626018
+                                    }
+                                }
+                            }
+                        },
+                        "t": {
+                            "docs": {},
+                            "u": {
+                                "docs": {},
+                                "r": {
+                                    "docs": {},
+                                    "n": {
+                                        "docs": {
+                                            "react": {
+                                                "ref": "react",
+                                                "tf": 0.016260162601626018
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "u": {
+                    "docs": {},
+                    "t": {
+                        "docs": {},
+                        "v": {
+                            "docs": {},
+                            "i": {
+                                "docs": {},
+                                "k": {
+                                    "docs": {},
+                                    "l": {
+                                        "docs": {
+                                            "go": {
+                                                "ref": "go",
+                                                "tf": 0.03571428571428571
+                                            },
+                                            "react": {
+                                                "ref": "react",
+                                                "tf": 0.008130081300813009
+                                            }
+                                        },
+                                        "i": {
+                                            "docs": {},
+                                            "n": {
+                                                "docs": {},
+                                                "g": {
+                                                    "docs": {
+                                                        "react": {
+                                                            "ref": "react",
+                                                            "tf": 0.008130081300813009
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "t": {
+                            "docs": {},
+                            "r": {
+                                "docs": {},
+                                "y": {
+                                    "docs": {},
+                                    "k": {
+                                        "docs": {},
+                                        "k": {
+                                            "docs": {
+                                                "react": {
+                                                    "ref": "react",
+                                                    "tf": 0.008130081300813009
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "w": {
+                    "docs": {},
+                    "o": {
+                        "docs": {},
+                        "r": {
+                            "docs": {},
+                            "l": {
+                                "docs": {},
+                                "d": {
+                                    "docs": {
+                                        "go": {
+                                            "ref": "go",
+                                            "tf": 0.03571428571428571
+                                        },
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.016260162601626018
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "s": {
+                    "docs": {},
+                    "c": {
+                        "docs": {},
+                        "a": {
+                            "docs": {},
+                            "l": {
+                                "docs": {
+                                    "scala": {
+                                        "ref": "scala",
+                                        "tf": 12
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "a": {
+                        "docs": {},
+                        "m": {
+                            "docs": {},
+                            "t": {
+                                "docs": {},
+                                "i": {
+                                    "docs": {},
+                                    "d": {
+                                        "docs": {
+                                            "react": {
+                                                "ref": "react",
+                                                "tf": 0.008130081300813009
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "e": {
+                        "docs": {
+                            "react": {
+                                "ref": "react",
+                                "tf": 0.008130081300813009
+                            }
+                        },
+                        "t": {
+                            "docs": {},
+                            "t": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "m": {
+                        "docs": {},
+                        "å": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        }
+                    },
+                    "t": {
+                        "docs": {},
+                        "ø": {
+                            "docs": {},
+                            "r": {
+                                "docs": {},
+                                "r": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.008130081300813009
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "v": {
+                        "docs": {},
+                        "æ": {
+                            "docs": {},
+                            "r": {
+                                "docs": {},
+                                "t": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.016260162601626018
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "c": {
+                    "docs": {
+                        "objc": {
+                            "ref": "objc",
+                            "tf": 6
+                        }
+                    },
+                    "l": {
+                        "docs": {},
+                        "a": {
+                            "docs": {},
+                            "s": {
+                                "docs": {},
+                                "s": {
+                                    "docs": {},
+                                    "n": {
+                                        "docs": {},
+                                        "a": {
+                                            "docs": {},
+                                            "m": {
+                                                "docs": {
+                                                    "react": {
+                                                        "ref": "react",
+                                                        "tf": 0.016260162601626018
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "o": {
+                        "docs": {},
+                        "m": {
+                            "docs": {},
+                            "m": {
+                                "docs": {},
+                                "e": {
+                                    "docs": {},
+                                    "n": {
+                                        "docs": {},
+                                        "t": {
+                                            "docs": {},
+                                            "f": {
+                                                "docs": {},
+                                                "o": {
+                                                    "docs": {},
+                                                    "r": {
+                                                        "docs": {},
+                                                        "m": {
+                                                            "docs": {
+                                                                "react": {
+                                                                    "ref": "react",
+                                                                    "tf": 0.016260162601626018
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "l": {
+                                                "docs": {},
+                                                "i": {
+                                                    "docs": {},
+                                                    "s": {
+                                                        "docs": {},
+                                                        "t": {
+                                                            "docs": {
+                                                                "react": {
+                                                                    "ref": "react",
+                                                                    "tf": 0.016260162601626018
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "o": {
+                    "docs": {},
+                    "b": {
+                        "docs": {},
+                        "j": {
+                            "docs": {},
+                            "e": {
+                                "docs": {},
+                                "c": {
+                                    "docs": {},
+                                    "t": {
+                                        "docs": {},
+                                        "i": {
+                                            "docs": {},
+                                            "v": {
+                                                "docs": {
+                                                    "objc": {
+                                                        "ref": "objc",
+                                                        "tf": 6
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "p": {
+                        "docs": {},
+                        "e": {
+                            "docs": {},
+                            "r": {
+                                "docs": {},
+                                "a": {
+                                    "docs": {},
+                                    "s": {
+                                        "docs": {},
+                                        "j": {
+                                            "docs": {},
+                                            "o": {
+                                                "docs": {},
+                                                "n": {
+                                                    "docs": {
+                                                        "react": {
+                                                            "ref": "react",
+                                                            "tf": 0.008130081300813009
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "p": {
+                            "docs": {},
+                            "l": {
+                                "docs": {},
+                                "e": {
+                                    "docs": {},
+                                    "v": {
+                                        "docs": {
+                                            "react": {
+                                                "ref": "react",
+                                                "tf": 0.008130081300813009
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "n": {
+                                "docs": {},
+                                "å": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.008130081300813009
+                                        }
+                                    },
+                                    "r": {
+                                        "docs": {
+                                            "react": {
+                                                "ref": "react",
+                                                "tf": 0.008130081300813009
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "d": {
+                    "docs": {},
+                    "a": {
+                        "docs": {},
+                        "t": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        }
+                    },
+                    "e": {
+                        "docs": {},
+                        "k": {
+                            "docs": {},
+                            "l": {
+                                "docs": {},
+                                "a": {
+                                    "docs": {},
+                                    "r": {
+                                        "docs": {},
+                                        "a": {
+                                            "docs": {},
+                                            "t": {
+                                                "docs": {},
+                                                "i": {
+                                                    "docs": {},
+                                                    "v": {
+                                                        "docs": {
+                                                            "react": {
+                                                                "ref": "react",
+                                                                "tf": 0.016260162601626018
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "l": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        }
+                    },
+                    "i": {
+                        "docs": {},
+                        "f": {
+                            "docs": {},
+                            "f": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        },
+                        "v": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.032520325203252036
+                                }
+                            }
+                        }
+                    },
+                    "o": {
+                        "docs": {},
+                        "m": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.032520325203252036
+                                }
+                            }
+                        }
+                    }
+                },
+                "h": {
+                    "docs": {},
+                    "e": {
+                        "docs": {},
+                        "l": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.016260162601626018
+                                }
+                            },
+                            "l": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                },
+                                "o": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.016260162601626018
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "j": {
+                    "docs": {},
+                    "a": {
+                        "docs": {},
+                        "v": {
+                            "docs": {},
+                            "a": {
+                                "docs": {},
+                                "s": {
+                                    "docs": {},
+                                    "c": {
+                                        "docs": {},
+                                        "r": {
+                                            "docs": {},
+                                            "i": {
+                                                "docs": {},
+                                                "p": {
+                                                    "docs": {},
+                                                    "t": {
+                                                        "docs": {
+                                                            "react": {
+                                                                "ref": "react",
+                                                                "tf": 0.016260162601626018
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "s": {
+                        "docs": {
+                            "react": {
+                                "ref": "react",
+                                "tf": 0.008130081300813009
+                            }
+                        },
+                        "x": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        }
+                    }
+                },
+                "n": {
+                    "docs": {},
+                    "o": {
+                        "docs": {},
+                        "d": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        }
+                    },
+                    "y": {
+                        "docs": {},
+                        "t": {
+                            "docs": {},
+                            "t": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "ø": {
+                        "docs": {},
+                        "d": {
+                            "docs": {},
+                            "v": {
+                                "docs": {},
+                                "e": {
+                                    "docs": {},
+                                    "n": {
+                                        "docs": {},
+                                        "d": {
+                                            "docs": {
+                                                "react": {
+                                                    "ref": "react",
+                                                    "tf": 0.008130081300813009
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "t": {
+                    "docs": {},
+                    "a": {
+                        "docs": {},
+                        "s": {
+                            "docs": {
+                                "react": {
+                                    "ref": "react",
+                                    "tf": 0.008130081300813009
+                                }
+                            }
+                        },
+                        "t": {
+                            "docs": {},
+                            "t": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "i": {
+                        "docs": {},
+                        "l": {
+                            "docs": {},
+                            "n": {
+                                "docs": {},
+                                "æ": {
+                                    "docs": {},
+                                    "r": {
+                                        "docs": {},
+                                        "m": {
+                                            "docs": {},
+                                            "i": {
+                                                "docs": {},
+                                                "n": {
+                                                    "docs": {},
+                                                    "g": {
+                                                        "docs": {
+                                                            "react": {
+                                                                "ref": "react",
+                                                                "tf": 0.016260162601626018
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "r": {
+                        "docs": {},
+                        "e": {
+                            "docs": {},
+                            "n": {
+                                "docs": {},
+                                "g": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.008130081300813009
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "u": {
+                        "docs": {},
+                        "t": {
+                            "docs": {},
+                            "o": {
+                                "docs": {},
+                                "r": {
+                                    "docs": {},
+                                    "i": {
+                                        "docs": {},
+                                        "a": {
+                                            "docs": {},
+                                            "l": {
+                                                "docs": {
+                                                    "react": {
+                                                        "ref": "react",
+                                                        "tf": 0.008130081300813009
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "v": {
+                    "docs": {
+                        "react": {
+                            "ref": "react",
+                            "tf": 0.008130081300813009
+                        }
+                    },
+                    "o": {
+                        "docs": {},
+                        "k": {
+                            "docs": {},
+                            "s": {
+                                "docs": {},
+                                "t": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.008130081300813009
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "y": {
+                    "docs": {},
+                    "t": {
+                        "docs": {},
+                        "e": {
+                            "docs": {},
+                            "l": {
+                                "docs": {},
+                                "s": {
+                                    "docs": {
+                                        "react": {
+                                            "ref": "react",
+                                            "tf": 0.008130081300813009
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "å": {
+                    "docs": {},
+                    "r": {
+                        "docs": {},
+                        "e": {
+                            "docs": {},
+                            "t": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ø": {
+                    "docs": {},
+                    "n": {
+                        "docs": {},
+                        "s": {
+                            "docs": {},
+                            "k": {
+                                "docs": {
+                                    "react": {
+                                        "ref": "react",
+                                        "tf": 0.008130081300813009
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "length": 342
+        },
+        "corpusTokens": ["a", "abstraher", "algoritm", "am", "angul", "applikasjon", "arkitektur", "benytt", "beregn", "bibliotek", "blablabl", "bort", "bruk", "brukergrensesnitt", "bygg", "c", "classnam", "commentform", "commentlist", "dat", "deklarativ", "del", "diff", "div", "dom", "egenskap", "eksempel", "endring", "facebook", "flux", "fmt", "forandr", "foregå", "frontend", "func", "function", "funksjonell", "generer", "gjenbrukbar", "gjennom", "gjern", "gjør", "go", "god", "googl", "grensesnitt", "hel", "hell", "hello", "import", "inspirer", "javascript", "js", "jsx", "kjør", "kompleks", "komponent", "krev", "lag", "lalal", "languag", "les", "lsjfsld", "main", "mer", "midlertid", "minimal", "motsetning", "mvc", "nod", "nytt", "nødvend", "objectiv", "operasjon", "opplev", "oppnå", "oppnår", "packag", "popularit", "programm", "programmering", "programmeringsspråk", "rammeverk", "raskt", "react", "rend", "return", "run", "samtid", "scal", "se", "sett", "små", "størr", "svært", "tas", "tatt", "tilnærming", "treng", "tutorial", "uttrykk", "utvikl", "utvikling", "v", "vokst", "world", "ytels", "året", "ønsk"],
+        "pipeline": ["trimmer-no", "stopWordFilter-no", "stemmer-no"]
+    }
+}

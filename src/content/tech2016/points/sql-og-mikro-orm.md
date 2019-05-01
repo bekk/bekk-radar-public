@@ -1,0 +1,5 @@
+SQL er et av de mest suksessrike deklarative språkene vi har innenfor IT i dag og fortjener ikke å bli abstrahert bort i ORM-er som (n)Hibernate o.l.
+
+Valg av grad av abstraksjon av databasemodellen varierer veldig og ønsker du fortsatt fordelen av objekt-mapping og abstraksjon mot databaselaget, kan det hende du burde vurdere et Mikro-ORM. Mikro-ORM-ene tar på seg jobben med å oversette mellom relasjonsdatabasen og objektmodellen, og det eksisterer en rekke produkter som er mye lettere enn de tradisjonelle ORM-ene. Funksjonaliteten varierer, men det er vanlig at de skåner deg for mye boilerplate mapping-kode. 
+
+Hvis en Micro-ORM eller ren SQL ikke gir nødvendig kryss-database-støtte du har behov for, finnes det SQL-DSL-er som [JooQ](http://www.jooq.org/), [QueryDSL](http://www.querydsl.com/) mfl. Disse er ikke ORM-er i tradisjonell forstand, men gir deg SQL-syntaks som kode og transformerer til database-spesifikk SQL. Innenfor .NET har vi gode erfaringer med [Dapper](https://github.com/StackExchange/dapper-dot-net) og F# ([FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/)) som gir mulighet for typesikker SQL-syntax. 
