@@ -1,1 +1,0 @@
-Jersey er en referanseimplementasjon av JAX-RS standarden (JSR311), som er bygget fra bunnen av for å gjøre det enkelt og effektivt å lage gode REST-tjenester i Java. Vi ser at Jersey i stadig større grad velges på nye prosjekter, gjerne i samspill med en JavaScript-klient.

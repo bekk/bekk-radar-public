@@ -1,1 +1,0 @@
-Sinatra er et lettvekts web-rammeverk i Ruby. Det følger ikke en MVC-tankegang, som Rails, men fokuserer på kortest mulig vei til å levere web-innhold. Det er et godt rammeverk for prototyping, men ikke noe vi venter å se mye av på produksjonsserveren.

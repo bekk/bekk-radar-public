@@ -1,7 +1,0 @@
-Xamarin er et verktøy som kan brukes til å utvikle nativeapper for iOS og Android. I hovedsak er fordelen med Xamarin at man får en kodebase skrevet i ett språk, C#. Utviklere som er kjent med Microsoft-teknologi og .NET-plattformen kan se det som en fordel.
-
-I utgangspunktet kan deler av kodebasen, f.eks. forretningslogikk, deles på tvers av iOS og Android, mens det må lages separate apper for de ulike plattformene med henholdsvis Xamarin.iOS og Xamarin.Android. Det er mulig å benytte seg av Xamarin.Forms for å dele UI-kode, men det legger en del begrensninger for plattformspesifikk brukeropplevelse. 
-
-Å fordype seg i Xamarin.iOS og Xamarin.Android krever like god forståelse av de ulike plattformene som ren nativeutvikling gjør. Velger man å gå for nativeutvikling finnes det mer kompetanse og et mye større nettverk av utviklere enn det gjør for Xamarin. Selv om Xamarin i seg selv gis ut som åpen kildekode, må man belage seg på å betale for lisenser til Visual Studio hvis man ikke klarer seg med [Community Edition](https://www.visualstudio.com/vs/community/). 
-
-Vi anbefaler i stedet å bruke [React Native](https://radar.bekk.no/tech2018/sprak-og-rammeverk/react-native) for nye prosjekter. React Native løser de samme problemene som Xamarin, er helt gratis, har et stort utviklermiljø, og etter vår mening fungerer det bedre enn Xamarin på flere områder. 

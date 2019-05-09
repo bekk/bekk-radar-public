@@ -1,1 +1,0 @@
-Backbone.js er brukt med suksess i mange BEKK-prosjekter. Rammeverket har stor adopsjon og kommer til å være med i mange år fremover. Det gir struktur i JS-tunge web-applikasjoner gjennom enklere modell-, "view"- og hendelsehåndtering.

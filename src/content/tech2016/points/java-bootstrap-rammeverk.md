@@ -1,8 +1,0 @@
-Java bootstrap-rammeverk gjør oss i stand til å ha en kjørende Java-applikasjon oppe i løpet av minutter. Fiks ferdig med helsesjekker, metrikker og annet man typisk har behov for i en produksjonsklar applikasjon.
-
-Grunntanken er at ting skal fungere ut av boksen der minimalt med tid har gått med til konfigurering og oppsett – altså konvensjon over konfigurasjon. Dette kan være vel og bra hvis rammeverket gjør ting på en måte som passer ditt prosjekt, og du verken har tid, lyst eller behov for å skru på ting selv.
-
-[Spring Boot](http://projects.spring.io/spring-boot/) og [Dropwizard](http://www.dropwizard.io/0.9.2/docs/) blir ofte nevnt når vi snakker om bootstrap-rammeverk i Java. Som navnet sier får du med Boot en del Spring-magi på kjøpet. Boot består av flere ulike moduler, dvs. andre Spring-moduler som du kan ta i bruk i applikasjonen din etterhvert som behovene oppstår. Rammeverket sørger for at disse fungerer sammen med minimalt av konfigurasjon. Dropwizard tilbyr mye av det samme, men man får ikke den samme knytningen til Spring. Dropwizard setter opp [Jetty](http://www.eclipse.org/jetty/) med [Jersey](https://jersey.java.net/), [Jackson](https://github.com/FasterXML/jackson), [Logback](http://logback.qos.ch/), [Liquibase](http://www.liquibase.org/), monitorering og helsesjekk, for å nevne noe.
-
-Vi har tatt i bruk slike rammeverk på enkelte prosjekter. De kan passe bra hvis du vil få ting opp å kjøre raskt og prosjektet ikke har noe særlig med særegenheter og spesialtilfeller. Det kan være lurt å tenke seg om en gang
-eller to hvis du likevel tror du kommer til å måtte skru på det rammeverket setter opp for deg. Da kan du nok bli mer fornøyd med å sette opp ting selv fra begynnelsen av.

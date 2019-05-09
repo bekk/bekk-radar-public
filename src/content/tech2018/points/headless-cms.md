@@ -1,9 +1,0 @@
-Headless CMS frikobler presentasjon fra selve CMS-et, og tilbyr kun lagring og uthenting av rene strukturerte data. Innhold tas imot og leveres ut via tilstandsløse eller løst koblede API-er samt støttefunksjonalitet som webhooks. Kontrasten er stor til tradisjonelle CMS-løsninger, som i hovedsak er tett koblede alt-i-ett-løsninger for innholdsstyring og presentasjon. 
-
-Presentasjon av innhold implementeres separat fra selve CMS-et. Ettersom innholdet er lagret som rene data uten hensyn til presentasjonen kan det samme datagrunnlaget brukes på kryss av kanaler. Separering av CMS fra presentasjon gjør det også enklere å benytte seg av den best egnede visningsteknologien til det enkelte use case, uten å måtte håndtere kompatibilitet med selve CMS-et eller annen presentasjon av innholdet. Man får større frihet til utvikling av nye løsninger og en ryddigere infrastruktur da man ikke risikerer å påvirke øvrige løsninger ved produksjonssetting av en ny eller oppdatert visning. Dette kan bidra til at man kan øke leveransetakten. 
-
-Det rendyrkede fokuset gjør at Headless CMS kan leveres som SaaS-løsninger, med alle medfølgende fordeler i form av skalering, sikkerhet og driftskostnader. 
-
-Vi har så langt noe begrenset erfaring med Headless CMS. Denne typen arkitektur resonnerer likevel godt med øvrige strømninger innen arkitektur og plattform, som mikrotjenester, SaaS og serverless. Ved implementering av nye CMS-løsninger bør derfor denne type løsning sterkt vurderes. Headless CMS gir økt frihet, eliminerer harde avhengigheter, og gir lavere ressursbruk på drift og forvaltning sammenlignet med tyngre tradisjonelle CMS-er.
-
-To interessante kandidater hvis du vurder Headless CMS er [Contentful](https://www.contentful.com) og norskutviklede [Sanity](https://www.sanity.io/). Førstnevnte bruker vi med god erfaring på [bekk.no](https://www.bekk.no).

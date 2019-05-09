@@ -1,9 +1,0 @@
-Ansible er et verktøy for automatisering av konfigurasjonsstyring, installasjon av programvare og applikasjonsdeployment. Konfigurasjonskoden er enkel og lettlest, og det kreves ingen agenter eller annen programvare på serverne som provisjoneres bortsett fra Python for \*nix-systemer. For Windows brukes PowerShell remoting for tilkobling, og via PowerShell snakker man med en "remoting service" (WinRM) for styringen. Ansible må fortsatt kjøres fra en \*nix kontrollnode. 
-
-Der hvor vi har tatt i bruk Ansible har vi vært fornøyde med hvor kraftig og enkelt det er. Selv om vi på skyprosjekter foretrekker Terraform for provisjonering av infrastruktur, ser vi at Ansible er et godt supplement til Terraform. Ansible kan også benyttes til provisjonering ved bygging av OS-images med for eksempel Packer. Ansible er et bedre alternativ enn shell-scripts for automatisering av applikasjonsdeployment, databasedumper ol.
-
-Dersom man har infrastruktur som ikke lever i skyen synes vi Ansible er et godt alternativ til for eksempel Puppet og Chef, hvor man som regel installerer tjenere og klienter på maskinene som provisjoneres. Vi foretrekker som oftest den push-baserte modellen fremfor en pull-basert hvor konfigurasjon synkroniserer seg til en tilstand etterhvert, selv om Ansible også støtter pull-basert provisjonering. 
-
-Om man har veldig mange servere og ikke har en moderne IaaS- eller PaaS-plattform er vi mer usikre på om Ansible er et like godt alternativ som Puppet og Chef for basisdrift, for eksempel ved patching av et stort antall servere som ikke kan bygges på nytt fra bunnen av når man vil. 
-
-Ansible er et verktøy vi mener er bra og fleksibelt, men de fleste bruksområder er i tradisjonelle driftssammenhenger som vi som regel ønsker å komme oss bort fra. Derfor står Ansible på "vurder" på årets radar. 

@@ -1,1 +1,0 @@
-Serverless framework skal være et overbygg som abstraherer bort det som er provider-spesifikt for deg.  Det skaper flere problemer enn det løser.  

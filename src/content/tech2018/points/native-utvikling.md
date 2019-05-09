@@ -1,7 +1,0 @@
-Vi har valgt å sette nativeutvikling til vurder i år. Her er det viktig å presisere at vi ikke snakker om hvorvidt man skal utvikle nativeapps, men hvordan dette kan gjøres på best mulig måte.
-
-Tradisjonelt sett har man forholdt seg til to plattformer: iOS og Android. Dette krever utvikling og forvaltning av to kodebaser, i to forskjellige språk, som så å si gjør akkurat det samme. Det finnes flere aktører som har forsøkt seg med utviklingsverktøy som lar deg kompilere én kodebase til både iOS og Android, med blandede resultater. [React Native](https://radar.bekk.no/tech2018/sprak-og-rammeverk/react-native) er en kandidat som har vist seg frem fra sin beste side de siste årene, og har nådd et nivå der det i mange tilfeller kan erstatte tradisjonell nativeutvikling. 
-
-Noen av fordelene med ren nativeutvikling er at man får direkte tilgang til alle API-er, støtte for oppdateringer fra Apple og Google fra dag én og enkel tilgang til alle tredjepartsbiblioteker. Man oppnår også den beste plattformtilpassede brukeropplevelsen, og høyest ytelse.
-
-Det er derimot dyrt å opprettholde to kodebaser, og det tar vanligvis lenger tid å utvikle én feature to ganger. Vi mener man bør vurdere om et app-prosjekt skal utvikles native ut ifra kompetansen til utviklerne, tidspress og funksjonelle krav til appen, gjerne sett opp mot React Native som fremstår som et godt alternativ for multiplattformutvikling. 

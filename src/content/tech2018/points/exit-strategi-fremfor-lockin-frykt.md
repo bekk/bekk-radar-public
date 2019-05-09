@@ -1,7 +1,0 @@
-De store offentlige skyleverandørene (GCP, AWS og Azure) tilbyr et stort tjenestespekter for utvikling av IT-systemer, og antallet tjenester som blir tilgjengelig eskalerer i stort tempo.  Å ta disse i bruk gir store fortrinn med tanke på fleksibilitet, smidighet, sikkerhet og fart. Tjenestene er imidlertid proprietære, noe som skaper frykt for _lock-in_.
-
-Det å lage sine egne plattformtjenester koster mye og blir ikke like bra som det de store kan tilby. Det er et spørsmål om kostnaden ved å drifte selv versus hvor mye det vil koste å bytte leverandør når man har brukt leverandørspesifikke tjenester.
-
-Kostnaden ved å ikke ta i bruk innovasjonen disse leverandørene står for, er  store. En _exit-strategi_ i stedet for frykten for _lock-in_ vil derfor kunne være en bedre løsning.
-
-En exit-strategi kan inneholde risikovurderinger for hva som vil skje om man må/bør bytte leverandør. Hva skal til om jeg må bytte PaaS? Hvor mye infrastruktur må gjenskapes om jeg må flytte? Hvilke databaser støttes av flere av leverandørene? Hvilke verktøy bør jeg bruke for å provisjonere opp infrastrukturen min? Støtter verktøyene mine flere skyleverandørers tjenester? Kort oppsummert handler det om å ha et bevisst forhold til hva man benytter av leverandørspesifikke tjenester. 

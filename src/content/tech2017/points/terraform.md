@@ -1,7 +1,0 @@
-[Terraform](https://www.terraform.io/) er infrastruktur definert i kode. Rammeverket lar deg etablere komplette miljøer hvor alt fra virtuelle servere, til DNS og lagringstjenester fra ulike skyleverandører inngår. Ved behov for endringer i infrastrukturen lar Terraform deg rulle ut oppdateringer på en rask og trygg måte.
-
-Terraform lages av det anerkjente firmaet HashiCorp som også står bak kjente DevOps-verktøy som [Vagrant](https://www.vagrantup.com/) og [Consul](https://www.consul.io/).  
-
-I motsetning til lignende proprietære verktøy som [Azure Resource Manager](https://azure.microsoft.com/nb-no/features/resource-manager/) templates, [AWS CloudFormation](https://aws.amazon.com/cloudformation/), [Google Cloud Deployment Manager](https://cloud.google.com/deployment-manager/) og [OpenStack Heat](https://github.com/openstack/heat), lar Terraform deg kombinere tjenester fra ulike skyplattformer i samme infrastruktur på en enhetlig og enkel måte. Det gjør bindingen til skyleverandøren mindre, samtidig som man kan utnytte styrkene i de ulike skyplattformene på en effektiv måte.
-
-I BEKK bruker vi Terraform på mange prosjekter, og opplever at verktøyet er effektivt å jobbe med, og gjør det enkelt å forvalte infrastruktur i over tid.

@@ -1,16 +1,13 @@
 import hasLocalStorage from './hasLocalStorage';
 
-export const allowedRadars = ['tech2018','tech2017','tech2016','tech2015','tech2014','tech2013'];
+export const allowedRadars = ['tech2018','tech2016','tech2015'];
 
 export default (radarContainers) => {
 
   let oldRadars = [
     radarContainers['tech2018'],
-    radarContainers['tech2017'],
     radarContainers['tech2016'],
-    radarContainers['tech2015'],
-    radarContainers['tech2014'],
-    radarContainers['tech2013']
+    radarContainers['tech2015']
   ];
 
   // Return old radars if no localStorage is available

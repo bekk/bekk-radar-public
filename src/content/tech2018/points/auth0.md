@@ -1,7 +1,0 @@
-[Auth0](https://auth0.com/) er en [Identity as a Service](https://radar.bekk.no/tech2018/arkitektur-og-plattform/identity-as-a-service-idaas) som tilbyr autentisering, autorisasjon (tilgangskontroll) og Identity Management for applikasjoner og API-er. Auth0 har støtte for en rekke autentiserings- og autorisasjonsprotokoller, og kan federere brukere mot alle vanlige identitetstilbydere, både innen enterprise og sosiale medier. Det tilbys også hosting innen EU. 
-
-Vi bruker Auth0 på flere prosjekter, inkludert våre egne systemer, og har positive erfaringer med det.  Det er spesielt når det gjelder utvikleropplevelse at vi mener Auth0 skiller seg positivt fra andre IDaaS-leverandører. De har et intuitivt API, god dokumentasjon og et stort antall eksempler for forskjellige språk og plattformer, og vår erfaring er at det er enkelt å integrere mot Auth0. 
-
-Auth0 tilbyr dessuten brukerne mulighet til å kjøre egne serverless-funksjoner på Auth0-plattformen gjennom [Auth0 Extend](https://auth0.com/extend/). Dette gjør det mulig å ha funksjoner som trigges av hendelser på Auth0-plattformen. Et eksempel på dette kan være å berike brukerprofiler automatisk ved innlogging med brukerdata som ligger på eksisterende infrastruktur.
-
-Merk at prismodellen til Auth0 baserer seg på antall aktive brukere per måned, samt hva man eventuelt har behov for av tilleggsfunksjonalitet. 

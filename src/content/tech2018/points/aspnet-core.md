@@ -1,9 +1,0 @@
-[ASP\.NET Core](https://www.asp.net/core/overview/aspnet-vnext) er arvtaker til ASP\.NET 4 og kan kjøres både på .NET Core og .NET Framework. Det betyr at ASP\.NET Core kan tas i bruk selv om man kjører .NET Full Framework.
-
-ASP\.NET Core er en omskriving av ASP\.NET som fjerner den tette koblingen til System.Web.dll, og gjør rammeverket modulært og portabelt. Rammeverket er delt inn i Nuget-pakker hvor man kun laster ned og ruller ut de delene av rammeverket man faktisk bruker. Rammeverket inkluderer sin egen webserver, Kestrel, basert på libuv, og ytelsen på denne er betraktelig bedre enn med .NET Full Framework. Dette fjerner også den tette koblingen til IIS som nå vil fungere som en (valgfri) proxy. Man står også fritt til å benytte andre proxier som HAProxy eller Nginx, om man ønsker å benytte seg av andre operativsystemer enn Windows.
-
-Videre er MVC og Web API nå slått sammen, og man får det beste fra begge verdener. Identity er betraktelig forbedret og nye TestHost forenkler ende-til-ende-testing betraktelig. Komponenter for Dependency Injection og logging er bygget inn i rammeverket, men disse kan byttes ut eller utvides etter eget ønske. De forskjellige delene av rammeverket er også løsere koblet enn tidligere, noe som gjør det lettere å tilpasse rammeverket til egne behov, samt å feilsøke.
-
-Kjører man ASP\.NET Core på .NET Core står man fritt til å kjøre applikasjonen på Linux, på Nano Server, i en Docker-container eller på Azure Service Fabric. 
-
-Vi anbefaler å ta i bruk ASP\.NET Core på nye prosjekter og å konvertere eksisterende webprosjekter hvis det lar seg gjøre.

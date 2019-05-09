@@ -1,1 +1,0 @@
-Apache Tapestry er et litt mer lettvekts web-rammeverk enn JSF, men deler den komponent-orienterte tilnærmingen. Det har ikke fått voldsom utbredelse, og vi ser det ikke så ofte. Det er nok ikke helt fremtiden.

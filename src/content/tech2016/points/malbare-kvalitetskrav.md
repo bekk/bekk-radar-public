@@ -1,3 +1,0 @@
-Mange organisasjoner opererer med ikke-funksjonelle krav eller kvalitetskrav. Slike krav er ofte definert i generelle vendinger og håndteres ikke på samme måte som funksjonelle oppgaver. Resultatet er at kravene sjelden tar form av konkrete oppgaver som kan utvikles, verifiseres eller prioriteres på linje med annen funksjonalitet. Krav som ikke er konkrete eller målbare kan hverken oppfylles eller verifiseres, og blir dermed ofte oversett.
-
-Kvalitetskrav har forretningsverdi på samme måte som rent funksjonelle krav. Kvalitetskrav bør derfor konkretiseres til oppgaver der både verdi og akseptansekriterier er målbare. På den måten kan kvalitetskrav prioriteres, utvikles og verifiseres på samme måte som andre oppgaver.

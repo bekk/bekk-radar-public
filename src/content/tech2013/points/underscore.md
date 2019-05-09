@@ -1,1 +1,0 @@
-Underscore er en JS-verktøykasse med bred støtte for konstruksjoner kjent fra funksjonell programmering, som foreach, map, reduce, filter osv. Vi bruker det sammen med andre rammeverk i web-applikasjoner, men det er selvfølgelig også velegnet på server-siden, f.eks i node.js. I moderne er JavaScript-utvikling er Underscore nærmest å betrakte som et "must"

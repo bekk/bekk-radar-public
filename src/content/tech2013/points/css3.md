@@ -1,1 +1,0 @@
-Browserstøtten kommer gradvis for CSS3, og er godt implementert i nettleserne på de store håndholdte plattformene. På grunn av manglende støtte i eldre browsere (typisk IE) bør det primært brukes for progressive enhancements.

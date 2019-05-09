@@ -1,7 +1,0 @@
-[Swift](https://developer.apple.com/swift/) er et statisk typet programmeringsspråk som ofte brukes ved utvikling av programvare til iOS, watchOS, tvOS og macOS. Det er Apple selv som står bak Swift og språket er på sikt ment å erstatte Objective-C. Swift er et moderne multiparadigmespråk med god objektorientert og funksjonell støtte. Videre har Swift et avansert system for typesjekking og er designet for å være trygt, men samtidig kraftfullt. Swift kan brukes side om side med Objective-C, og begge språk kan integreres i samme prosjekt.
-
-Apple valgte i slutten av 2015 å gjøre Swift tilgjengelig som åpen kildekode, og åpnet for at hvem som helst kan bidra til å forme språket framover. Dette har åpnet for ytterligere bruksområder som for eksempel bruk på serversiden, hvor det allerede har dukket opp flere rammeverk som er enkle å komme i gang med. Språket er offisielt støttet på alle Apples plattformer og Linux og det finnes uoffisiell støtte for Windows også.
-
-Selv om Swift har eksistert i noen år og begynner å stabilisere seg, er språket fortsatt i hurtig utvikling og dersom man ønsker å være på nyeste versjon, må man være oppmerksom på inkompatibilitet ved bruk av bestemte biblioteker og rammeverk.
-
-Swift har blitt brukt på flere kundeprosjekter i BEKK med suksess, og vi fortsetter å anbefale bruk av Swift.

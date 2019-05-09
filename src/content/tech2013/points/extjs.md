@@ -1,1 +1,0 @@
-Ext.js er et rent javascript-rammeverk for å bygge rike web-applikasjoner, inkludert mange datavisualiseringskomponenter. Det er nå lisensbelagt, og ikke vårt førstevalg.

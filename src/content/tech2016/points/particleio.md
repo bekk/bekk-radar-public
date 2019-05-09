@@ -1,3 +1,0 @@
-[Particle.io](https://www.particle.io/) er sannsynligvis den beste plattformen for enkel prototyping og utforsking av Internet of Things (IoT), siden de tilbyr både IoT-enheter, online byggeverktøy og en skytjeneste som kobler alt sammen. Prototypebrettene til Particle støtter både digital og analog I/O, kommuniserer over WiFi og 3G, og kan bli direkte koblet opp mot skytjenesten gjennom events og webhooks som Particle.io leverer. 
-
-En stor fordel med Particle.io er at man kan oppdatere programvaren som kjøres på enhentene direkte fra skyen, samt administrere og programmere de via verktøy i skytjenesten. Det finnes også tredjepartsprodukter som benytter seg av økosystemet, som for eksempel Bluetooth LE-enheten [Bluz](http://bluz.io/).

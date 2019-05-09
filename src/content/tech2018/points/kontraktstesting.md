@@ -1,9 +1,0 @@
-I dagens verden er det flere og flere tjenester som kommuniserer over REST-grensesnitt. Det gir stor frihet å ha såpass lite rigide grensesnittsdefinisjoner, men denne friheten fører også til noen utfordringer. For eksempel er det i praksis nesten umulig å fjerne elementer fra en slik tjeneste, fordi det kan være vanskelig å vite hvilke elementer som er i bruk av hvilke klienter.
-
-I tidligere tjenesteløsninger (SOAP over HTTP) ble det utviklet et eget kontraktformat, WSDL, men også her finnes det samme problemet. Kanskje du har funksjonalitet som er kostbart å vedlikeholde og som du mistenker at ingen bruker lenger, men dersom du har femti klienter, hvordan kan du være trygg på at du kan fjerne denne funksjonaliteten? 
-
-For REST-tjenester er det en rekke løsninger som hjelper deg med å sette opp en kontrakt mellom klient og tjeneste. Blant annet PACT og Spring-cloud-contract er prosjekter som jobber med å lage en løsning der man for en gitt tjeneste lager en avtale om hvilke felt hver klient er interessert i. Det vil i praksis si at en populær tjeneste kan ha mange klient-kontrakter, hver med sitt subsett av interessante verdier.
-
-Gevinsten ved å bruke kontrakter kommer både på tjeneste- og klientsiden. Når tjenesten skal videreutvikles, sikrer kontraktene at vi ikke ødelegger noe for eksisterende klienter. På klientsiden er det veldig enkelt å teste mot en *mock*, som er generert basert på kontrakten. Dette betyr at vi kobler klienter og tjeneste fra hverandre når vi tester. Det medfører igjen både høyere utviklingshastighet og færre feil i integrasjonen i produksjonsmiljøet.
-
-Dersom man bruker kontraktsbasert testing som hovedregel, er det enklere å jobbe med mikrotjenester, og applikasjonene blir ikke så fort vanskelige å jobbe med når man har definerte kontrakter og endepunkt å forholde seg til.

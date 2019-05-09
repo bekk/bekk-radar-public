@@ -1,5 +1,0 @@
-Beacons er øyne for telefonen din! De er små bluetooth-enheter som jevnlig og åpent sender ut data som identifiserer beaconet unikt, slik at andre Bluetooth-enheter, typisk brukernes mobiltelefoner, kan bruke denne informasjonen til å gjøre noe spesielt basert på hvor de befinner seg.
-
-Beacons åpner opp for presis lokalisering, også kalt mikrolokasjon, og fungerer i motsetning til GPS-lokalisering også godt innendørs. Dette gjør at man f.eks. kan skreddersy funksjonaliteten eller brukeropplevelsen i en mobilapplikasjon til brukerens umiddelbare kontekst, eller samle inn data om brukernes bevegelsesmønstre. Slik presis lokalisering er ikke nødvendigvis relevant for alle applikasjoner og virksomheter, men det er fornuftig å gjøre en vurdering av hva det eventuelt kan tilby! 
-
-Flyplasser, hoteller og kjøpesentre har vært åpenbare kandidater for utplassering av Beacons, men teknologien er enkel og nye bruksområder vil dukke opp.

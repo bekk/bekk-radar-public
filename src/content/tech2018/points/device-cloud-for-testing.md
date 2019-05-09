@@ -1,4 +1,0 @@
-Beskrivelse
-
-
-Begrunnelse

@@ -1,5 +1,0 @@
-[Less](http://lesscss.org/), [Sass](http://sass-lang.com/) og [PostCSS](http://postcss.org/) kompilerer dialekter av CSS til CSS som kan kjøre i nettleseren. Disse dialektene beriker CSS med ny funksjonalitet: Nøsting, variabler, mixins, funksjoner m.m. Noe av funksjonaliteten som kommer med Less, Sass og PostCSS er i dag på vei inn som egne webstandarder, men mesteparten er et stykke unna.
-
-Bruken av disse verktøyene bør forutsette en klar plan for hvorfor du ønsker å bruke dem. Vi opplever at CSS-kodebaser kan ende opp med å bli mer komplekse og mindre forvaltbare etter innføring av et [kompileringsteg](https://radar.bekk.no/tech2016/frontend-og-mobil/byggetrinn-for-frontend). Dette gjelder spesielt unødvendig nøsting, som fører til i overkant spesifikke selektorer som igjen fører til lite gjenbrukbare stilregler.
-
-Disse verktøyene hjelper deg å gjøre god CSS bedre – den hjelper deg ikke nødvendigvis å skrive god CSS. Derfor bør disse ikke være en de-facto standard på ethvert nytt prosjekt, men bruken bør vurderes opp mot CSS-kompetansen i teamet og prosjektets behov.

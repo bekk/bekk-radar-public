@@ -1,5 +1,0 @@
-*Personer og samspill fremfor prosesser og verktøy* er det aller første punktet i [manifestet for smidig programvareutvikling](http://agilemanifesto.org/iso/no/manifesto.html). Se på smidig som en filosofi, et tankesett og en kultur – ikke metode eller prosess som kan implementeres.
-
-Grunntanken er å gi team og enkeltpersoner frihet til å skape gode produkter, uten at prosessen skal gå i veien for eller legge begrensninger på gjennomføringen. Alle team og prosjekter vil ha sin egen dynamikk og kontekst, og må selv få forme hvordan _de_ best mulig kan utføre oppgaven de er satt til. Selv ulike team innenfor samme organisasjon, avdeling, program eller prosjekt behøver frihet til å finne sin egen arbeidsmåte og å kunne bruke de verktøy de selv synes passer og gir dem verdi.
-
-Dropp tanken om *one size fits all*-verktøy, rammeverk og detaljerte beskrivelser som definerer "vår smidige prosess". Sørg for å sette sammen de rette menneskene med rett kompetanse til å løse oppgaven – og gi dem tillit, tiltro og råderett over sin egen hverdag!

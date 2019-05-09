@@ -1,1 +1,0 @@
-Det er ikke gitt at man tjener noe særlig på å bruke Yarn fremfor å bruke kun npm.  

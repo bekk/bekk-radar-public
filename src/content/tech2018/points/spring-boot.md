@@ -1,5 +1,0 @@
-Spring Boot er en suite av rammeverk og teknologier som er sydd sammen for å gjøre det enklest mulig å sette opp en Spring webapplikasjon med minst mulig konfigurasjon. Man kan med noen få linjer kode ha en kjørende REST-applikasjon. Det finnes utallige måter å sette opp applikasjonen for å tilpasse ulike behov.
-
-Vi bruker Spring Boot på ulike typer prosjekter, og i mange av tilfellene brukes det til å lage REST-baserte API-er som for eksempel kan konsumeres av frontend-applikasjoner laget i JavaScript. Man får mye gratis ut av boksen med Spring Boot, som for eksempel støtte for databaser, metrikker og helsesjekker.
-
-Ankepunktet mot Spring Boot er at det kan føles som om det skjer en del magi i bakgrunnen og at det kan være vanskelig å finne ut av hvorfor noe feiler om man ønsker å gjøre noe utenom det ordinære.

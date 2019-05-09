@@ -19,136 +19,26 @@ categories:
     title: Språk og rammeverk
     tagline: ''
     points:
-      funksjonell-programmering:
-        title: Funksjonell programmering
-        tags: []
-        score: 0.00980392156862745
-      react:
-        title: React
-        tags:
-          - frontend
-        score: 0.029411764705882353
-      redux:
-        title: Redux
-        tags:
-          - frontend
-        score: 0.04901960784313725
-      net-core:
-        title: .NET Core
-        tags:
-          - .net
-        score: 0.06862745098039215
-      aspnet-core:
-        title: ASP.NET Core
-        tags:
-          - .net
-        score: 0.08823529411764706
       sql-og-mikro-orm:
         title: SQL og Mikro-ORM
         tags: []
         score: 0.10784313725490195
-      protobuf:
-        title: Protobuf
-        tags: []
-        score: 0.12745098039215685
       identityserver4:
         title: IdentityServer4
         tags:
           - sikkerhet
           - .net
         score: 0.14705882352941177
-      elm:
-        title: Elm
-        tags:
-          - frontend
-        score: 0.16666666666666666
-      f:
-        title: 'F#'
-        tags:
-          - .net
-        score: 0.18627450980392157
-      junit-5:
-        title: JUnit 5
-        tags:
-          - java
-        score: 0.20588235294117646
-      kotlin:
-        title: Kotlin
-        tags:
-          - java
-        score: 0.22549019607843135
-      threejs:
-        title: Three.js
-        tags:
-          - frontend
-          - javascript
-        score: 0.24509803921568624
-      funksjonell-scala:
-        title: Funksjonell Scala
-        tags: []
-        score: 0.2647058823529412
-      typescript-og-flow:
-        title: TypeScript og Flow
-        tags:
-          - frontend
-          - javascript
-        score: 0.28431372549019607
-      java-next:
-        title: Java Next
-        tags:
-          - java
-        score: 0.30392156862745096
-      react-native:
-        title: React Native
-        tags:
-          - mobil
-          - javascript
-        score: 0.3235294117647059
-      ef-core-21:
-        title: EF Core 2.1
-        tags:
-          - .net
-        score: 0.3611111111111111
       vuejs:
         title: Vue.js
         tags:
           - frontend
           - javascript
         score: 0.41666666666666663
-      graphql:
-        title: GraphQL
-        tags: []
-        score: 0.4722222222222222
-      webassembly:
-        title: WebAssembly
-        tags:
-          - frontend
-        score: 0.5277777777777777
-      native-utvikling:
-        title: Native-utvikling
-        tags:
-          - mobil
-        score: 0.5833333333333333
-      utypet-javascript:
-        title: Utypet JavaScript
-        tags:
-          - frontend
-          - javascript
-        score: 0.6388888888888888
-      lombok:
-        title: Lombok
-        tags:
-          - java
-        score: 0.7222222222222222
       egenutviklede-rammeverk:
         title: Egenutviklede rammeverk
         tags: []
         score: 0.8333333333333333
-      java-persistence-api:
-        title: Java Persistence API
-        tags:
-          - java
-        score: 0.9444444444444444
   verktoy:
     title: Verktøy
     tagline: ''
@@ -158,88 +48,10 @@ categories:
         tags:
           - sikkerhet
         score: 0.016666666666666666
-      webpack:
-        title: Webpack
-        tags:
-          - frontend
-        score: 0.05
-      terraform:
-        title: Terraform
-        tags:
-          - cloud
-        score: 0.08333333333333333
-      spring-boot:
-        title: Spring Boot
-        tags:
-          - java
-        score: 0.11666666666666665
-      bitbucket:
-        title: Bitbucket
-        tags: []
-        score: 0.15
-      auth0:
-        title: Auth0
-        tags:
-          - sikkerhet
-        score: 0.18333333333333332
-      jest:
-        title: Jest
-        tags:
-          - frontend
-          - javascript
-        score: 0.21666666666666665
-      browserstack:
-        title: BrowserStack
-        tags:
-          - frontend
-        score: 0.25
-      automatisert-deteksjon-av-sarbare-biblioteker:
-        title: Automatisert deteksjon av sårbare biblioteker
-        tags:
-          - sikkerhet
-        score: 0.2833333333333333
-      create-react-app:
-        title: create-react-app
-        tags:
-          - frontend
-          - javascript
-        score: 0.31666666666666665
-      monorepos-med-lerna:
-        title: Monorepos med Lerna
-        tags:
-          - javascript
-        score: 0.3611111111111111
-      lets-encrypt:
-        title: Let's Encrypt
-        tags:
-          - sikkerhet
-        score: 0.41666666666666663
-      ansible:
-        title: Ansible
-        tags: []
-        score: 0.4722222222222222
       verktoy-for-feature-toggling:
         title: Verktøy for feature toggling
         tags: []
         score: 0.5277777777777777
-      chatbots:
-        title: Chatbots
-        tags: []
-        score: 0.5833333333333333
-      serverless-framework:
-        title: Serverless Framework
-        tags:
-          - cloud
-        score: 0.6388888888888888
-      chef-og-puppet:
-        title: Chef og Puppet
-        tags: []
-        score: 0.7222222222222222
-      xamarin:
-        title: Xamarin
-        tags:
-          - mobil
-        score: 0.8333333333333333
       virtuelle-utviklerverktoy:
         title: Virtuelle utviklerverktøy
         tags: []
@@ -248,238 +60,37 @@ categories:
     title: Arkitektur og plattform
     tagline: ''
     points:
-      elastic-beanstalk:
-        title: Elastic Beanstalk
-        tags:
-          - cloud
-        score: 0.011904761904761904
       openid-connect:
         title: OpenID Connect
         tags:
           - sikkerhet
         score: 0.03571428571428571
-      identity-as-a-service-idaas:
-        title: Identity as a Service (IDaaS)
-        tags:
-          - sikkerhet
-          - cloud
-        score: 0.05952380952380952
-      intelligence-as-a-service:
-        title: Intelligence as a Service
-        tags:
-          - cloud
-        score: 0.08333333333333333
-      public-cloud:
-        title: Public cloud
-        tags:
-          - cloud
-        score: 0.10714285714285714
-      containerisering:
-        title: Containerisering
-        tags: []
-        score: 0.13095238095238096
       metrikker-for-maling-visualisering-og-varsling:
         title: 'Metrikker for måling, visualisering og varsling'
         tags: []
         score: 0.15476190476190474
-      serverless:
-        title: Serverless
-        tags:
-          - cloud
-        score: 0.17857142857142858
-      feiltolerante-systemer:
-        title: Feiltolerante systemer
-        tags: []
-        score: 0.20238095238095236
-      saas-som-forstevalg:
-        title: SaaS som førstevalg
-        tags:
-          - cloud
-        score: 0.2261904761904762
-      webgl:
-        title: WebGL
-        tags:
-          - frontend
-        score: 0.25
-      sanntidslosninger-pa-web:
-        title: Sanntidsløsninger på web
-        tags:
-          - frontend
-        score: 0.2738095238095238
-      progressive-web-apps:
-        title: Progressive Web Apps
-        tags:
-          - frontend
-        score: 0.29761904761904756
-      headless-cms:
-        title: Headless CMS
-        tags: []
-        score: 0.32142857142857145
       mikrotjenester:
         title: Mikrotjenester
         tags: []
         score: 0.5
-      maskinlaring-som-plattform:
-        title: Maskinlæring som plattform
-        tags: []
-        score: 0.6944444444444444
       bygg-din-egen-sky:
         title: Bygg din egen sky
         tags:
           - cloud
         score: 0.75
-      ukryptert-http-kommunikasjon:
-        title: Ukryptert HTTP-kommunikasjon
-        tags:
-          - sikkerhet
-        score: 0.8055555555555556
-      infrastructure-as-a-service:
-        title: Infrastructure as a Service
-        tags:
-          - cloud
-        score: 0.861111111111111
-      stotte-usikre-nettlesere:
-        title: Støtte usikre nettlesere
-        tags:
-          - sikkerhet
-        score: 0.9166666666666667
-      web-components:
-        title: Web Components
-        tags:
-          - frontend
-        score: 0.9722222222222222
   prosess-og-kvalitet:
     title: Prosess og kvalitet
     tagline: ''
     points:
-      universell-utforming:
-        title: Universell utforming
-        tags:
-          - frontend
-        score: 0.007246376811594202
-      progressive-enhancement:
-        title: Progressive enhancement
-        tags:
-          - frontend
-        score: 0.021739130434782608
-      kontinuerlige-leveranser:
-        title: Kontinuerlige leveranser
-        tags: []
-        score: 0.03623188405797101
-      lean-startup:
-        title: Lean Startup
-        tags: []
-        score: 0.05072463768115942
-      tverrfaglig-konseptutvikling:
-        title: Tverrfaglig konseptutvikling
-        tags: []
-        score: 0.06521739130434782
-      maling-av-forretningsverdi-og-gevinstoppnaelse:
-        title: Måling av forretningsverdi og gevinstoppnåelse
-        tags: []
-        score: 0.07971014492753623
       blameless-post-mortems:
         title: Blameless post-mortems
         tags: []
         score: 0.09420289855072463
-      sikkerhetskultur-i-team:
-        title: Sikkerhetskultur i team
-        tags:
-          - sikkerhet
-        score: 0.10869565217391304
-      ekte-mvp:
-        title: Ekte MVP
-        tags: []
-        score: 0.12318840579710144
-      chat-som-samhandling:
-        title: Chat som samhandling
-        tags: []
-        score: 0.13768115942028986
-      modige-ledere:
-        title: Modige ledere
-        tags: []
-        score: 0.15217391304347827
-      bryt-ned-siloene-helhetlig-systemutvikling:
-        title: 'Bryt ned siloene: Helhetlig systemutvikling'
-        tags: []
-        score: 0.16666666666666666
-      autonome-team:
-        title: Autonome team
-        tags: []
-        score: 0.18115942028985504
-      to-faktor-autentisering:
-        title: To-faktor-autentisering
-        tags:
-          - sikkerhet
-        score: 0.1956521739130435
-      mennesker-fremfor-standardprosess:
-        title: Mennesker fremfor standardprosess!
-        tags: []
-        score: 0.21014492753623187
-      strukturert-logging:
-        title: Strukturert logging
-        tags: []
-        score: 0.22463768115942026
-      monitorering-og-hyppig-deploy-fremfor-uttommende-testing:
-        title: Monitorering og hyppig deploy fremfor uttømmende testing
-        tags: []
-        score: 0.2391304347826087
-      exit-strategi-fremfor-lockin-frykt:
-        title: Exit-strategi fremfor lockin-frykt
-        tags:
-          - cloud
-        score: 0.25362318840579706
-      smidige-organisasjoner:
-        title: Smidige organisasjoner
-        tags: []
-        score: 0.2681159420289855
-      plan-for-handtering-av-rapporterte-sikkerhetsfeil:
-        title: Plan for håndtering av rapporterte sikkerhetsfeil
-        tags:
-          - sikkerhet
-        score: 0.2826086956521739
-      kontraktstesting:
-        title: Kontraktstesting
-        tags: []
-        score: 0.2971014492753623
-      eierskap-til-produktet:
-        title: Eierskap til produktet
-        tags: []
-        score: 0.3115942028985507
-      dedikert-produkteier:
-        title: Dedikert produkteier
-        tags: []
-        score: 0.32608695652173914
       hypotesedrevet-eksperimentering:
         title: Hypotesedrevet eksperimentering
         tags: []
         score: 0.38888888888888884
-      feature-toggles:
-        title: Feature toggles
-        tags: []
-        score: 0.5
-      dele-kildekode:
-        title: Dele kildekode
-        tags: []
-        score: 0.611111111111111
       it-prosjekter:
         title: IT-prosjekter
         tags: []
         score: 0.7
-      releasetog:
-        title: Releasetog
-        tags: []
-        score: 0.7666666666666666
-      rammeverk-for-skalering-av-smidig:
-        title: Rammeverk for skalering av smidig
-        tags: []
-        score: 0.8333333333333333
-      tradisjonelle-passordregler:
-        title: Tradisjonelle passordregler
-        tags:
-          - sikkerhet
-        score: 0.8999999999999999
-      detaljert-kravspesifisering-og-estimering-up-front:
-        title: Detaljert kravspesifisering og estimering up-front
-        tags: []
-        score: 0.9666666666666667

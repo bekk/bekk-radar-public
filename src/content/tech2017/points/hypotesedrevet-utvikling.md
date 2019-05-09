@@ -1,7 +1,0 @@
-I en tid der vi har innsett at vi ikke kan forutsi hvordan mennesker vil bruke et produkt eller en tjeneste, har vi begynt å venne oss til tanken om å redusere mengden [up-front planlegging](https://radar.bekk.no/tech2017/prosess-og-kvalitet/detaljert-kravspesifisering-up-front), og heller rigge prosjektet for å tåle og omfavne kontinuerlig endring.
-
-Det er lenge siden typisk prosjektgjennomføring forandret seg fra fossefall, med konkrete leveranser mellom fasene, til smidig utvikling, med kontinuerlig tilbakemelding fra referansebrukere og arbeidsgrupper. De siste årene har vi sett enda en endring, nå til en prosess med smidig og inkrementell lansering der man får kontinuerlig tilbakemelding fra _ekte_ bruk av _ekte_ brukere i _ekte_ kontekster.
-
-Hva er neste steg?
-
-I motsetning til en klassisk fremgangsmåte hvor man først spesifiserer funksjonaliteten og løsningen (user story), vil man i stedet i en hypotesedrevet tilnærming identifisere antagelsen og usikkerheten først (business story). Ved å kombinere en hypotesedrevet tilnærming og smidig utvikling og lansering, vil man ikke bare få ekte kontinuerlig feedback, men vil også være mer bevisst over hvordan man skapte den feedbacken, hvem det kom fra og hvilken påvirkning det har på forretningsmålet. Dette etablerer en strukturert tilnærming i et landskap i kontinuerlig endring.

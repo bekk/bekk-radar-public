@@ -1,1 +1,0 @@
-Et team der ressursene sitter geografisk spredt, er en krevende øvelse. Kommunikasjonsbåndbredden blir som regel svært lav, og dette øker kostnad og risiko. I den grad det er mulig, bør løsningen splittes funksjonelt og teknisk, slik at deltagere internt på hver lokasjon kan jobbe uavhengig av hverandre i så stor grad som mulig.

@@ -1,9 +1,0 @@
-Funksjonell programmering (FP) er et paradigme som har hatt en økende popularitet de siste årene. Bekk har en [god del prosjekter](https://blogg.bekk.no/hvor-funksjonelle-er-vi-7414246ca1ae) som nå bruker FP.
-
-For en som fra før er vant med ren imperativ/objektorientert programmering kan FP, som et nytt paradigme, være krevende å komme i gang med. Det legger en del føringer på hvordan programmer kan skrives — spesielt om det brukes kombinert med et sterkt typesystem. Sentralt er ideene om immutable data og rene funksjoner; variabler og datastrukturer kan ikke endres når de først er opprettet, og funksjoner skal ikke utføre sideeffekter, men kun returnere verdier.
-
-Disse begrensningene fører til at man får tydeligere kode som er langt enklere å forstå og teste, noe som igjen leder til færre feil og en enklere kodebase å vedlikeholde over tid. Rent funksjonell kode har også gode egenskaper med tanke på parallelliserbarhet, noe som kan være nyttig i en del sammenhenger, enten ved parallellkjøring i egen kode eller om man kjører funksjonene direkte i nettskyen.
-
-Funksjonelle språk, med funksjoner som den grunnleggende byggeklossen, tilbyr også gjerne en del konsepter de fleste språk i andre paradigmer mangler. Programmer lages typisk ved å sette sammen enkle funksjoner til en større helhet ved bruk av teknikker som høyere ordens funksjoner, delvis funksjonsapplikasjon og funksjonskomposisjon. Dette fører i mange tilfeller til meget konsis og utrykksfull kode.
-
-En trenger heldigvis heller ikke kaste alt som er kjent for å komme i gang med FP. Mange ideer og teknikker fra paradigmet har blitt absorbert av tradisjonelle imperative språk, eksempelvis lambda-funksjoner og strømmer i Java 8. Det finnes også språk som er tilrettelagt for FP på mye brukte kjøretidsmiljøer, slik som Scala (på JVM), F# (i .NET) og Elm (som kompilerer til JS for frontend).

@@ -1,1 +1,0 @@
-JSP var java-verdenens svar på Microsofts ASP-popularitet. Dynamiske sider blir generert ved å drysse java-snutter innimellom HTML-tagger, og grei ytelse oppnås ved at sidene kompileres ned til servlets. JSP-baserte applikasjoner finnes i rikt monn ennå og må forvaltes, men ingen starter nyutvikling på JSP i dag.

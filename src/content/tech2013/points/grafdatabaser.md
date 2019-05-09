@@ -1,1 +1,0 @@
-Neo4J er den mest populære grafdatabasen på markedet i dag. Grafdatabaser lagrer dataene i strukturerte grafer i stedet for tabeller, og passer særdeles godt til assosiative datamengder. Neo4J skalerer meget godt, og slår selvfølgelig RDBMS-systemer ned i støvlene i nettverksspørringer.

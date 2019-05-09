@@ -1,9 +1,0 @@
-Når en frontend-kodebase vokser kan det være nyttig å ha et statisk typesystem å støtte seg på for å unngå unødvendige runtime-feil. Et statisk typesystem fører også til at man kan få intelligent kodefullføring (autocomplete) og verktøystøtte for refaktorering av kode, noe som gir økt utviklingstakt.
-
-[TypeScript](http://www.typescriptlang.org/) fra Microsoft og [Flow](http://flowtype.org/) fra Facebook er teknologier som muliggjør statisk typesjekking av JavaScript-kode. Begge tilfører muligheten for å skrive typeannotasjoner og for å beskrive typer/interfacer, og kan enkelt integreres i din eksisterende frontend-byggeprosess. Flow kjøres ved hjelp av [Babel](http://babeljs.io/), mens TypeScript har sin egen kompilator. Både Flow og TypeScript er rene supersett av JavaScript, noe som betyr at gyldig JavaScript også er gyldig Flow-/TypeScript.
-
-Begge teknologiene støtter gradvis innføring av statisk typing i eksisterende kodebaser gjennom å lage definisjonsfiler for JavaScript-moduler. TypeScript har et stort fellesskap rundt dette, og det finnes definisjonsfiler for de aller fleste kjente JavaScript-biblioteker.
-
-Vi i BEKK mener at typet JavaScript kan være et nyttig verktøy i prosjekter med en stor kodebase, eller et stort antall utviklere. Koden vil i stor grad dokumentere seg selv gjennom typeinformasjonen, og terskelen og risikoen for å refaktorere eksisterende kode er lavere på grunn av kompilatorhjelpen man får.
-
-En bakdel med TypeScript og Flow er at man er avhengig av at det lages støtte for nye språkfunksjoner. Begge har som mål å holde tritt med det nyeste endelige i [EcmaScript](http://www.ecmascript.org/)-standarden (stage 4), men denne utviklingstakten kan føles treg hvis man er vant til å bruke babel med for eksempel stage 2 eller stage 3. I større, langtlevende prosjekter kan dette også sees på som en fordel ved at man ikke bruker språkegenskaper som kan endre seg.

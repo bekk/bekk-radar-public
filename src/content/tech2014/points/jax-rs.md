@@ -1,2 +1,0 @@
-Vi anbefaler å bruke et JAX-RS rammeverk hvis man skal utvikle REST-tjenester i java-verdenen. Disse rammeverkene gjør utviklingen enklere, og kvaliteten blir som regel bedre enn hvis man skal skrive sin egen implementasjon. 
-De mest brukte alternativene er RESTeasy, Restlet og Jersey. I våre prosjekter bruker vi vanligvis referanseimplementasjonen, Jersey, og har god erfaring med det. Jersey støtter WADL, har implicit views og XML/JSON/JSONP/ATOM-support. I tillegg integrerer det veldig godt med DI-rammeverk som Spring og Guice.

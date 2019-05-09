@@ -1,1 +1,0 @@
-Protokollen fungerer forsåvidt, men er tung og understøtter ikke løst bundet og skalerbar arkitektur på samme måte som godt designede REST-tjenester. Fortsatt blir det trøbbel med kryss-plattform-integrasjon, og WS-* blir ofte for mye av det gode, med tunge utrullingsregimer og krevende feilsøking.
