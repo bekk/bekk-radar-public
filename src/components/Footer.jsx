@@ -30,8 +30,8 @@ class Footer extends Component {
         </div>
         <ul className="footer-linkList">
           <li>Gå til:</li>
-          <li><a href="http://open.bekk.no">BEKK Open</a></li>
-          <li><a href="http://open.bekk.no">Bekk.no</a></li>
+          <li><a href="http://open.bekk.no">Bekk Open</a></li>
+          <li><a href="http://open.bekk.no">bekk.no</a></li>
         </ul>
       </div>
     );
